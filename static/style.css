@@ -1,0 +1,51 @@
+#MainMenu,
+footer,
+header {
+    visibility: hidden;
+}
+
+.block-container {
+    padding-inline: 0rem !important;
+}
+
+button[title="View fullscreen"] {
+    visibility: hidden;
+}
+
+/* FORM */
+
+[data-testid="stForm"] .stHeadingContainer span {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+[data-testid="stForm"] code {
+    color: #4dfcea;
+}
+
+[data-testid="stForm"] .stRadio {
+    margin-top: 0.5rem;
+}
+
+[data-testid="stForm"] [data-baseweb="radio"] {
+    margin-block: 0.5rem;
+}
+
+hr {
+    margin: 0 !important;
+}
+
+/* TIMER */
+.stCodeBlock>pre {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+}
+
+.stCodeBlock .language-text {
+    font-size: 1.5rem;
+    color: #feaa14;
+}
+
+[data-testid="stCopyButton"] {
+    display: none;
+}
