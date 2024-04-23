@@ -443,12 +443,12 @@
     "number": "A_1_04298",
     "question": "Il decreto ministeriale 27 settembre 2010 prevede che i rifiuti di amianto o contenenti amianto possono essere conferiti a smaltimento definitivo in discarica per rifiuti non pericolosi?",
     "options": [
-      "si, se dedicata o dotata di cella mono",
+      "si, se dedicata o dotata di cella mono-dedicata per i rifiuti individuati dal codice dell’elenco europeo dei rifiuti 17.06.05* e per le altre tipologie di rifiuti contenenti amianto, purché sottoposti a processi di trattamento ai sensi di quanto previsto dal decreto ministeriale 248/2004",
       "si, i rifiuti di amianto o contenenti amianto possono sempre andare in discarica per rifiuti non pericolosi",
       "no, i rifiuti di amianto o contenenti amianto non sono mai ammessi in discariche per rifiuti non pericolosi",
       "sì, i rifiuti di amianto o contenenti amianto possono andare in discariche per rifiuti non pericolosi solo se la discarica è a meno di 1 km dal luogo di produzione"
     ],
-    "answer": "si, se dedicata o dotata di cella mono"
+    "answer": "si, se dedicata o dotata di cella mono-dedicata per i rifiuti individuati dal codice dell’elenco europeo dei rifiuti 17.06.05* e per le altre tipologie di rifiuti contenenti amianto, purché sottoposti a processi di trattamento ai sensi di quanto previsto dal decreto ministeriale 248/2004"
   },
   {
     "number": "A_1_04299",
@@ -1192,9 +1192,9 @@
     "question": "Quali dei seguenti lavoratori possono essere adibiti alle attività di bonifica amianto?",
     "options": [
       "solo coloro che siano in possesso di specifica abilitazione rilasciata a seguito della frequenza dei corsi di formazione professionale",
-      "solo coloro che ne fanno specifica richiesta perché possiedono i requisiti psico",
-      "solo coloro che sono scelti dal datore di lavoro perché possiedono i requisiti psico",
-      "solo coloro che superano i test psico"
+      "solo coloro che ne fanno specifica richiesta perché possiedono i requisiti psico-fisici previsti dai corsi di formazione professionale",
+      "solo coloro che sono scelti dal datore di lavoro perché possiedono i requisiti psico-fisici previsti",
+      "solo coloro che superano i test psico-fisici previsti durante i corsi di formazione professionale"
     ],
     "answer": "solo coloro che siano in possesso di specifica abilitazione rilasciata a seguito della frequenza dei corsi di formazione professionale"
   },
@@ -1401,7 +1401,7 @@
     "question": "Nell’ambito della Formazione dei lavoratori addetti ad un cantiere di bonifica di MCA, cosa deve fare il datore di lavoro?",
     "options": [
       "il datore di lavoro assicura che tutti i lavoratori esposti o potenzialmente esposti a polveri contenenti amianto ricevano una formazione sufficiente ed adeguata, ad intervalli regolari",
-      "il datore di lavoro sceglie i lavoratori per corsi di formazioni a suo piacere anche in relazione al superamento dei test psico",
+      "il datore di lavoro sceglie i lavoratori per corsi di formazioni a suo piacere anche in relazione al superamento dei test psico-fisici",
       "il datore di lavoro sceglie i lavoratori a cui dare i DPI anche in relazione alla permanenza presso un cantiere di bonifica",
       "il datore di lavoro può decidere di non formare nessun lavoratore per la bonifica dei MCA qualora il materiale non si presenti avanzati stati di deterioramento"
     ],
@@ -1587,23 +1587,23 @@
     "number": "A_3_03362",
     "question": "Che tipologie di materiali in cemento amianto sono stati utilizzati per la copertura in edilizia in cemento amianto?",
     "options": [
-      "lastre piane o ondulate in amianto",
+      "lastre piane o ondulate in amianto-cemento",
       "travi ondulate in cemento amianto",
       "mattonelle in cemento amianto",
       "calcestruzzo con amianto"
     ],
-    "answer": "lastre piane o ondulate in amianto"
+    "answer": "lastre piane o ondulate in amianto-cemento"
   },
   {
     "number": "A_3_03363",
     "question": "Nelle coperture in cemento amianto come sono inserite le fibre di amianto?",
     "options": [
-      "nelle lastre piane o ondulate in amianto",
+      "nelle lastre piane o ondulate in amianto-cemento , l’amianto è inglobato in una matrice non friabile, che, quando è in buono stato di conservazione, impedisce il rilascio spontaneo di fibre",
       "l’amianto è inglobato in una matrice friabile",
       "l’amianto è inglobato in una matrice altamente friabile",
       "l’amianto è inglobato in una matrice liquida"
     ],
-    "answer": "nelle lastre piane o ondulate in amianto"
+    "answer": "nelle lastre piane o ondulate in amianto-cemento , l’amianto è inglobato in una matrice non friabile, che, quando è in buono stato di conservazione, impedisce il rilascio spontaneo di fibre"
   },
   {
     "number": "A_3_03364",
@@ -1620,21 +1620,21 @@
     "number": "A_3_03365",
     "question": "Dove avviene la bonifica delle coperture esterne di cemento-amianto?",
     "options": [
-      "la bonifica delle coperture in cemento",
-      "la bonifica delle coperture in cemento",
-      "la bonifica delle coperture in cemento",
-      "la bonifica delle coperture in cemento"
+      "la bonifica delle coperture in cemento-amianto viene necessariamente effettuata in ambiente aperto, non confinabile, e, pertanto, deve essere condotta limitando il più possibile la dispersione di fibre",
+      "la bonifica delle coperture in cemento-amianto viene eseguita dall’interno",
+      "la bonifica delle coperture in cemento-amianto non viene eseguita perché è preferibile non toccare queste coperture",
+      "la bonifica delle coperture in cemento-amianto viene eseguita tramite decontaminazione"
     ],
-    "answer": "la bonifica delle coperture in cemento"
+    "answer": "la bonifica delle coperture in cemento-amianto viene necessariamente effettuata in ambiente aperto, non confinabile, e, pertanto, deve essere condotta limitando il più possibile la dispersione di fibre"
   },
   {
     "number": "A_3_03367",
     "question": "Cosa prevede la tecnica della rimozione per coperture in cemento-amianto?",
     "options": [
       "le operazioni di rimozione delle lastre di copertura devono essere condotte salvaguardando l'integrità del materiale in tutte le fasi dell'intervento",
-      "le operazioni di rimozione prevedono la distruzione in situ delle coperture in cemento",
-      "le operazioni di rimozione prevedono la distruzione termica in situ delle coperture in cemento",
-      "le operazioni di rimozione prevedono la frammentazione delle coperture in cemento"
+      "le operazioni di rimozione prevedono la distruzione in situ delle coperture in cemento-amianto",
+      "le operazioni di rimozione prevedono la distruzione termica in situ delle coperture in cemento-amianto",
+      "le operazioni di rimozione prevedono la frammentazione delle coperture in cemento-amianto"
     ],
     "answer": "le operazioni di rimozione delle lastre di copertura devono essere condotte salvaguardando l'integrità del materiale in tutte le fasi dell'intervento"
   },
@@ -1653,12 +1653,12 @@
     "number": "A_3_03369",
     "question": "Come devono essere gestiti i bancali delle lastre in cemento-amianto?",
     "options": [
-      "i bancali con le lastre in cemento",
-      "i bancali con le lastre in cemento",
-      "i bancali con le lastre in cemento",
-      "i bancali con le lastre in cemento"
+      "i bancali con le lastre in cemento-amianto devono essere avvolti in film di polietilene di adeguato spessore ed etichettati",
+      "i bancali con le lastre in cemento-amianto dovranno essere lavati",
+      "i bancali con le lastre in cemento-amianto dovranno essere lasciati nella zona appartata in cui sono stati depositati in fase di rimozione",
+      "i bancali con le lastre in cemento-amianto dovranno essere nebulizzati"
     ],
-    "answer": "i bancali con le lastre in cemento"
+    "answer": "i bancali con le lastre in cemento-amianto devono essere avvolti in film di polietilene di adeguato spessore ed etichettati"
   },
   {
     "number": "A_3_03370",
@@ -1697,23 +1697,23 @@
     "number": "A_3_03373",
     "question": "In cosa consiste la tecnica di sovracopertura delle lastre in cemento-amianto?",
     "options": [
-      "il sistema della sovracopertura consiste in un intervento di confinamento realizzato installando una nuova copertura al di sopra di quella in cemento",
+      "il sistema della sovracopertura consiste in un intervento di confinamento realizzato installando una nuova copertura al di sopra di quella in cemento-amianto, che viene lasciata in sede quando la struttura portante sia idonea a sopportare un carico permanente aggiuntivo",
       "il sistema della sovracopertura consiste in un intervento di rimozione della struttura che contiene MCA in quanto la struttura portante non è più idonea a sopportare un carico permanente aggiuntivo ",
       "il sistema della sovracopertura consiste in un intervento di confinamento installando un’area di decontaminazione in quanto i MCA presentano un avanzato di deterioramento",
       "il sistema della sovracopertura consiste in un intervento di imbibizione del materiale contenente amianto"
     ],
-    "answer": "il sistema della sovracopertura consiste in un intervento di confinamento realizzato installando una nuova copertura al di sopra di quella in cemento"
+    "answer": "il sistema della sovracopertura consiste in un intervento di confinamento realizzato installando una nuova copertura al di sopra di quella in cemento-amianto, che viene lasciata in sede quando la struttura portante sia idonea a sopportare un carico permanente aggiuntivo"
   },
   {
     "number": "A_3_03374",
     "question": "Cosa comporta l’installazione di una sovracopertura delle lastre in cemento- amianto?",
     "options": [
-      "l'installazione comporta operazioni di foratura dei materiali di cemento",
-      "l'installazione comporta operazioni di imbibizione dei materiali di cemento",
-      "l'installazione comporta operazioni di irraggiamento dei materiali di cemento",
-      "l'installazione comporta operazioni di aspirazione dei materiali di cemento"
+      "l'installazione comporta operazioni di foratura dei materiali di cemento-amianto, per consentire il fissaggio della nuova copertura e delle infrastrutture di sostegno, che determinano liberazione di fibre di amianto",
+      "l'installazione comporta operazioni di imbibizione dei materiali di cemento-amianto",
+      "l'installazione comporta operazioni di irraggiamento dei materiali di cemento-amianto, per consentire il fissaggio della nuova copertura e delle infrastrutture di sostegno, che determinano liberazione di fibre di amianto",
+      "l'installazione comporta operazioni di aspirazione dei materiali di cemento-amianto, per consentire il fissaggio della nuova copertura e delle infrastrutture di sostegno, che determinano liberazione di fibre di amianto"
     ],
-    "answer": "l'installazione comporta operazioni di foratura dei materiali di cemento"
+    "answer": "l'installazione comporta operazioni di foratura dei materiali di cemento-amianto, per consentire il fissaggio della nuova copertura e delle infrastrutture di sostegno, che determinano liberazione di fibre di amianto"
   },
   {
     "number": "A_3_03375",
@@ -1862,12 +1862,12 @@
     "number": "A_3_03388",
     "question": "Una volta rimosse, come devono essere gestite le piastrelle di vinil-amianto?",
     "options": [
-      "ogni 30",
-      "ogni 30",
+      "ogni 30-40 piastrelle rimosse, queste devono essere subito confezionate in pacchetti, rivestiti con polietilene e chiusi con nastro adesivo. I pacchetti verranno successivamente insaccati in big-bags contrassegnati a norma",
+      "ogni 30 -40 piastrelle gli addetti devono provvedere a distruggerle in situ contrassegnando il luogo in cui svolgono tale attività",
       "devono essere aspirate e al termine di questa operazione impacchettate con nylon e contrassegnate ",
       "devono essere confezionate e inviate ad aziende specializzate nel riutilizzo contrassegnando i pacchetti realizzati in sede di movimentazione "
     ],
-    "answer": "ogni 30"
+    "answer": "ogni 30-40 piastrelle rimosse, queste devono essere subito confezionate in pacchetti, rivestiti con polietilene e chiusi con nastro adesivo. I pacchetti verranno successivamente insaccati in big-bags contrassegnati a norma"
   },
   {
     "number": "A_3_03389",
@@ -1961,23 +1961,23 @@
     "number": "A_3_03397",
     "question": "Come sono costituiti i materiali di tipo friabile contenenti amianto?",
     "options": [
-      "sono costituiti da miscele di fibre di amianto con leganti di varia natura che si presentano",
+      "sono costituiti da miscele di fibre di amianto con leganti di varia natura che si presentano - a seconda della natura del legante e della percentuale di fibre - come un materiale spugnoso o lanuginoso, estremamente soffice e friabile, piuttosto spesso (fino a parecchi centimetri)",
       "sono costituiti da piastrelle di fibre di amianto con leganti di varia natura che si presentano come un materiale estremamente soffice e friabile",
       "sono costituiti da lastre di fibre di amianto con leganti di varia natura che si presentano come un materiale estremamente duro e compatto, piuttosto spesso (fino a parecchi centimetri)",
       "sono costituiti da tubazioni di fibre di amianto con leganti di varia natura che si presentano come un materiale estremamente duro e compatto, piuttosto spesso (fino a parecchi centimetri)"
     ],
-    "answer": "sono costituiti da miscele di fibre di amianto con leganti di varia natura che si presentano"
+    "answer": "sono costituiti da miscele di fibre di amianto con leganti di varia natura che si presentano - a seconda della natura del legante e della percentuale di fibre - come un materiale spugnoso o lanuginoso, estremamente soffice e friabile, piuttosto spesso (fino a parecchi centimetri)"
   },
   {
     "number": "A_3_03398",
     "question": "Come sono costituiti i materiali di tipo friabile contenenti amianto?",
     "options": [
-      "sono costituiti come un materiale dall’aspetto più compatto, di consistenza variabile, di spessore in genere non superiore a 1",
+      "sono costituiti come un materiale dall’aspetto più compatto, di consistenza variabile, di spessore in genere non superiore a 1-2 cm",
       "sono costituiti da piastrelle",
       "sono costituiti da lastre",
       "sono costituiti da tubazioni"
     ],
-    "answer": "sono costituiti come un materiale dall’aspetto più compatto, di consistenza variabile, di spessore in genere non superiore a 1"
+    "answer": "sono costituiti come un materiale dall’aspetto più compatto, di consistenza variabile, di spessore in genere non superiore a 1-2 cm"
   },
   {
     "number": "A_3_03399",
@@ -2016,23 +2016,23 @@
     "number": "A_3_03402",
     "question": "In cosa consiste la tecnica di imbibizione superficiale per la bonifica di materiali friabili contenenti amianto?",
     "options": [
-      "la tecnica imbibizione superficiale consiste nello spruzzare il rivestimento con acqua contenente detergenti e tensioattivi per facilitarne la penetrazione (soluzioni acquose di etere ed estere di poliossietilene) o impregnanti (prodotti vinil",
-      "la tecnica imbibizione superficiale consiste nello spruzzare il rivestimento con acqua contenente acidi per facilitarne la penetrazione (o impregnanti (prodotti vinil",
+      "la tecnica imbibizione superficiale consiste nello spruzzare il rivestimento con acqua contenente detergenti e tensioattivi per facilitarne la penetrazione (soluzioni acquose di etere ed estere di poliossietilene) o impregnanti (prodotti vinil-acrilici comunemente usati per l'incapsulamento), fino a che il rivestimento risulti bagnato fino in profondità",
+      "la tecnica imbibizione superficiale consiste nello spruzzare il rivestimento con acqua contenente acidi per facilitarne la penetrazione (o impregnanti (prodotti vinil-acrilici comunemente usati per l'incapsulamento), fino a che il rivestimento risulti bagnato fino in profondità",
       "la tecnica imbibizione superficiale consiste nello spruzzare il rivestimento con acqua contenente acido solforico per facilitarne la penetrazione, fino a che il rivestimento risulti bagnato fino in profondità",
       "la tecnica imbibizione superficiale consiste nello spruzzare il rivestimento con acqua contenente detergenti e tensioattivi per impedirne la penetrazione"
     ],
-    "answer": "la tecnica imbibizione superficiale consiste nello spruzzare il rivestimento con acqua contenente detergenti e tensioattivi per facilitarne la penetrazione (soluzioni acquose di etere ed estere di poliossietilene) o impregnanti (prodotti vinil"
+    "answer": "la tecnica imbibizione superficiale consiste nello spruzzare il rivestimento con acqua contenente detergenti e tensioattivi per facilitarne la penetrazione (soluzioni acquose di etere ed estere di poliossietilene) o impregnanti (prodotti vinil-acrilici comunemente usati per l'incapsulamento), fino a che il rivestimento risulti bagnato fino in profondità"
   },
   {
     "number": "A_3_03403",
     "question": "Quando viene utilizzata la tecnica dell’imbibizione superficiale per la bonifica di materiali friabili contenenti amianto?",
     "options": [
-      "la rimozione per imbibizione viene utilizzata con rivestimenti scarsamente incollati al supporto; con supporti a superficie liscia ed omogenea (travi metalliche, lastre grecate); con rivestimenti soffici e friabili e di spessore inferiore a 15",
+      "la rimozione per imbibizione viene utilizzata con rivestimenti scarsamente incollati al supporto; con supporti a superficie liscia ed omogenea (travi metalliche, lastre grecate); con rivestimenti soffici e friabili e di spessore inferiore a 15-20 mm",
       "la rimozione per imbibizione viene utilizzata con rivestimenti fortemente incollati al supporto",
       "la rimozione per imbibizione viene utilizzata con rivestimenti in PVC",
       "la rimozione per imbibizione viene utilizzata con rivestimenti in PCB"
     ],
-    "answer": "la rimozione per imbibizione viene utilizzata con rivestimenti scarsamente incollati al supporto; con supporti a superficie liscia ed omogenea (travi metalliche, lastre grecate); con rivestimenti soffici e friabili e di spessore inferiore a 15"
+    "answer": "la rimozione per imbibizione viene utilizzata con rivestimenti scarsamente incollati al supporto; con supporti a superficie liscia ed omogenea (travi metalliche, lastre grecate); con rivestimenti soffici e friabili e di spessore inferiore a 15-20 mm"
   },
   {
     "number": "A_3_03404",
@@ -2170,12 +2170,12 @@
     "number": "A_3_03416",
     "question": "Come devono essere raccolti i residui fini derivanti dalla rimozione di materiali friabili contenenti amianto?",
     "options": [
-      "i residui più fini devono essere raccolti con aspiratori portatili per polveri e liquidi (vacuum",
+      "i residui più fini devono essere raccolti con aspiratori portatili per polveri e liquidi (vacuum-cleaner) dotati di manichette aspiranti e filtro assoluto",
       "i residui più fini devono essere raccolti con ramazze",
       "i residui più fini devono essere raccolti con pale",
       "i residui più fini devono essere raccolti a mano dagli addetti specializzati"
     ],
-    "answer": "i residui più fini devono essere raccolti con aspiratori portatili per polveri e liquidi (vacuum"
+    "answer": "i residui più fini devono essere raccolti con aspiratori portatili per polveri e liquidi (vacuum-cleaner) dotati di manichette aspiranti e filtro assoluto"
   },
   {
     "number": "A_3_03417",
@@ -2357,12 +2357,12 @@
     "number": "A_3_03433",
     "question": "Che tipi di incapsulante esistono?",
     "options": [
-      "a base di co",
+      "a base di co-polimeri, vinil/acrilici in dispersione acquosa, esenti da solventi",
       "a base di addensanti",
-      "vinil",
+      "vinil-solforici in dispersione acquosa",
       "a base di solventi"
     ],
-    "answer": "a base di co"
+    "answer": "a base di co-polimeri, vinil/acrilici in dispersione acquosa, esenti da solventi"
   },
   {
     "number": "A_3_03434",
@@ -2381,7 +2381,7 @@
     "options": [
       "si",
       "no",
-      "si, ma solo per lastre di copertura in cemento",
+      "si, ma solo per lastre di copertura in cemento-amianto",
       "no, devono seguire le indicazioni del DM 08/04/2008"
     ],
     "answer": "si"
@@ -2415,7 +2415,7 @@
       "nel caso di limitati interventi su tubazioni rivestite in amianto per la rimozione di piccole superfici di coibentazione (ad es. su tubazioni o valvole o giunzioni o su ridotte superfici od oggetti da liberare per altri interventi)",
       "per grandi superfici",
       "per intere strutture coibentate in amianto",
-      "per piastrelle in vinil"
+      "per piastrelle in vinil-amianto"
     ],
     "answer": "nel caso di limitati interventi su tubazioni rivestite in amianto per la rimozione di piccole superfici di coibentazione (ad es. su tubazioni o valvole o giunzioni o su ridotte superfici od oggetti da liberare per altri interventi)"
   },
@@ -2423,12 +2423,12 @@
     "number": "A_3_03440",
     "question": "Come funziona la tecnica del GloveBag per la bonifica di MCA?",
     "options": [
-      "nel glove",
-      "nel glove",
-      "nel glove",
-      "nel glove"
+      "nel glove-bag vanno introdotti, prima della sigillatura a tenuta stagna, attorno al tubo o intorno alla zona interessata, tutti gli attrezzi necessari; ci deve essere un sistema di spruzzatura degli agenti bagnanti (per l'imbibizione del materiale da rimuovere) o sigillanti (per l'incapsulamento della coibentazione che rimane in opera) e un ugello di aspirazione da collegare ad aspiratore dotato di filtro di efficienza HEPA per la messa in depressione della cella ove possibile in continuo e sempre a fine lavoro",
+      "nel glove-bag non vanno mai introdotti, prima della sigillatura a tenuta stagna, attorno al tubo o intorno alla zona interessata, tutti gli attrezzi necessari; ci deve essere poi un sistema di spruzzatura degli agenti bagnanti",
+      "nel glove-bag vanno introdotti, prima della sigillatura a tenuta stagna, attorno al tubo o intorno alla zona interessata, tutti gli attrezzi necessari; ma non ci deve essere un sistema di spruzzatura degli agenti bagnanti",
+      "nel glove-bag vanno introdotti, prima della sigillatura a tenuta stagna, attorno al tubo o intorno alla zona interessata, tutti gli attrezzi necessari; ci deve essere un ugello di aspirazione da collegare ad aspiratore dotato di filtro di efficienza HUPA per la messa in depressione della cella ove possibile in continuo e sempre a fine lavoro"
     ],
-    "answer": "nel glove"
+    "answer": "nel glove-bag vanno introdotti, prima della sigillatura a tenuta stagna, attorno al tubo o intorno alla zona interessata, tutti gli attrezzi necessari; ci deve essere un sistema di spruzzatura degli agenti bagnanti (per l'imbibizione del materiale da rimuovere) o sigillanti (per l'incapsulamento della coibentazione che rimane in opera) e un ugello di aspirazione da collegare ad aspiratore dotato di filtro di efficienza HEPA per la messa in depressione della cella ove possibile in continuo e sempre a fine lavoro"
   },
   {
     "number": "A_3_03441",
@@ -2456,12 +2456,12 @@
     "number": "A_3_03443",
     "question": "Nella tecnica del GloveBag cosa è importante?",
     "options": [
-      "che il glove",
-      "che il glove",
-      "che il glove",
-      "che il glove"
+      "che il glove-bag venga installato in modo da ricoprire interamente il tubo o la zona dove si deve operare, e che tutte le aperture siano ermeticamente sigillate",
+      "che il glove-bag non venga installato in modo da ricoprire interamente il tubo",
+      "che il glove-bag venga nebulizzato sulla zona da trattare",
+      "che il glove-bag venga nebulizzato sulla zona da trattare e che tutte le aperture siano ermeticamente sigillate"
     ],
-    "answer": "che il glove"
+    "answer": "che il glove-bag venga installato in modo da ricoprire interamente il tubo o la zona dove si deve operare, e che tutte le aperture siano ermeticamente sigillate"
   },
   {
     "number": "A_3_03444",
@@ -2709,23 +2709,23 @@
     "number": "A_4_03482",
     "question": "Che caratteristiche devono avere i recipienti fissi o mobili destinati a contenere rifiuti speciali pericolosi?",
     "options": [
-      "devono possedere adeguati requisiti di resistenza in relazione alle proprietà chimico",
+      "devono possedere adeguati requisiti di resistenza in relazione alle proprietà chimico-fisiche ed alle caratteristiche di pericolosità dei rifiuti contenuti",
       "non devono possedere adeguati requisiti di resistenza",
       "devono possedere adeguati requisiti di forma e struttura",
       "devono possedere adeguati requisiti di robustezza fisica"
     ],
-    "answer": "devono possedere adeguati requisiti di resistenza in relazione alle proprietà chimico"
+    "answer": "devono possedere adeguati requisiti di resistenza in relazione alle proprietà chimico-fisiche ed alle caratteristiche di pericolosità dei rifiuti contenuti"
   },
   {
     "number": "A_4_03483",
     "question": "Che caratteristiche devono avere i bacini e le vasche destinati a contenere rifiuti speciali pericolosi?",
     "options": [
-      "devono possedere adeguati requisiti di resistenza in relazione alle proprietà chimico",
+      "devono possedere adeguati requisiti di resistenza in relazione alle proprietà chimico-fisiche ed alle caratteristiche di pericolosità dei rifiuti contenuti",
       "non devono possedere adeguati requisiti di resistenza",
       "devono possedere adeguati requisiti di forma e struttura",
       "devono possedere adeguati requisiti di robustezza fisica"
     ],
-    "answer": "devono possedere adeguati requisiti di resistenza in relazione alle proprietà chimico"
+    "answer": "devono possedere adeguati requisiti di resistenza in relazione alle proprietà chimico-fisiche ed alle caratteristiche di pericolosità dei rifiuti contenuti"
   },
   {
     "number": "A_4_03484",
@@ -3358,12 +3358,12 @@
     "number": "A_4_03562",
     "question": "Di cosa devono essere provvisti i serbatoi per la raccolta dei rifiuti costituiti da soluzione acquose di lavaggio ed acque madri CER 070101*?",
     "options": [
-      "i serbatoi contenenti rifiuti liquidi devono essere provvisti di opportuni dispositivi anti",
+      "i serbatoi contenenti rifiuti liquidi devono essere provvisti di opportuni dispositivi anti-traboccamento qualora questi ultimi siano costituiti da una tubazione di troppo pieno, il relativo scarico deve essere convogliato in modo da non costituire pericolo per gli addetti e per l'ambiente",
       "i serbatoi contenenti rifiuti liquidi devono essere provvisti di opportuni sportelli di apertura per ispezioni visive",
-      "i serbatoi contenenti rifiuti liquidi non devono essere mai provvisti di opportuni dispositivi anti",
+      "i serbatoi contenenti rifiuti liquidi non devono essere mai provvisti di opportuni dispositivi anti- traboccamento",
       "i serbatoi contenenti rifiuti liquidi devono essere provvisti di un allarme sonoro"
     ],
-    "answer": "i serbatoi contenenti rifiuti liquidi devono essere provvisti di opportuni dispositivi anti"
+    "answer": "i serbatoi contenenti rifiuti liquidi devono essere provvisti di opportuni dispositivi anti-traboccamento qualora questi ultimi siano costituiti da una tubazione di troppo pieno, il relativo scarico deve essere convogliato in modo da non costituire pericolo per gli addetti e per l'ambiente"
   },
   {
     "number": "A_4_03563",
@@ -3754,12 +3754,12 @@
     "number": "A_4_04409",
     "question": "Ai sensi del D.Lgs. n. 152/2006 e smi., come sono classificati i rifiuti derivanti da attività sanitarie?",
     "options": [
-      "rifiuti speciali se diversi da quelli all'art. 183, comma 1, lettera b",
+      "rifiuti speciali se diversi da quelli all'art. 183, comma 1, lettera b-ter del D.Lgs. n. 152/2006",
       "rifiuti solidi",
       "rifiuti particolari",
       "rifiuti liquidi"
     ],
-    "answer": "rifiuti speciali se diversi da quelli all'art. 183, comma 1, lettera b"
+    "answer": "rifiuti speciali se diversi da quelli all'art. 183, comma 1, lettera b-ter del D.Lgs. n. 152/2006"
   },
   {
     "number": "A_4_04410",
@@ -3897,12 +3897,12 @@
     "number": "A_4_04422",
     "question": "Come deve essere gestito il rifiuto rappresentato da olio esausto all'interno di un deposito temporaneo prima della raccolta di rifiuti realizzato in un impianto?",
     "options": [
-      "gli oli esausti devono essere stoccati in modo idoneo ad evitare qualsiasi commistione tra emulsioni ed oli propriamente detti, ovvero qualsiasi dispersione o contaminazione degli stessi con altre sostanze nonché devono essere utilizzati per il deposito recipienti muniti di adeguati requisiti di resistenza in relazione alle proprietà chimico",
+      "gli oli esausti devono essere stoccati in modo idoneo ad evitare qualsiasi commistione tra emulsioni ed oli propriamente detti, ovvero qualsiasi dispersione o contaminazione degli stessi con altre sostanze nonché devono essere utilizzati per il deposito recipienti muniti di adeguati requisiti di resistenza in relazione alle proprietà chimico-fisiche ed alle caratteristiche di pericolosità degli oli usati contenuti",
       "gli oli esausti devono essere stoccati in recipienti muniti di un allarme sonoro",
       "gli oli esausti devono essere stoccati in recipienti in grado di rilasciare gli oli esausti nell'ambiente una volta riempiti",
       "gli oli esausti devono essere stoccati in recipienti realizzati in vetro"
     ],
-    "answer": "gli oli esausti devono essere stoccati in modo idoneo ad evitare qualsiasi commistione tra emulsioni ed oli propriamente detti, ovvero qualsiasi dispersione o contaminazione degli stessi con altre sostanze nonché devono essere utilizzati per il deposito recipienti muniti di adeguati requisiti di resistenza in relazione alle proprietà chimico"
+    "answer": "gli oli esausti devono essere stoccati in modo idoneo ad evitare qualsiasi commistione tra emulsioni ed oli propriamente detti, ovvero qualsiasi dispersione o contaminazione degli stessi con altre sostanze nonché devono essere utilizzati per il deposito recipienti muniti di adeguati requisiti di resistenza in relazione alle proprietà chimico-fisiche ed alle caratteristiche di pericolosità degli oli usati contenuti"
   },
   {
     "number": "A_4_04423",
@@ -4152,7 +4152,7 @@
     "options": [
       "mediante presentazione da parte delle imprese e dei lavoratori autonomi del certificato di iscrizione alla Camera di commercio, industria e artigianato e del documento unico di regolarità contributiva, corredato da autocertificazione in ordine al possesso degli altri requisiti previsti dall’allegato XVII del D.Lgs. n. 81/2008",
       "mediante presentazione da parte dell’impresa e dei lavoratori autonomi di un curriculum dei lavori eseguiti",
-      "non è necessario dimostrare alcuna idoneità tecnico",
+      "non è necessario dimostrare alcuna idoneità tecnico-professionale",
       "mediante la sola presentazione del DURC"
     ],
     "answer": "mediante presentazione da parte delle imprese e dei lavoratori autonomi del certificato di iscrizione alla Camera di commercio, industria e artigianato e del documento unico di regolarità contributiva, corredato da autocertificazione in ordine al possesso degli altri requisiti previsti dall’allegato XVII del D.Lgs. n. 81/2008"
@@ -4735,8 +4735,8 @@
     "options": [
       "nell’affidamento di lavori intellettuali",
       "in ogni caso di affidamento di attività ad altri operatori economici",
-      "ai lavori o servizi la cui durata è superiore a cinque uomini",
-      "ai lavori o servizi la cui durata è inferiore a cinque uomini"
+      "ai lavori o servizi la cui durata è superiore a cinque uomini-giorno",
+      "ai lavori o servizi la cui durata è inferiore a cinque uomini-giorno e con rischi derivanti dalla presenza di agenti cancerogeni"
     ],
     "answer": "nell’affidamento di lavori intellettuali"
   },
@@ -4846,7 +4846,7 @@
       "elaborando un unico documento di valutazione dei rischi che indichi le misure adottate per eliminare o ridurre i rischi da interferenze",
       "con una riunione preliminare i coordinamento",
       "facilitando le relazioni e la comunicazione fra il committente e le ditte subappaltanti",
-      "facendo attenzione a tenere completamente separate le attività del committente da quelle dei vari sub"
+      "facendo attenzione a tenere completamente separate le attività del committente da quelle dei vari sub- appaltatori"
     ],
     "answer": "elaborando un unico documento di valutazione dei rischi che indichi le misure adottate per eliminare o ridurre i rischi da interferenze"
   },
@@ -4878,7 +4878,7 @@
     "options": [
       "si",
       "no, in ogni caso",
-      "no se il lavoro è affidato ad imprese sub",
+      "no se il lavoro è affidato ad imprese sub-appaltanti",
       "no se le giornate lavorative sono consecutive"
     ],
     "answer": "si"
@@ -5690,12 +5690,12 @@
     "number": "A_5_03766",
     "question": "Perché il monitoraggio biologico rappresenta uno strumento di approccio collettivo, come complemento del controllo ambientale, e di approccio individuale come strumento della medicina del lavoro, integrato nella supervisione sanitaria?",
     "options": [
-      "perché valuta anche l’esposizione extra",
+      "perché valuta anche l’esposizione extra-lavorativa agli agenti chimici nonché stima l’efficacia delle misure di protezione individuale e non richiede interventi durante le fasi lavorative",
       "perché non valuta la somma delle dosi assorbite attraverso le varie vie e quindi è in grado di fornire una stima più realistica dell’esposizione efficace",
       "perché valuta la somma di tutti i fattori di stress psicologico a cui è sottoposto il lavoratore",
       "perché valuta lo stato fisico del lavoratore"
     ],
-    "answer": "perché valuta anche l’esposizione extra"
+    "answer": "perché valuta anche l’esposizione extra-lavorativa agli agenti chimici nonché stima l’efficacia delle misure di protezione individuale e non richiede interventi durante le fasi lavorative"
   },
   {
     "number": "A_5_03768",
@@ -5990,7 +5990,7 @@
       "visita medica preventiva intesa a constatare l'assenza di controindicazioni al lavoro cui il lavoratore è destinato al fine di valutare la sua idoneità alla mansione specifica",
       "il colloquio con lo psicologo",
       "una risonanza magnetica per una parte del corpo scelta dal lavoratore",
-      "un test psico"
+      "un test psico-attitudinale"
     ],
     "answer": "visita medica preventiva intesa a constatare l'assenza di controindicazioni al lavoro cui il lavoratore è destinato al fine di valutare la sua idoneità alla mansione specifica"
   },
@@ -6001,7 +6001,7 @@
       "visita medica periodica per controllare lo stato di salute dei lavoratori ed esprimere il giudizio di idoneità alla mansione specifica",
       "il colloquio con lo psicologo",
       "una risonanza magnetica per una parte del corpo scelta dal lavoratore",
-      "un test psico"
+      "un test psico-attitudinale"
     ],
     "answer": "visita medica periodica per controllare lo stato di salute dei lavoratori ed esprimere il giudizio di idoneità alla mansione specifica"
   },
@@ -6012,7 +6012,7 @@
       "visita medica su richiesta del lavoratore, qualora sia ritenuta dal medico competente correlata ai rischi professionali o alle sue condizioni di salute, suscettibili di peggioramento a causa dell'attività lavorativa svolta, al fine di esprimere il giudizio di idoneità alla mansione specifica",
       "il colloquio con lo psicologo",
       "una risonanza magnetica per una parte del corpo scelta dal lavoratore",
-      "un test psico"
+      "un test psico-attitudinale"
     ],
     "answer": "visita medica su richiesta del lavoratore, qualora sia ritenuta dal medico competente correlata ai rischi professionali o alle sue condizioni di salute, suscettibili di peggioramento a causa dell'attività lavorativa svolta, al fine di esprimere il giudizio di idoneità alla mansione specifica"
   },
@@ -6023,7 +6023,7 @@
       "visita medica in occasione del cambio della mansione onde verificare l'idoneità alla mansione specifica e visita medica alla cessazione del rapporto di lavoro nei casi previsti dalla normativa vigente",
       "il colloquio con lo psicologo",
       "una risonanza magnetica per una parte del corpo scelta dal lavoratore",
-      "un test psico"
+      "un test psico-attitudinale"
     ],
     "answer": "visita medica in occasione del cambio della mansione onde verificare l'idoneità alla mansione specifica e visita medica alla cessazione del rapporto di lavoro nei casi previsti dalla normativa vigente"
   },
@@ -6188,7 +6188,7 @@
       "visita medica preventiva intesa a constatare l’assenza di controindicazioni al lavoro cui il lavoratore è destinato al fine di valutare la sua idoneità alla mansione specifica",
       "visita psicologica",
       "nessuna visita particolare",
-      "test psico"
+      "test psico-attitudinali"
     ],
     "answer": "visita medica preventiva intesa a constatare l’assenza di controindicazioni al lavoro cui il lavoratore è destinato al fine di valutare la sua idoneità alla mansione specifica"
   },
@@ -6199,7 +6199,7 @@
       "visita medica periodica per controllare lo stato di salute dei lavoratori ed esprimere il giudizio di idoneità alla mansione specifica. La periodicità di tali accertamenti, qualora non prevista dalla relativa normativa, viene stabilita, di norma, in una volta l’anno",
       "visita psicologica",
       "nessuna visita particolare",
-      "test psico"
+      "test psico-attitudinali"
     ],
     "answer": "visita medica periodica per controllare lo stato di salute dei lavoratori ed esprimere il giudizio di idoneità alla mansione specifica. La periodicità di tali accertamenti, qualora non prevista dalla relativa normativa, viene stabilita, di norma, in una volta l’anno"
   },
@@ -6394,12 +6394,12 @@
     "number": "A_5_03836",
     "question": "In un cantiere di bonifica devono esistere mezzi ed attrezzature d’intervento da utilizzarsi in caso di emergenza?",
     "options": [
-      "si, e devono essere sempre opportunamente segnalati e distribuiti. Essi consistono in mezzi di estinzione portatili costituiti da estintori idonei per l’ambiente da proteggere, idranti e/o naspi antincendio, impianti di spegnimento automatici, attrezzature ausiliarie di soccorso e attrezzature acustico",
+      "si, e devono essere sempre opportunamente segnalati e distribuiti. Essi consistono in mezzi di estinzione portatili costituiti da estintori idonei per l’ambiente da proteggere, idranti e/o naspi antincendio, impianti di spegnimento automatici, attrezzature ausiliarie di soccorso e attrezzature acustico-visive per gestire e segnalare l’allarme",
       "non esiste nessun obbligo",
       "si, tali mezzi e attrezzature sono tenuti chiusi in infermeria perché non devono essere facilmente accessibili",
       "si, tali mezzi e attrezzature vengono conservati dal committente lavori"
     ],
-    "answer": "si, e devono essere sempre opportunamente segnalati e distribuiti. Essi consistono in mezzi di estinzione portatili costituiti da estintori idonei per l’ambiente da proteggere, idranti e/o naspi antincendio, impianti di spegnimento automatici, attrezzature ausiliarie di soccorso e attrezzature acustico"
+    "answer": "si, e devono essere sempre opportunamente segnalati e distribuiti. Essi consistono in mezzi di estinzione portatili costituiti da estintori idonei per l’ambiente da proteggere, idranti e/o naspi antincendio, impianti di spegnimento automatici, attrezzature ausiliarie di soccorso e attrezzature acustico-visive per gestire e segnalare l’allarme"
   },
   {
     "number": "A_5_03837",
@@ -6834,12 +6834,12 @@
     "number": "A_6_03878",
     "question": "Oltre alla Polizia giudiziaria, in genere,ai Vigili del Fuoco e all’Arpa, quali sono gli organismi di Vigilanza nei cantieri in Italia?",
     "options": [
-      "ASL",
+      "ASL- Spisal, DPL,Inail - Ispesl",
       "Vigili Urbani",
       "Inps",
       "Ufficio del Registro"
     ],
-    "answer": "ASL"
+    "answer": "ASL- Spisal, DPL,Inail - Ispesl"
   },
   {
     "number": "A_6_03879",
@@ -6979,7 +6979,7 @@
     "options": [
       "mediante presentazione da parte delle imprese e dei lavoratori autonomi del certificato di iscrizione alla Camera di commercio, industria e artigianato e del documento unico di regolarità contributiva, corredato da autocertificazione in ordine al possesso degli altri requisiti previsti dall’ALLEGATO XVII del Decreto",
       "mediante presentazione da parte dell’impresa e dei lavoratori autonomi di un curriculum dei lavori eseguiti",
-      "non è necessario dimostrare alcuna idoneità tecnico",
+      "non è necessario dimostrare alcuna idoneità tecnico-professionale",
       "mediante la sola presentazione del DURC"
     ],
     "answer": "mediante presentazione da parte delle imprese e dei lavoratori autonomi del certificato di iscrizione alla Camera di commercio, industria e artigianato e del documento unico di regolarità contributiva, corredato da autocertificazione in ordine al possesso degli altri requisiti previsti dall’ALLEGATO XVII del Decreto"
@@ -7219,12 +7219,12 @@
     "number": "A_6_03914",
     "question": "Cosa consentono le tecniche analitiche microscopiche ai fini della determinazione quantitativa delle varie forme di amianto?",
     "options": [
-      "le tecniche microscopiche",
-      "le tecniche microscopiche",
-      "le tecniche microscopiche",
-      "le tecniche microscopiche"
+      "le tecniche microscopiche - ottiche - permettono di distinguere tra le varietà asbestiformi e quelle non asbestiformi di uno stesso minerale ma forniscono dati solo in termini di numero di fibre presenti in un campione",
+      "le tecniche microscopiche - ottiche– permettono di assorbire un maggior numero di fibre aerodisperse togliendole all’ambiente di lavoro",
+      "le tecniche microscopiche - ottiche– permettono di quantificare e correggere in maniera semplice l'effetto di assorbimento dei raggi X da parte del campione di fibre aerodisperse di amianto",
+      "le tecniche microscopiche - ottiche– permettono di quantificare e correggere l’assorbimento dei raggi ultravioletti da parte del campione di fibre aerodisperse di amianto"
     ],
-    "answer": "le tecniche microscopiche"
+    "answer": "le tecniche microscopiche - ottiche - permettono di distinguere tra le varietà asbestiformi e quelle non asbestiformi di uno stesso minerale ma forniscono dati solo in termini di numero di fibre presenti in un campione"
   },
   {
     "number": "A_6_03915",
@@ -7846,12 +7846,12 @@
     "number": "A_6_03971",
     "question": "Quali DPI devono essere utilizzati nella manipolazione di MCA?",
     "options": [
-      "nelle attività di manipolazione dell’amianto devono essere usati filtri antipolvere di alta efficienza (classe P3",
+      "nelle attività di manipolazione dell’amianto devono essere usati filtri antipolvere di alta efficienza (classe P3 - UNI N143)",
       "nelle attività di manipolazione dell’amianto devono essere usati filtri antipolvere di basse efficienza (UNI N143)",
-      "nelle attività di manipolazione dell’amianto devono essere usati filtri antipolvere di media efficienza (",
+      "nelle attività di manipolazione dell’amianto devono essere usati filtri antipolvere di media efficienza (- UNI N143)",
       "nelle attività di manipolazione dell’amianto devono essere usati filtri di policarbonato"
     ],
-    "answer": "nelle attività di manipolazione dell’amianto devono essere usati filtri antipolvere di alta efficienza (classe P3"
+    "answer": "nelle attività di manipolazione dell’amianto devono essere usati filtri antipolvere di alta efficienza (classe P3 - UNI N143)"
   },
   {
     "number": "A_6_03972",

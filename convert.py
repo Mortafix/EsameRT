@@ -16,8 +16,11 @@ class Question:
 
     def build_answers(self, answers):
         self.answers = list()
+        answers_text = answers + "\n" * 2
         self.correct = None
-        for match in findall(r"(Esatta|Sbagliata):\s+((?:[^-]|\n)+)", answers):
+        for match in findall(
+            r"(Esatta|Sbagliata):\s+((?:.|\n)+?)(?:\n-|\n{2,})", answers_text
+        ):
             corretta, answer = match
             answer = self.clean_text(answer)
             if search(r"[;.]$", answer):

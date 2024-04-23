@@ -159,7 +159,7 @@
     "options": [
       "di onorabilità; idoneità professionale; idoneità finanziaria",
       "di ordine generale e di ordine speciale",
-      "economico",
+      "economico-finanziari; tecnico-organizzativi",
       "del possesso continuato e ininterrotto dei veicoli per tre anni e della capacità finanziaria"
     ],
     "answer": "di onorabilità; idoneità professionale; idoneità finanziaria"
@@ -1983,12 +1983,12 @@
     "number": "T_2_01235",
     "question": "I produttori iniziali di rifiuti non pericolosi che effettuano operazioni di raccolta e trasporto dei propri rifiuti, nonché i produttori iniziali di rifiuti pericolosi che effettuano operazioni di raccolta e trasporto dei propri rifiuti pericolosi in quantità non eccedenti trenta chilogrammi o trenta litri al giorno di cui all'articolo 212, comma 8, del d.lgs. n. 152/2006:",
     "options": [
-      "si iscrivono nella categoria 2",
+      "si iscrivono nella categoria 2-bis dell’Albo nazionale gestori ambientali",
       "non si iscrivono all’Albo nazionale gestori ambientali",
       "si iscrivono all’Albo nazionale gestori ambientali solo dopo aver maturato dieci anni di esperienza nel settore del trasporto di rifiuti",
       "non si iscrivono all’Albo nazionale gestori ambientali salvo che commettano, nel corso di un triennio, tre violazioni delle norme del Codice della Strada"
     ],
-    "answer": "si iscrivono nella categoria 2"
+    "answer": "si iscrivono nella categoria 2-bis dell’Albo nazionale gestori ambientali"
   },
   {
     "number": "T_2_01236",
@@ -2448,7 +2448,7 @@
       "il formulario di identificazione dei rifiuti di cui all’art. 193 del d.lgs. n. 152/2006",
       "il fenomeno di irrigidimento dei rifiuti di cui all’art. 193 del d.lgs. n. 152/2006",
       "la fonte di inquinamento delle falde",
-      "la cessazione della qualifica di rifiuto di cui all’art. 184"
+      "la cessazione della qualifica di rifiuto di cui all’art. 184-ter del D.lgs. n. 152/2006"
     ],
     "answer": "il formulario di identificazione dei rifiuti di cui all’art. 193 del d.lgs. n. 152/2006"
   },
@@ -3314,19 +3314,19 @@
     "number": "T_2_04455",
     "question": "Individuare tra le seguenti l'affermazione corretta:",
     "options": [
-      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188",
-      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188",
-      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188",
+      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188-bis del D.Lgs. n. 152/2006 si compone delle procedure e degli strumenti di tracciabilità dei rifiuti integrati nel Registro elettronico nazionale per la tracciabilità dei rifiuti",
+      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188-quater del D.Lgs. n. 152/2006 si compone della Contabilità Ambientale Rifiuti (C.A.R.) e dei Flussi operativi su strada (F.O.S)",
+      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188-ter del D.Lgs. n. 152/2006 si compone delle procedure relative alla Valutazione del Grado di Pericolosità della Gestione (V.G.P.G.) coordinate dal Nucleo Operativo Ecologico dei Carabinieri (N.O.E.)",
       "il Sistema di tracciabilità dei rifiuti di cui all'art. 188 del D.Lgs. n. 152/2006 si compone della Sezione centrale di Controllo Regolarità Ambientale e delle Sezioni regionali di Controllo Regolarità Ambientale Locale articolate presso le Regioni nonché presso le Province di Trento e di Bolzano"
     ],
-    "answer": "il Sistema di tracciabilità dei rifiuti di cui all'art. 188"
+    "answer": "il Sistema di tracciabilità dei rifiuti di cui all'art. 188-bis del D.Lgs. n. 152/2006 si compone delle procedure e degli strumenti di tracciabilità dei rifiuti integrati nel Registro elettronico nazionale per la tracciabilità dei rifiuti"
   },
   {
     "number": "T_2_04456",
     "question": "Individuare tra le seguenti l'affermazione errata:",
     "options": [
       "l'istituzione del sistema di tracciabilità dei rifiuti è prevista dal D.Lgs. n. 188/2008 allo scopo di garantire la sicurezza nei luoghi di lavoro nel settore della gestione dei rifiuti",
-      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188",
+      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188-bis del D.Lgs. n. 152/2006 si compone delle procedure e degli strumenti di tracciabilità dei rifiuti integrati nel Registro elettronico nazionale per la tracciabilità dei rifiuti",
       "il Registro elettronico nazionale per la tracciabilità dei rifiuti è gestito con il supporto tecnico operativo dell'Albo nazionale dei gestori di cui all'art. 212 del D.Lgs. n. 152/2006",
       "il Registro elettronico nazionale per la tracciabilità dei rifiuti è collocato presso la competente struttura organizzativa del Ministero della Transizione Ecologica"
     ],
@@ -3435,12 +3435,12 @@
     "number": "T_2_04466",
     "question": "In merito al luogo di tenuta del registro cronologico di carico e scarico di cui all'art. 190 del D.Lgs. n. 152/2006, quale delle seguenti affermazioni è errata?",
     "options": [
-      "per i produttori iniziali di rifiuti non pericolosi generati nell'ambito di attività agricole, i registri sono tenuti, o resi accessibili, presso la sede del Registro elettronico nazionale di cui all'articolo 188",
+      "per i produttori iniziali di rifiuti non pericolosi generati nell'ambito di attività agricole, i registri sono tenuti, o resi accessibili, presso la sede del Registro elettronico nazionale di cui all'articolo 188-bis del D.Lgs. n. 152/2006",
       "i registri sono tenuti, o resi accessibili, presso ogni impianto di produzione, di stoccaggio, di recupero e di smaltimento di rifiuti",
       "per le imprese che effettuano attività di raccolta e trasporto di rifiuti, i registri sono tenuti, o resi accessibili, presso la sede operativa",
       "per i commercianti e gli intermediari di rifiuti, i registri sono tenuti, o resi accessibili, presso la sede operativa"
     ],
-    "answer": "per i produttori iniziali di rifiuti non pericolosi generati nell'ambito di attività agricole, i registri sono tenuti, o resi accessibili, presso la sede del Registro elettronico nazionale di cui all'articolo 188"
+    "answer": "per i produttori iniziali di rifiuti non pericolosi generati nell'ambito di attività agricole, i registri sono tenuti, o resi accessibili, presso la sede del Registro elettronico nazionale di cui all'articolo 188-bis del D.Lgs. n. 152/2006"
   },
   {
     "number": "T_2_04467",
@@ -3590,7 +3590,7 @@
     "question": "In quale categoria dell’Albo nazionale gestori ambientali si iscrivono i soggetti che effettuano attività di raccolta e trasporto di rifiuti urbani?",
     "options": [
       "nella categoria 1",
-      "nella categoria 2",
+      "nella categoria 2-bis",
       "in nessuna categoria, in quanto per questo tipo di attività la normativa vigente non prevede l’obbligo di iscrizione all’Albo",
       "nella categoria 10"
     ],
@@ -3644,12 +3644,12 @@
     "number": "T_2_01387",
     "question": "Cosa dispone il d.lgs. n. 152/2006 con riferimento allo smaltimento dei rifiuti urbani non pericolosi in regioni diverse da quelle in cui gli stessi sono prodotti?",
     "options": [
-      "che, fatta eccezione per le ipotesi contemplate al comma 3",
+      "che, fatta eccezione per le ipotesi contemplate al comma 3-bis dell’art. 182 dello stesso Decreto, è vietato smaltire i rifiuti urbani non pericolosi in regioni diverse da quelle dove gli stessi sono prodotti, fatti salvi eventuali accordi regionali o internazionali",
       "che è sempre vietato, senza deroghe né eccezioni, smaltire i rifiuti urbani non pericolosi in regioni diverse da quelle dove gli stessi sono prodotti",
       "che è vietato smaltire i rifiuti urbani non pericolosi nella regione in cui gli stessi sono prodotti",
       "che i rifiuti urbani non pericolosi devono essere necessariamente smaltiti in regioni diverse da quelle in cui gli stessi sono prodotti"
     ],
-    "answer": "che, fatta eccezione per le ipotesi contemplate al comma 3"
+    "answer": "che, fatta eccezione per le ipotesi contemplate al comma 3-bis dell’art. 182 dello stesso Decreto, è vietato smaltire i rifiuti urbani non pericolosi in regioni diverse da quelle dove gli stessi sono prodotti, fatti salvi eventuali accordi regionali o internazionali"
   },
   {
     "number": "T_2_01389",
@@ -3756,7 +3756,7 @@
     "options": [
       "la promozione della massima movimentazione dei rifiuti urbani",
       "il superamento della frammentazione delle gestioni attraverso un servizio di gestione integrata dei rifiuti",
-      "il conseguimento di adeguate dimensioni gestionali, definite sulla base di parametri fisici, demografici, tecnici e sulla base delle ripartizioni politico",
+      "il conseguimento di adeguate dimensioni gestionali, definite sulla base di parametri fisici, demografici, tecnici e sulla base delle ripartizioni politico-amministrative",
       "la valorizzazione di esigenze comuni e affinità nella produzione e gestione dei rifiuti"
     ],
     "answer": "la promozione della massima movimentazione dei rifiuti urbani"
@@ -3787,12 +3787,12 @@
     "number": "T_2_01411",
     "question": "Le Autorità d'ambito territoriale:",
     "options": [
-      "sono state soppresse dall'art. 2, comma 186",
+      "sono state soppresse dall'art. 2, comma 186-bis, della l. n. 191/2009",
       "sono state già costituite in tutte le regioni d’Italia e sono pienamente operative",
       "provvedono all’elaborazione del Piano di bacino distrettuale di cui all'articolo 65 del d.lgs. n. 152/2006",
       "vigilano sulle risorse idriche e sui rifiuti e controllano il rispetto della disciplina vigente a tutela delle risorse e della salvaguardia ambientale esercitando i relativi poteri ad esse attribuiti dalla legge"
     ],
-    "answer": "sono state soppresse dall'art. 2, comma 186"
+    "answer": "sono state soppresse dall'art. 2, comma 186-bis, della l. n. 191/2009"
   },
   {
     "number": "T_2_01412",
@@ -4186,7 +4186,7 @@
       "falso",
       "vero, all’allegato D alla parte quarta",
       "falso, i rifiuti organici possono essere classificati pericolosi, ma soltanto se provengono dai ristoranti e servizi di ristorazione",
-      "vero, all’art. 182"
+      "vero, all’art. 182-ter"
     ],
     "answer": "falso"
   },
@@ -4282,12 +4282,12 @@
     "number": "T_2_04481",
     "question": "Ai sensi del D.Lgs. n. 152/2006, come deve essere effettuata la raccolta differenziata dei rifiuti organici?",
     "options": [
-      "con contenitori a svuotamento riutilizzabili o con sacchetti compostabili certificati a norma UNI EN 13432",
+      "con contenitori a svuotamento riutilizzabili o con sacchetti compostabili certificati a norma UNI EN 13432- 2002",
       "con contenitori monouso in PVC",
       "attraverso il conferimento diretto al centro di raccolta",
       "con contenitori realizzati utilizzando materiali recuperati e riciclati Materia: 3. Normativa sulla circolazione dei veicoli"
     ],
-    "answer": "con contenitori a svuotamento riutilizzabili o con sacchetti compostabili certificati a norma UNI EN 13432"
+    "answer": "con contenitori a svuotamento riutilizzabili o con sacchetti compostabili certificati a norma UNI EN 13432- 2002"
   },
   {
     "number": "T_3_01484",
@@ -5350,7 +5350,7 @@
     "question": "L’Allegato A dell’ADR precisa:",
     "options": [
       "le merci pericolose il cui trasporto internazionale è proibito; le merci pericolose il cui trasporto internazionale è autorizzato e le condizioni riguardanti tali merci (comprese le esenzioni)",
-      "le sole merci",
+      "le sole merci - pericolose e non pericolose - il cui trasporto è proibito",
       "le sole merci – pericolose e non pericolose – il cui trasporto è consentito",
       "le merci non pericolose il cui trasporto è vietato"
     ],
@@ -5659,7 +5659,7 @@
     "options": [
       "si, esse rientrano nella classe 9 – Materie e oggetti pericolosi diversi",
       "no",
-      "si, esse rientrano nella classe 1",
+      "si, esse rientrano nella classe 1- Materie e oggetti esplosivi",
       "no, ameno che non rientrino nei criteri per l’inclusione in altra classe"
     ],
     "answer": "si, esse rientrano nella classe 9 – Materie e oggetti pericolosi diversi"
@@ -5668,12 +5668,12 @@
     "number": "T_4_01668",
     "question": "In base all’ADR, il trasporto di merci pericolose su strada può avvenire:",
     "options": [
-      "in colli; in contenitori; in cisterne e contenitori",
+      "in colli; in contenitori; in cisterne e contenitori-cisterna; alla rinfusa",
       "in autocarri; in motocicli; in veicoli a trazione animale",
       "in contenitori aperti; in contenitori chiusi; in imballaggi; nel cellophane",
       "solo alla rinfusa"
     ],
-    "answer": "in colli; in contenitori; in cisterne e contenitori"
+    "answer": "in colli; in contenitori; in cisterne e contenitori-cisterna; alla rinfusa"
   },
   {
     "number": "T_4_01669",
@@ -5866,12 +5866,12 @@
     "number": "T_4_01692",
     "question": "Quando una merce pericolosa può essere trasportata in cisterna?",
     "options": [
-      "quando un codice",
+      "quando un codice-cisterna è indicato alle colone (10) o (12) della tabella A del capitolo 3.2",
       "quando un qualsiasi codice è indicato alle colone (10) o (12) della tabella A del capitolo 3.2",
       "quando il conducente del veicolo ritenga che il trasporto in cisterna sia appropriato",
       "quando il trasportatore non disponga di altri contenitori"
     ],
-    "answer": "quando un codice"
+    "answer": "quando un codice-cisterna è indicato alle colone (10) o (12) della tabella A del capitolo 3.2"
   },
   {
     "number": "T_4_01693",
@@ -5879,7 +5879,7 @@
     "options": [
       "di un paraurti sufficientemente resistente ai tamponamenti",
       "di un carrello omologato",
-      "di una targa retroriflettente con impressa la scritta “veicolo",
+      "di una targa retroriflettente con impressa la scritta “veicolo-cisterna”",
       "di una tripla targa"
     ],
     "answer": "di un paraurti sufficientemente resistente ai tamponamenti"
@@ -6176,7 +6176,7 @@
     "options": [
       "una sanzione amministrativa pecuniaria con la sanzione accessoria della sospensione della carta di circolazione dell’automezzo e la patente di guida del conducente da due a sei mesi",
       "una sanzione amministrativa pecuniaria",
-      "la sospensione della carta di circolazione dell’automezzo e la pa",
+      "la sospensione della carta di circolazione dell’automezzo e la pa-tente di guida del conducente da due a sei",
       "la confisca dell’autoveicolo; Materia: 5. Comportamento in caso di incidente"
     ],
     "answer": "una sanzione amministrativa pecuniaria con la sanzione accessoria della sospensione della carta di circolazione dell’automezzo e la patente di guida del conducente da due a sei mesi"
@@ -6188,7 +6188,7 @@
       "guardando i movimenti del torace, ascoltando eventuali rumori respiratori, sentendo il respiro del paziente sulla propria guancia",
       "attraverso la rilevazione del polso radiale",
       "chiedendo al paziente se riesce a respirare senza difficoltà",
-      "iper"
+      "iper-estendendo la lingua del paziente"
     ],
     "answer": "guardando i movimenti del torace, ascoltando eventuali rumori respiratori, sentendo il respiro del paziente sulla propria guancia"
   },
@@ -6196,12 +6196,12 @@
     "number": "T_5_01736",
     "question": "Nel caso ci si trovi di fronte ad un paziente in arresto cardio-respiratorio, quando bisogna chiamare il servizio nazionale di emergenza (118) o la guardia medica?",
     "options": [
-      "immediatamente, prima di iniziare la rianimazione cardio",
-      "dopo aver iniziato la rianimazione cardio",
+      "immediatamente, prima di iniziare la rianimazione cardio-polmonare",
+      "dopo aver iniziato la rianimazione cardio-polmonare",
       "mai",
       "nel momento in cui il paziente riprende conoscenza"
     ],
-    "answer": "immediatamente, prima di iniziare la rianimazione cardio"
+    "answer": "immediatamente, prima di iniziare la rianimazione cardio-polmonare"
   },
   {
     "number": "T_5_01737",
@@ -6219,7 +6219,7 @@
     "question": "Cosa bisogna fare nel caso ci si trovi ad assistere una persona in stato di shock?",
     "options": [
       "allertare subito il 118 e non abbandonare la vittima",
-      "eseguire immediatamente la rianimazione cardio",
+      "eseguire immediatamente la rianimazione cardio-polmonare",
       "allertare i parenti della persona",
       "utilizzare il prima possibile il defibrillatore"
     ],
@@ -6265,7 +6265,7 @@
       "quando possibile procedere al tamponamento dell’arteria a monte della lesione",
       "quando possibile procedere al tamponamento dell’arteria a valle della lesione",
       "quando possibile procedere alla cauterizzazione della lesione",
-      "quando possibile procedere alla rianimazione cardio"
+      "quando possibile procedere alla rianimazione cardio-polmonare"
     ],
     "answer": "quando possibile procedere al tamponamento dell’arteria a monte della lesione"
   },
@@ -6284,12 +6284,12 @@
     "number": "T_5_01745",
     "question": "Come vanno trattati i pazienti coscienti che presentano ipoglicemia sintomatica?",
     "options": [
-      "con la somministrazione di tavolette di glucosio per una dose equivalente a 15",
-      "con la somministrazione di 160",
-      "con la somministrazione di bevande a base di carboidrati ed elettroliti al 3",
+      "con la somministrazione di tavolette di glucosio per una dose equivalente a 15-20 grammi di glucosio",
+      "con la somministrazione di 160-325 mg aspirina masticabile",
+      "con la somministrazione di bevande a base di carboidrati ed elettroliti al 3-8%",
       "con l’applicazione del collare cervicale"
     ],
-    "answer": "con la somministrazione di tavolette di glucosio per una dose equivalente a 15"
+    "answer": "con la somministrazione di tavolette di glucosio per una dose equivalente a 15-20 grammi di glucosio"
   },
   {
     "number": "T_5_01746",
@@ -6362,7 +6362,7 @@
     "question": "In tema di soccorso medico, in cosa consiste il protocollo B.L.S.?",
     "options": [
       "nella valutazione delle funzioni vitali fondamentali in un soggetto incosciente e nel mantenimento delle stesse nel caso ce ne fosse bisogno",
-      "nell’applicazione della rianimazione cardio",
+      "nell’applicazione della rianimazione cardio-polmonare",
       "nella ricerca di una posizione sicura dove organizzare campi base in caso di emergenze naturali",
       "nella valutazione della pulizia delle attrezzature interne di autoambulanza"
     ],
@@ -6372,12 +6372,12 @@
     "number": "T_5_01753",
     "question": "Per un soccorritore non professionale qual è la sequenza corretta nell’applicazione del protocollo B.L.S.?",
     "options": [
-      "1. Verifica dello stato di coscienza; 2. Rapida verifica della respirazione; 3. Attivazione dei soccorsi; 4. Rianimazione cardio",
-      "1. Iniziare la rianimazione cardio",
-      "1. Rapida verifica della respirazione; 2. Rianimazione cardio",
-      "1. Attivare i soccorsi; 2. Iniziare la rianimazione cardio"
+      "1. Verifica dello stato di coscienza; 2. Rapida verifica della respirazione; 3. Attivazione dei soccorsi; 4. Rianimazione cardio-polmonare",
+      "1. Iniziare la rianimazione cardio-polmonare; 2. Attivare i soccorsi; 3. Verificare lo stato di coscienza; 4. Verificare la respirazione",
+      "1. Rapida verifica della respirazione; 2. Rianimazione cardio-polmonare; 3. Attivazione dei soccorsi; 4. Verifica dello stato di coscienza",
+      "1. Attivare i soccorsi; 2. Iniziare la rianimazione cardio-polmonare; 3. Verificare lo stato di coscienza; 4. Verificare la respirazione"
     ],
-    "answer": "1. Verifica dello stato di coscienza; 2. Rapida verifica della respirazione; 3. Attivazione dei soccorsi; 4. Rianimazione cardio"
+    "answer": "1. Verifica dello stato di coscienza; 2. Rapida verifica della respirazione; 3. Attivazione dei soccorsi; 4. Rianimazione cardio-polmonare"
   },
   {
     "number": "T_5_01754",
@@ -6416,12 +6416,12 @@
     "number": "T_5_01757",
     "question": "Cosa deve essere utilizzato per la reidratazione di individui affetti da disidratazione legata all’esercizio fisico?",
     "options": [
-      "bevande a base di carboidrati ed elettroliti al 3",
+      "bevande a base di carboidrati ed elettroliti al 3-8 %",
       "il defibrillatore",
       "aspirina",
       "bevande a base di alcool"
     ],
-    "answer": "bevande a base di carboidrati ed elettroliti al 3"
+    "answer": "bevande a base di carboidrati ed elettroliti al 3-8 %"
   },
   {
     "number": "T_5_01758",

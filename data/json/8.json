@@ -3237,12 +3237,12 @@
     "number": "8_4_02167",
     "question": "Il trasporto combinato strada-rotaia riceve gli incentivi per agevolare il trasporto combinato:",
     "options": [
-      "sì, come quello strada",
+      "sì, come quello strada-mare",
       "no, non riceve incentivi",
-      "no, riceve incentivi solo il trasporto combinato strada",
+      "no, riceve incentivi solo il trasporto combinato strada-mare",
       "non esistono incentivi per tutto il trasporto combinato"
     ],
-    "answer": "sì, come quello strada"
+    "answer": "sì, come quello strada-mare"
   },
   {
     "number": "8_4_02169",
@@ -3503,8 +3503,8 @@
     "options": [
       "devono essere regolarmente immatricolati in uno degli Stati membri UE, oltre ad essere iscritti al REN",
       "devono essere regolarmente immatricolati in uno degli Stati membri UE",
-      "devono iscritti all'apposito Albo ai sensi degli artt. 82",
-      "devono essere immatricolati ad opera del soggetto terzo che se ne serve, Devono iscritti all'apposito Albo ai sensi degli artt. 182"
+      "devono iscritti all'apposito Albo ai sensi degli artt. 82-88 CdS",
+      "devono essere immatricolati ad opera del soggetto terzo che se ne serve, Devono iscritti all'apposito Albo ai sensi degli artt. 182-188 CdS"
     ],
     "answer": "devono essere regolarmente immatricolati in uno degli Stati membri UE, oltre ad essere iscritti al REN"
   },

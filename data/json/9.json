@@ -81,7 +81,7 @@
     "question": "Cosa è la messa in sicurezza di emergenza?",
     "options": [
       "È un intervento immediato o a breve termine, da mettere in opera nelle condizioni di emergenza in caso di eventi di contaminazione repentini di qualsiasi natura, atto a contenere la diffusione delle sorgenti primarie di contaminazione",
-      "È un intervento a medio",
+      "È un intervento a medio-lungo termine, da mettere in opera nelle condizioni di emergenza in caso di eventi di contaminazione repentini di qualsiasi natura, atto a contenere la diffusione delle sorgenti primarie di contaminazione",
       "È un intervento immediato, da mettere in opera nelle condizioni di emergenza in caso di eventi di contaminazione continui di qualsiasi natura, atto a contenere la diffusione delle sorgenti primarie di contaminazione e a rimuovere immediatamente le sostanze non pericolose",
       "È una procedura definita dagli Enti di Controllo ed eseguita nel breve termine da parte del soggetto responsabile e dopo il verificarsi di un evento accidentale atta a contenere la diffusione delle sorgenti primarie di contaminazione e a rimuovere immediatamente le sostanze non pericolose"
     ],
@@ -380,7 +380,7 @@
       "ricostruire le caratteristiche geologiche ed idrogeologiche dell'area al fine di sviluppare il modello concettuale definitivo del sito e ottenere i parametri necessari a condurre nel dettaglio l'analisi di rischio sito specifica",
       "ricostruire le caratteristiche tecniche dell'area al fine di sviluppare il modello concettuale esecutivo del sito e ottenere i parametri necessari a condurre nel dettaglio l'analisi di contaminazione sito specifica",
       "ricostruire le caratteristiche geologiche ed idrogeologiche dell'area al fine di sviluppare l'analisi di rischio sito specifica e i livelli di contaminazione",
-      "identificare un processo chimico"
+      "identificare un processo chimico-fisico che per la bonifica del sito contaminato al fine di sviluppare il modello esecutivo e ottenere i parametri necessari a condurre nel dettaglio l'analisi di rischio sito specifica"
     ],
     "answer": "ricostruire le caratteristiche geologiche ed idrogeologiche dell'area al fine di sviluppare il modello concettuale definitivo del sito e ottenere i parametri necessari a condurre nel dettaglio l'analisi di rischio sito specifica"
   },
@@ -531,12 +531,12 @@
     "number": "9_1_02506",
     "question": "Quali sono i criteri che devono essere adottati nella formazione di campioni di terreno che si succedono lungo la colonna dei materiali prelevati?",
     "options": [
-      "ottenere la determinazione della concentrazione delle sostanze inquinanti per strati omogenei dal punto di vista litologico e prelevare separatamente, in aggiunta ai campioni previsti per sondaggio, i materiali che si distinguono per evidenze di inquinamento o per caratteristiche organolettiche, chimico",
+      "ottenere la determinazione della concentrazione delle sostanze inquinanti per strati omogenei dal punto di vista litologico e prelevare separatamente, in aggiunta ai campioni previsti per sondaggio, i materiali che si distinguono per evidenze di inquinamento o per caratteristiche organolettiche, chimico-fisiche e litologico- stratigrafiche",
       "ottenere i livelli di concentrazione per sostanze inquinanti",
       "prelevare i campioni disomogenei in maniera indistinta",
       "non distinguere i materiali per caratteristiche organolettiche"
     ],
-    "answer": "ottenere la determinazione della concentrazione delle sostanze inquinanti per strati omogenei dal punto di vista litologico e prelevare separatamente, in aggiunta ai campioni previsti per sondaggio, i materiali che si distinguono per evidenze di inquinamento o per caratteristiche organolettiche, chimico"
+    "answer": "ottenere la determinazione della concentrazione delle sostanze inquinanti per strati omogenei dal punto di vista litologico e prelevare separatamente, in aggiunta ai campioni previsti per sondaggio, i materiali che si distinguono per evidenze di inquinamento o per caratteristiche organolettiche, chimico-fisiche e litologico- stratigrafiche"
   },
   {
     "number": "9_1_02507",
@@ -982,12 +982,12 @@
     "number": "9_1_02549",
     "question": "Qual è il criterio che deve prevalere nell’attuazione degli interventi di bonifica?",
     "options": [
-      "privilegiare le tecniche di bonifica tendenti a trattare e riutilizzare il suolo nel sito, trattamento in",
+      "privilegiare le tecniche di bonifica tendenti a trattare e riutilizzare il suolo nel sito, trattamento in-situ ed on- site del suolo contaminato, con conseguente riduzione dei rischi derivanti dal trasporto e messa a discarica di terreno inquinato",
       "privilegiare una destinazione d’uso di tipo popolare rispetto ad una industriale",
       "privilegiare una destinazione d’uso di tipo ricreativo al fine di creare parchi giochi per i bambini",
       "non privilegiare le tecniche di bonifica/messa in sicurezza permanente che blocchino le sostanze inquinanti in composti chimici stabili"
     ],
-    "answer": "privilegiare le tecniche di bonifica tendenti a trattare e riutilizzare il suolo nel sito, trattamento in"
+    "answer": "privilegiare le tecniche di bonifica tendenti a trattare e riutilizzare il suolo nel sito, trattamento in-situ ed on- site del suolo contaminato, con conseguente riduzione dei rischi derivanti dal trasporto e messa a discarica di terreno inquinato"
   },
   {
     "number": "9_1_02550",
@@ -1081,12 +1081,12 @@
     "number": "9_1_02559",
     "question": "Quando si attua una messa in sicurezza operativa?",
     "options": [
-      "dopo aver eseguito la caratterizzazione ambientale del sito, finalizzata ad un’analisi di rischio sito",
+      "dopo aver eseguito la caratterizzazione ambientale del sito, finalizzata ad un’analisi di rischio sito-specifica",
       "quando la migrazione del contaminante non coinvolge il soggetto bersaglio",
       "quando non c’è una esposizione del recettore con il contaminante",
       "quando il recettore entra in contatto ravvicinato con il contaminante"
     ],
-    "answer": "dopo aver eseguito la caratterizzazione ambientale del sito, finalizzata ad un’analisi di rischio sito"
+    "answer": "dopo aver eseguito la caratterizzazione ambientale del sito, finalizzata ad un’analisi di rischio sito-specifica"
   },
   {
     "number": "9_1_02561",
@@ -1114,12 +1114,12 @@
     "number": "9_1_02563",
     "question": "Quali operazioni devono essere privilegiate in una messa in sicurezza operativa?",
     "options": [
-      "il trattamento on",
+      "il trattamento on-site ed il riutilizzo del terreno eventualmente estratto dal sottosuolo",
       "la rimozione di tutte le acque della falda non contaminate",
       "la realizzazione di un impianto di incenerimento",
       "la rimozione dei suoli non contaminati"
     ],
-    "answer": "il trattamento on"
+    "answer": "il trattamento on-site ed il riutilizzo del terreno eventualmente estratto dal sottosuolo"
   },
   {
     "number": "9_1_04047",
@@ -1268,12 +1268,12 @@
     "number": "9_2_02576",
     "question": "In cosa consiste la tecnica di bioremediation o biorisanamento?",
     "options": [
-      "si basa su un processo naturale promosso da microrganismi che, attraverso l’attivazione di una serie di reazioni bio",
+      "si basa su un processo naturale promosso da microrganismi che, attraverso l’attivazione di una serie di reazioni bio-chimiche, producono come esito finale il disinquinamento dell’area",
       "è una tecnica di estrazione delle terre contaminate che utilizza ventilatori rotanti",
       "è una tecnologia applicata alla bonifica della falda",
       "è un processo di estrazione delle sostanze chimiche che inquinano la falda sotterranea"
     ],
-    "answer": "si basa su un processo naturale promosso da microrganismi che, attraverso l’attivazione di una serie di reazioni bio"
+    "answer": "si basa su un processo naturale promosso da microrganismi che, attraverso l’attivazione di una serie di reazioni bio-chimiche, producono come esito finale il disinquinamento dell’area"
   },
   {
     "number": "9_2_02577",
@@ -1356,12 +1356,12 @@
     "number": "9_2_02584",
     "question": "In cosa consiste la tecnica di bioremediation o biorisanamento?",
     "options": [
-      "i microrganismi immessi nel suolo da bonificare attivano una serie di reazioni bio",
+      "i microrganismi immessi nel suolo da bonificare attivano una serie di reazioni bio-chimiche che producono come esito finale il disinquinamento dell’area",
       "è una tecnica di estrazione delle terre contaminate che utilizza ventilatori rotanti",
       "è una tecnologia applicata alla bonifica della falda",
       "è un processo di estrazione delle sostanze chimiche che inquinano la falda sotterranea"
     ],
-    "answer": "i microrganismi immessi nel suolo da bonificare attivano una serie di reazioni bio"
+    "answer": "i microrganismi immessi nel suolo da bonificare attivano una serie di reazioni bio-chimiche che producono come esito finale il disinquinamento dell’area"
   },
   {
     "number": "9_2_02585",
@@ -1444,12 +1444,12 @@
     "number": "9_2_02592",
     "question": "Quando viene utilizzata la tecnica di ossidazione chimica?",
     "options": [
-      "è applicata ai terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo",
+      "è applicata ai terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo-alogenati",
       "viene utilizzata per la bonifica della falda contaminata da metalli pesanti",
       "viene utilizzata per il decommissioning di strutture contaminate da amianto",
       "è applicata per la bonifica della falda non contaminata da metalli pesanti"
     ],
-    "answer": "è applicata ai terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo"
+    "answer": "è applicata ai terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo-alogenati"
   },
   {
     "number": "9_2_02593",
@@ -1466,12 +1466,12 @@
     "number": "9_2_02594",
     "question": "Cosa prevede la tecnica di ossidazione chimica per la bonifica dei suoli?",
     "options": [
-      "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo",
+      "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo-alogenati",
       "prevede l’estrazione dell’aria dal suolo contaminato attraverso la realizzazione di una serie di condotte",
       "prevede la bonifica della falda attraverso il pompaggio delle acque e l’invio a trattamento",
       "prevede l’utilizzo di ventilatori durante le operazioni di bonifica per la tutela dei lavoratori"
     ],
-    "answer": "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo"
+    "answer": "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo-alogenati"
   },
   {
     "number": "9_2_02595",
@@ -2159,23 +2159,23 @@
     "number": "9_2_02661",
     "question": "In cosa consiste la tecnica di compostaggio utilizzata in un sito di bonifica?",
     "options": [
-      "il suolo viene disposto in cumuli di sezione triangolare in presenza di climi piovosi, o trapezoidale in caso di clima arido, poggiato su piattaforme di cemento o di asfalto. Il trattamento prevede la miscelazione del suolo con un bulk",
+      "il suolo viene disposto in cumuli di sezione triangolare in presenza di climi piovosi, o trapezoidale in caso di clima arido, poggiato su piattaforme di cemento o di asfalto. Il trattamento prevede la miscelazione del suolo con un bulk-agent con un rapporto ammendante/suolo pari a 2:1",
       "si sviluppa attraverso la generazione di piante autoctone",
       "si sviluppa attraverso l’estrazione di gas dal suolo",
       "si sviluppa mediante l’estrazione delle piante dei suoli contaminati"
     ],
-    "answer": "il suolo viene disposto in cumuli di sezione triangolare in presenza di climi piovosi, o trapezoidale in caso di clima arido, poggiato su piattaforme di cemento o di asfalto. Il trattamento prevede la miscelazione del suolo con un bulk"
+    "answer": "il suolo viene disposto in cumuli di sezione triangolare in presenza di climi piovosi, o trapezoidale in caso di clima arido, poggiato su piattaforme di cemento o di asfalto. Il trattamento prevede la miscelazione del suolo con un bulk-agent con un rapporto ammendante/suolo pari a 2:1"
   },
   {
     "number": "9_2_02662",
     "question": "In cosa consiste la tecnica di compostaggio utilizzata in un sito di bonifica?",
     "options": [
-      "possono essere distinte in pile costituite da un cumulo poggiato su una griglia di tubi perforati per fornire ossigeno. Tra il suolo da trattare e il sistema di drenaggio è posto un bulking",
+      "possono essere distinte in pile costituite da un cumulo poggiato su una griglia di tubi perforati per fornire ossigeno. Tra il suolo da trattare e il sistema di drenaggio è posto un bulking-agent per favorire una uniforme distribuzione dell’aria immessa. Uno strato di terreno di riporto alto 40-45 cm viene disposto a copertura della pila, per evitare la dispersione delle polveri in atmosfera",
       "si sviluppa attraverso la generazione di piante autoctone",
       "si sviluppa attraverso l’estrazione di gas dal suolo",
       "sviluppa mediante l’estrazione delle piante dei suoli contaminati"
     ],
-    "answer": "possono essere distinte in pile costituite da un cumulo poggiato su una griglia di tubi perforati per fornire ossigeno. Tra il suolo da trattare e il sistema di drenaggio è posto un bulking"
+    "answer": "possono essere distinte in pile costituite da un cumulo poggiato su una griglia di tubi perforati per fornire ossigeno. Tra il suolo da trattare e il sistema di drenaggio è posto un bulking-agent per favorire una uniforme distribuzione dell’aria immessa. Uno strato di terreno di riporto alto 40-45 cm viene disposto a copertura della pila, per evitare la dispersione delle polveri in atmosfera"
   },
   {
     "number": "9_2_02663",
@@ -2280,12 +2280,12 @@
     "number": "9_2_02672",
     "question": "Come è realizzato un impianto che utilizza la tecnica di estrazione chimica?",
     "options": [
-      "è costituito da un estrattore, unità in cui il terreno viene miscelato al solvente generando l’estrazione del contaminante, e da un separatore, unità in cui i contaminanti vengono separati dal solvente a seguito di una variazione di temperatura",
+      "è costituito da un estrattore, unità in cui il terreno viene miscelato al solvente generando l’estrazione del contaminante, e da un separatore, unità in cui i contaminanti vengono separati dal solvente a seguito di una variazione di temperatura-pressione oppure utilizzando un secondo solvente",
       "è costituito da un contenitore in cui vengono miscelati i suoli",
       "è costituito da una serie di canalette che rilasciano solventi nel terreno",
       "è costituito da un separatore che separa i suoli dalla falda"
     ],
-    "answer": "è costituito da un estrattore, unità in cui il terreno viene miscelato al solvente generando l’estrazione del contaminante, e da un separatore, unità in cui i contaminanti vengono separati dal solvente a seguito di una variazione di temperatura"
+    "answer": "è costituito da un estrattore, unità in cui il terreno viene miscelato al solvente generando l’estrazione del contaminante, e da un separatore, unità in cui i contaminanti vengono separati dal solvente a seguito di una variazione di temperatura-pressione oppure utilizzando un secondo solvente"
   },
   {
     "number": "9_2_02673",
@@ -2302,12 +2302,12 @@
     "number": "9_2_02674",
     "question": "Da cosa è costituito un separatore di un impianto di bonifica che utilizza il principio di estrazione chimica?",
     "options": [
-      "è una unità in cui i contaminanti vengono separati dal solvente a seguito di una variazione di temperatura",
+      "è una unità in cui i contaminanti vengono separati dal solvente a seguito di una variazione di temperatura- pressione oppure utilizzando un secondo solvente",
       "è costituito da un contenitore in cui vengono miscelati i suoli",
       "è costituito da una serie di canalette che rilasciano solventi nel terreno",
       "è costituito da un separatore che separa i suoli dalla falda"
     ],
-    "answer": "è una unità in cui i contaminanti vengono separati dal solvente a seguito di una variazione di temperatura"
+    "answer": "è una unità in cui i contaminanti vengono separati dal solvente a seguito di una variazione di temperatura- pressione oppure utilizzando un secondo solvente"
   },
   {
     "number": "9_2_02675",
@@ -2390,12 +2390,12 @@
     "number": "9_2_02683",
     "question": "Quando viene utilizzata la tecnica di ossidazione per la bonifica di suoli contaminati ex situ?",
     "options": [
-      "è applicata ai terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo",
+      "è applicata ai terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo-alogenati",
       "viene utilizzata per la bonifica della falda contaminata da metalli pesanti",
       "viene utilizzata per il decommissioning di strutture contaminate da amianto",
       "è applicata per la bonifica della falda non contaminata da metalli pesanti"
     ],
-    "answer": "è applicata ai terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo"
+    "answer": "è applicata ai terreni e sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo-alogenati"
   },
   {
     "number": "9_2_02684",
@@ -2412,12 +2412,12 @@
     "number": "9_2_02685",
     "question": "Cosa prevede la tecnica di ossidazione per la bonifica ex situ di un suolo contaminato?",
     "options": [
-      "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo",
+      "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo- alogenati",
       "prevede l’estrazione dell’aria dal suolo contaminato attraverso la realizzazione di una serie di condotte",
       "prevede la bonifica della falda attraverso il pompaggio delle acque e l’invio a trattamento",
       "prevede l’utilizzo di ventilatori durante le operazioni di bonifica per la tutela dei lavoratori"
     ],
-    "answer": "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo"
+    "answer": "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo- alogenati"
   },
   {
     "number": "9_2_02686",
@@ -2533,12 +2533,12 @@
     "number": "9_2_02696",
     "question": "Quali sono le fasi della tecnica di soil washing ex situ per la bonifica di un sito contaminato?",
     "options": [
-      "pre",
-      "pre",
+      "pre-tattamento del terreno contaminato, lavaggio ed estrazione dei contaminanti, separazione delle fasi liquido estraente – terreno e post-trattamento del terreno",
+      "pre-trattamento e post-trattamento del terreno contaminato mediante insufflazione di vapor acqueo a basse temeprature",
       "lavaggio e separazione del terreno contaminato attraverso la tecnica della distribuzione spaziale",
-      "estrazione e post"
+      "estrazione e post-trattamento del terreno contaminato attraverso la tecnica degli infrarossi per l’abbattimento dei contaminanti"
     ],
-    "answer": "pre"
+    "answer": "pre-tattamento del terreno contaminato, lavaggio ed estrazione dei contaminanti, separazione delle fasi liquido estraente – terreno e post-trattamento del terreno"
   },
   {
     "number": "9_2_02697",
@@ -3127,12 +3127,12 @@
     "number": "9_2_02755",
     "question": "In cosa consiste la tecnica di bioremediation o biorisanamento delle acque di falda contaminate?",
     "options": [
-      "si basa su un processo naturale promosso da microrganismi che, attraverso l’attivazione di una serie di reazioni bio",
+      "si basa su un processo naturale promosso da microrganismi che, attraverso l’attivazione di una serie di reazioni bio-chimiche, producono come esito finale il disinquinamento dell’area",
       "è una tecnica di estrazione delle terre contaminate che utilizza ventilatori rotanti",
       "è una tecnologia applicata alla bonifica della falda",
       "è un processo di estrazione delle sostanze chimiche che inquinano la falda sotterranea"
     ],
-    "answer": "si basa su un processo naturale promosso da microrganismi che, attraverso l’attivazione di una serie di reazioni bio"
+    "answer": "si basa su un processo naturale promosso da microrganismi che, attraverso l’attivazione di una serie di reazioni bio-chimiche, producono come esito finale il disinquinamento dell’area"
   },
   {
     "number": "9_2_02756",
@@ -3270,12 +3270,12 @@
     "number": "9_2_02768",
     "question": "Cosa prevede la tecnica di ossidazione chimica per la bonifica delle acque di falda contaminate?",
     "options": [
-      "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo",
+      "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo- alogenati",
       "prevede l’estrazione dell’aria dal suolo contaminato attraverso la realizzazione di una serie di condotte",
       "prevede la bonifica della falda attraverso il pompaggio delle acque e l’invio a trattamento",
       "prevede l’utilizzo di ventilatori durante le operazioni di bonifica per la tutela dei lavoratori"
     ],
-    "answer": "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo"
+    "answer": "prevede il dosaggio di reagenti ossidanti quali perossido di idrogeno, persolfato di sodio e permanganato di potassio in sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo- alogenati"
   },
   {
     "number": "9_2_02770",
@@ -3369,12 +3369,12 @@
     "number": "9_2_02778",
     "question": "Con quali sostanze chimiche viene utilizzata la tecnica di estrazione della dual phase extraction nella bonifica in situ di una falda contaminata?",
     "options": [
-      "per la decontaminazione di acquiferi contaminati da VOC (Composti Organici Volatili) e in genere dai vari composti LNAPL (Light Non",
+      "per la decontaminazione di acquiferi contaminati da VOC (Composti Organici Volatili) e in genere dai vari composti LNAPL (Light Non-acqueous Phase Liquids). Con la sigla LNAPL si identificano i composti organici caratterizzati da bassa solubilità e con densità inferiore a quella dell’acqua",
       "per la decontaminazione di acque di falda con presenza di metalli pesanti",
       "per la decontaminazione di suolo saturo di PCB",
       "per la decontaminazione di falda contaminata da sostanze radioattive"
     ],
-    "answer": "per la decontaminazione di acquiferi contaminati da VOC (Composti Organici Volatili) e in genere dai vari composti LNAPL (Light Non"
+    "answer": "per la decontaminazione di acquiferi contaminati da VOC (Composti Organici Volatili) e in genere dai vari composti LNAPL (Light Non-acqueous Phase Liquids). Con la sigla LNAPL si identificano i composti organici caratterizzati da bassa solubilità e con densità inferiore a quella dell’acqua"
   },
   {
     "number": "9_2_02779",
@@ -3578,12 +3578,12 @@
     "number": "9_2_02800",
     "question": "Gli stagni aerobici dell’impianto di lagunaggio per la bonifica delle acque di falda contaminate come funzionano?",
     "options": [
-      "hanno profondità ridotta (25",
+      "hanno profondità ridotta (25 - 40 cm) per permettere alla luce solare di penetrare fino al fondo e per garantire la presenza di ossigeno disciolto in tutto il volume liquido, in tutta la massa liquida si sviluppano le alghe verdi che, tramite fotosintesi, forniscono l’ossigeno necessario al metabolismo delle sostanze organiche e per evitare l’accumulo di solidi sedimentabili sul fondo si provvede a ricircolare tramite pompaggio la massa del bacino",
       "hanno profondità compresa tra 5 e 7 metri per non permettere alla luce solare di penetrare fino al fondo, in tutta la massa liquida si sviluppano le alghe rosse che, tramite fotosintesi, forniscono l’ossigeno necessario al metabolismo delle sostanze organiche e per evitare l’accumulo di solidi sedimentabili sul fondo si provvede a ricircolare tramite pompaggio la massa del bacino",
       "sono realizzati in aree strategiche della falda in cui sono state monitorate le minori contaminazioni al fine di consentire una prima bonifica delle acque attraverso l’immissione di sostanze schiumogene",
       "all’interno degli stagni aerobici vengono create delle colonie di microrganismi che sono in grado di riprodursi per garantire la presenza di ossigeno all’interno delle acque di falda da contaminare"
     ],
-    "answer": "hanno profondità ridotta (25"
+    "answer": "hanno profondità ridotta (25 - 40 cm) per permettere alla luce solare di penetrare fino al fondo e per garantire la presenza di ossigeno disciolto in tutto il volume liquido, in tutta la massa liquida si sviluppano le alghe verdi che, tramite fotosintesi, forniscono l’ossigeno necessario al metabolismo delle sostanze organiche e per evitare l’accumulo di solidi sedimentabili sul fondo si provvede a ricircolare tramite pompaggio la massa del bacino"
   },
   {
     "number": "9_2_02801",
@@ -3600,12 +3600,12 @@
     "number": "9_2_02802",
     "question": "Quando viene utilizzata la tecnica di ossidazione per la bonifica ex situ delle acque di falda contaminate?",
     "options": [
-      "è applicata alle acque di falda contaminate e ai sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo",
+      "è applicata alle acque di falda contaminate e ai sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo-alogenati",
       "viene utilizzata per la bonifica della falda contaminata da metalli pesanti",
       "viene utilizzata per il decommissioning di strutture contaminate da amianto",
       "è applicata per la bonifica della falda non contaminata da metalli pesanti"
     ],
-    "answer": "è applicata alle acque di falda contaminate e ai sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo"
+    "answer": "è applicata alle acque di falda contaminate e ai sedimenti inquinati da composti organici biorefrattari quali idrocarburi pesanti e composti organo-alogenati"
   },
   {
     "number": "9_2_02803",
@@ -3699,12 +3699,12 @@
     "number": "9_2_02812",
     "question": "Cosa è la tecnica di air stripping per la bonifica delle acque di falda contaminate?",
     "options": [
-      "è un trattamento chimico",
-      "è un trattamento chimico",
+      "è un trattamento chimico-fisico ex situ che si realizza mediante il trasferimento delle componenti volatili presenti nella falda tramite una corrente d’aria (air stream)",
+      "è un trattamento chimico-fisico ex situ basato sulla iniezione di un reagente chimico direttamente nella falda contaminata",
       "è una tecnologia applicata alla bonifica della falda che prevede il pompaggio delle acque della falda stessa e l’invio diretto al trattamento",
       "è un processo di estrazione delle sostanze chimiche che inquinano la falda sotterranea mediante l’irraggiamento a infrarossi"
     ],
-    "answer": "è un trattamento chimico"
+    "answer": "è un trattamento chimico-fisico ex situ che si realizza mediante il trasferimento delle componenti volatili presenti nella falda tramite una corrente d’aria (air stream)"
   },
   {
     "number": "9_2_02813",
@@ -3721,12 +3721,12 @@
     "number": "9_2_02814",
     "question": "Cosa influenza maggiormente il processo di air stripping durante la bonifica ex situ delle acque di falda contaminate?",
     "options": [
-      "la velocità dell’intero processo di air stripping per la bonifica di una falda contaminata è influenzata, oltre che dalla volatilità dell’inquinante anche dalla superficie specifica nel passaggio liquido",
+      "la velocità dell’intero processo di air stripping per la bonifica di una falda contaminata è influenzata, oltre che dalla volatilità dell’inquinante anche dalla superficie specifica nel passaggio liquido-gas e sono pertanto molto influenti le dimensioni delle bolle d’aria iniettate",
       "la velocità dell’intero processo di air stripping per la bonifica di una falda contaminata è influenzata dalla presenza di un letto fluido di idrocarburi nella zona satura",
       "la velocità dell’intero processo di air stripping per la bonifica di una falda contaminata è influenzata dalla presenza di metalli pesanti",
       "la velocità dell’intero processo di air stripping per la bonifica di un falda contaminata è influenzata dalle piccole dimensioni delle bolle d’aria iniettate"
     ],
-    "answer": "la velocità dell’intero processo di air stripping per la bonifica di una falda contaminata è influenzata, oltre che dalla volatilità dell’inquinante anche dalla superficie specifica nel passaggio liquido"
+    "answer": "la velocità dell’intero processo di air stripping per la bonifica di una falda contaminata è influenzata, oltre che dalla volatilità dell’inquinante anche dalla superficie specifica nel passaggio liquido-gas e sono pertanto molto influenti le dimensioni delle bolle d’aria iniettate"
   },
   {
     "number": "9_2_02816",
@@ -3798,12 +3798,12 @@
     "number": "9_2_02822",
     "question": "Cosa è la depurazione a scambio ionico per la bonifica di una falda contaminata?",
     "options": [
-      "è un trattamento chimico",
+      "è un trattamento chimico-fisico che si i basa su una reazione chimica reversibile, in cui gli ioni mobili di una matrice solida sono scambiati con gli ioni aventi simile carica elettrica presenti in una soluzione",
       "è una tecnologia basata sulla iniezione di un reagente chimico acido direttamente nella falda contaminata",
       "è una tecnica di pulizia delle terre contaminate che utilizza ventilatori rotanti posizionati sulla superficie",
       "è una tecnologia applicata alla bonifica della falda che prevede il pompaggio delle acque della falda stessa e l’invio diretto al trattamento"
     ],
-    "answer": "è un trattamento chimico"
+    "answer": "è un trattamento chimico-fisico che si i basa su una reazione chimica reversibile, in cui gli ioni mobili di una matrice solida sono scambiati con gli ioni aventi simile carica elettrica presenti in una soluzione"
   },
   {
     "number": "9_2_02823",
@@ -3842,12 +3842,12 @@
     "number": "9_2_02827",
     "question": "Cosa è la depurazione a carboni attivi per la bonifica di una falda contaminata?",
     "options": [
-      "la depurazione a carboni attivi è un trattamento chimico",
+      "la depurazione a carboni attivi è un trattamento chimico-fisico che elimina dalla falda contaminata le sostanze inquinanti organiche ed inorganiche",
       "la depurazione a carboni attivi è una tecnica che si i basa su una reazione chimica reversibile,",
       "è una tecnologia basata sulla iniezione di un reagente chimico acido direttamente nella falda contaminata",
       "è una tecnica di pulizia delle terre contaminate che utilizza ventilatori rotanti posizionati sulla superficie"
     ],
-    "answer": "la depurazione a carboni attivi è un trattamento chimico"
+    "answer": "la depurazione a carboni attivi è un trattamento chimico-fisico che elimina dalla falda contaminata le sostanze inquinanti organiche ed inorganiche"
   },
   {
     "number": "9_2_02828",
@@ -4535,12 +4535,12 @@
     "number": "9_3_02919",
     "question": "Di cosa devono essere muniti i serbatoi che contengono rifiuti liquidi?",
     "options": [
-      "di sistemi anti",
+      "di sistemi anti-traboccamento",
       "di sistemi di allarme sonoro",
       "di sistemi ottici",
       "di recinzioni elettriche antintrusione"
     ],
-    "answer": "di sistemi anti"
+    "answer": "di sistemi anti-traboccamento"
   },
   {
     "number": "9_3_02920",
@@ -4898,12 +4898,12 @@
     "number": "9_3_02970",
     "question": "Di cosa devono essere provvisti i serbatoi per la raccolta dei rifiuti costituiti da soluzione acquose di lavaggio ed acque madri CER 070101*?",
     "options": [
-      "devono essere provvisti di opportuni dispositivi anti",
+      "devono essere provvisti di opportuni dispositivi anti-traboccamento qualora questi ultimi siano costituiti da una tubazione di troppo pieno, il relativo scarico deve essere convogliato in modo da non costituire pericolo per gli addetti e per l'ambiente",
       "devono essere provvisti di opportuni sportelli di apertura per ispezioni visive",
-      "non devono essere mai provvisti di opportuni dispositivi anti",
+      "non devono essere mai provvisti di opportuni dispositivi anti-traboccamento",
       "devono essere provvisti di un allarme sonoro"
     ],
-    "answer": "devono essere provvisti di opportuni dispositivi anti"
+    "answer": "devono essere provvisti di opportuni dispositivi anti-traboccamento qualora questi ultimi siano costituiti da una tubazione di troppo pieno, il relativo scarico deve essere convogliato in modo da non costituire pericolo per gli addetti e per l'ambiente"
   },
   {
     "number": "9_3_02971",
@@ -5184,12 +5184,12 @@
     "number": "9_3_02998",
     "question": "Se un recipiente che ha contenuto sostanze chimiche pericolose non viene lavato come deve essere gestito?",
     "options": [
-      "qualsiasi contenitore non lavato accuratamente rimane un rifiuto speciale; per la sua codifica si deve tenere conto delle caratteristiche chimico",
+      "qualsiasi contenitore non lavato accuratamente rimane un rifiuto speciale; per la sua codifica si deve tenere conto delle caratteristiche chimico-fisiche della sostanza, o preparato, ancora presente e devono pertanto essere attivate le opportune modalità di attribuzione del codice CER e del recupero/ smaltimento",
       "deve essere gestito come un non rifiuto",
       "può essere utilizzato per contenere altri prodotti chimici",
       "deve essere gestito con un codice CER della famiglia 17"
     ],
-    "answer": "qualsiasi contenitore non lavato accuratamente rimane un rifiuto speciale; per la sua codifica si deve tenere conto delle caratteristiche chimico"
+    "answer": "qualsiasi contenitore non lavato accuratamente rimane un rifiuto speciale; per la sua codifica si deve tenere conto delle caratteristiche chimico-fisiche della sostanza, o preparato, ancora presente e devono pertanto essere attivate le opportune modalità di attribuzione del codice CER e del recupero/ smaltimento"
   },
   {
     "number": "9_3_03000",
@@ -5580,12 +5580,12 @@
     "number": "9_3_04383",
     "question": "Come deve essere gestito il rifiuto rappresentato da olio esausto all'interno di un deposito temporaneo prima della raccolta di rifiuti realizzato in un impianto?",
     "options": [
-      "devono essere stoccati in modo idoneo ad evitare qualsiasi commistione tra emulsioni ed oli propriamente detti, ovvero qualsiasi dispersione o contaminazione degli stessi con altre sostanze nonché devono essere utilizzati per il deposito recipienti muniti di adeguati requisiti di resistenza in relazione alle proprietà chimico",
+      "devono essere stoccati in modo idoneo ad evitare qualsiasi commistione tra emulsioni ed oli propriamente detti, ovvero qualsiasi dispersione o contaminazione degli stessi con altre sostanze nonché devono essere utilizzati per il deposito recipienti muniti di adeguati requisiti di resistenza in relazione alle proprietà chimico-fisiche ed alle caratteristiche di pericolosità degli oli usati contenuti",
       "devono essere stoccati in recipienti realizzati in vetro al fine di evitare qualsiasi dispersione o contaminazione degli stessi con altre sostanze",
       "devono essere stoccati in recipienti muniti di un allarme sonoro che in caso di miscelazione avverti il personale preposto al fine di sostituire il contenitore",
       "devono essere stoccati in recipienti in grado di rilasciare gli oli esausti nell'ambiente una volta riempiti attraverso una valvola di deflusso posta nella parte inferiore del contenitore stesso"
     ],
-    "answer": "devono essere stoccati in modo idoneo ad evitare qualsiasi commistione tra emulsioni ed oli propriamente detti, ovvero qualsiasi dispersione o contaminazione degli stessi con altre sostanze nonché devono essere utilizzati per il deposito recipienti muniti di adeguati requisiti di resistenza in relazione alle proprietà chimico"
+    "answer": "devono essere stoccati in modo idoneo ad evitare qualsiasi commistione tra emulsioni ed oli propriamente detti, ovvero qualsiasi dispersione o contaminazione degli stessi con altre sostanze nonché devono essere utilizzati per il deposito recipienti muniti di adeguati requisiti di resistenza in relazione alle proprietà chimico-fisiche ed alle caratteristiche di pericolosità degli oli usati contenuti"
   },
   {
     "number": "9_3_04384",
@@ -5725,7 +5725,7 @@
     "options": [
       "mediante presentazione da parte delle imprese e dei lavoratori autonomi del certificato di iscrizione alla Camera di commercio, industria e artigianato e del documento unico di regolarità contributiva, corredato da autocertificazione in ordine al possesso degli altri requisiti previsti dall’ALLEGATO XVII del D Lgs. N. 81/2008",
       "mediante presentazione da parte dell’impresa e dei lavoratori autonomi di un curriculum dei lavori eseguiti",
-      "non è necessario dimostrare alcuna idoneità tecnico",
+      "non è necessario dimostrare alcuna idoneità tecnico-professionale",
       "mediante la sola presentazione del DURC"
     ],
     "answer": "mediante presentazione da parte delle imprese e dei lavoratori autonomi del certificato di iscrizione alla Camera di commercio, industria e artigianato e del documento unico di regolarità contributiva, corredato da autocertificazione in ordine al possesso degli altri requisiti previsti dall’ALLEGATO XVII del D Lgs. N. 81/2008"
@@ -6669,12 +6669,12 @@
     "number": "9_4_03127",
     "question": "Perché il monitoraggio biologico rappresenta uno strumento di approccio collettivo, come complemento del controllo ambientale, e di approccio individuale come strumento della medicina del lavoro, integrato nella supervisione sanitaria?",
     "options": [
-      "perché valuta anche l’esposizione extra",
+      "perché valuta anche l’esposizione extra-lavorativa agli agenti chimici nonché stima l’efficacia delle misure di protezione individuale e non richiede interventi durante le fasi lavorative",
       "perché non valuta la somma delle dosi assorbite attraverso le varie vie e quindi è in grado di fornire una stima più realistica dell’esposizione efficace",
       "perché valuta la somma di tutti i fattori di stress psicologico a cui è sottoposto il lavoratore",
       "perché valuta lo stato fisico del lavoratore"
     ],
-    "answer": "perché valuta anche l’esposizione extra"
+    "answer": "perché valuta anche l’esposizione extra-lavorativa agli agenti chimici nonché stima l’efficacia delle misure di protezione individuale e non richiede interventi durante le fasi lavorative"
   },
   {
     "number": "9_4_03128",
@@ -6947,7 +6947,7 @@
       "visita medica preventiva intesa a constatare l'assenza di controindicazioni al lavoro cui il lavoratore è destinato al fine di valutare la sua idoneità alla mansione specifica",
       "il colloquio con lo psicologo",
       "una risonanza magnetica per una parte del corpo scelta dal lavoratore",
-      "un test psico"
+      "un test psico-attitudinale"
     ],
     "answer": "visita medica preventiva intesa a constatare l'assenza di controindicazioni al lavoro cui il lavoratore è destinato al fine di valutare la sua idoneità alla mansione specifica"
   },
@@ -6958,7 +6958,7 @@
       "visita medica periodica per controllare lo stato di salute dei lavoratori ed esprimere il giudizio di idoneità alla mansione specifica",
       "il colloquio con lo psicologo",
       "una risonanza magnetica per una parte del corpo scelta dal lavoratore",
-      "un test psico"
+      "un test psico-attitudinale"
     ],
     "answer": "visita medica periodica per controllare lo stato di salute dei lavoratori ed esprimere il giudizio di idoneità alla mansione specifica"
   },
@@ -6969,7 +6969,7 @@
       "visita medica su richiesta del lavoratore, qualora sia ritenuta dal medico competente correlata ai rischi professionali o alle sue condizioni di salute, suscettibili di peggioramento a causa dell'attività lavorativa svolta, al fine di esprimere il giudizio di idoneità alla mansione specifica",
       "il colloquio con lo psicologo",
       "una risonanza magnetica per una parte del corpo scelta dal lavoratore",
-      "un test psico"
+      "un test psico-attitudinale"
     ],
     "answer": "visita medica su richiesta del lavoratore, qualora sia ritenuta dal medico competente correlata ai rischi professionali o alle sue condizioni di salute, suscettibili di peggioramento a causa dell'attività lavorativa svolta, al fine di esprimere il giudizio di idoneità alla mansione specifica"
   },
@@ -6980,7 +6980,7 @@
       "visita medica in occasione del cambio della mansione onde verificare l'idoneita' alla mansione specifica e visita medica alla cessazione del rapporto di lavoro nei casi previsti dalla normativa vigente",
       "il colloquio con lo psicologo",
       "una risonanza magnetica per una parte del corpo scelta dal lavoratore",
-      "un test psico"
+      "un test psico-attitudinale"
     ],
     "answer": "visita medica in occasione del cambio della mansione onde verificare l'idoneita' alla mansione specifica e visita medica alla cessazione del rapporto di lavoro nei casi previsti dalla normativa vigente"
   },
@@ -7145,7 +7145,7 @@
       "visita medica preventiva intesa a constatare l’assenza di controindicazioni al lavoro cui il lavoratore è destinato al fine di valutare la sua idoneità alla mansione specifica",
       "visita psicologica",
       "nessuna visita particolare",
-      "test psico"
+      "test psico-attitudinali"
     ],
     "answer": "visita medica preventiva intesa a constatare l’assenza di controindicazioni al lavoro cui il lavoratore è destinato al fine di valutare la sua idoneità alla mansione specifica"
   },
@@ -7406,12 +7406,12 @@
     "number": "9_4_03204",
     "question": "Devono esistere mezzi ed attrezzature d’intervento da utilizzarsi in caso di emergenza in un cantiere di bonifica?",
     "options": [
-      "si e devono essere sempre opportunatamente segnalati e distribuiti. Questi sono mezzi di estinzione portatili costituiti da estintori idonei per l’ambiente da proteggere, idranti e/o naspi antincendio, impianti di spegnimento automatici, attrezzature ausiliarie di soccorso e attrezzature acustico",
+      "si e devono essere sempre opportunatamente segnalati e distribuiti. Questi sono mezzi di estinzione portatili costituiti da estintori idonei per l’ambiente da proteggere, idranti e/o naspi antincendio, impianti di spegnimento automatici, attrezzature ausiliarie di soccorso e attrezzature acustico-visive per gestire e segnalare l’allarme",
       "non esiste nessun obbligo",
       "si e questi sono tenuti chiusi in infermeria perché devono essere non facilmente accessibili",
       "si e questi vengono conservati dalla Committente lavori"
     ],
-    "answer": "si e devono essere sempre opportunatamente segnalati e distribuiti. Questi sono mezzi di estinzione portatili costituiti da estintori idonei per l’ambiente da proteggere, idranti e/o naspi antincendio, impianti di spegnimento automatici, attrezzature ausiliarie di soccorso e attrezzature acustico"
+    "answer": "si e devono essere sempre opportunatamente segnalati e distribuiti. Questi sono mezzi di estinzione portatili costituiti da estintori idonei per l’ambiente da proteggere, idranti e/o naspi antincendio, impianti di spegnimento automatici, attrezzature ausiliarie di soccorso e attrezzature acustico-visive per gestire e segnalare l’allarme"
   },
   {
     "number": "9_4_03205",

@@ -377,12 +377,12 @@
     "number": "G_1_00039",
     "question": "La gerarchia dei rifiuti prevede il seguente ordine di priorità:",
     "options": [
-      "prevenzione",
-      "preparazione per il riutilizzo – prevenzione – riciclaggio",
-      "prevenzione",
-      "prevenzione"
+      "prevenzione - preparazione per il riutilizzo – riciclaggio - recupero di altro tipo, per esempio il recupero di energia - smaltimento",
+      "preparazione per il riutilizzo – prevenzione – riciclaggio - recupero di altro tipo, per esempio il recupero di energia - smaltimento",
+      "prevenzione - preparazione per il riutilizzo - recupero di altro tipo, per esempio il recupero di energia – riciclaggio – smaltimento",
+      "prevenzione - preparazione per lo smaltimento - recupero di altro tipo, per esempio il recupero di energia - riciclaggio – smaltimento"
     ],
-    "answer": "prevenzione"
+    "answer": "prevenzione - preparazione per il riutilizzo – riciclaggio - recupero di altro tipo, per esempio il recupero di energia - smaltimento"
   },
   {
     "number": "G_1_00040",
@@ -1502,7 +1502,7 @@
       "salvo casi eccezionali, hanno efficacia per un periodo non superiore a sei mesi",
       "hanno durata indeterminata",
       "possono derogare alle disposizioni contenute nelle direttive dell'Unione europea",
-      "non devono mai essere adottate su parere degli organi tecnici o tecnico"
+      "non devono mai essere adottate su parere degli organi tecnici o tecnico-sanitari locali"
     ],
     "answer": "salvo casi eccezionali, hanno efficacia per un periodo non superiore a sei mesi"
   },
@@ -2082,12 +2082,12 @@
     "number": "G_1_00261",
     "question": "Ai sensi dell’art. 261-bis del d.lgs. n. 152 del 2006, rubricato “sanzioni”, salvo che il fatto costituisca più grave reato, è punito con l'arresto fino ad un anno o con l'ammenda da cinquemila euro a venticinquemila euro:",
     "options": [
-      "il professionista che, nel certificato sostitutivo di cui all'articolo 237",
-      "il professionista che detiene con scarsa cura il certificato sostitutivo di cui all'articolo 237",
-      "il professionista che non scrive in stampatello sul certificato sostitutivo di cui all'articolo 237",
-      "il professionista che, nel certificato sostitutivo di cui all'articolo 237"
+      "il professionista che, nel certificato sostitutivo di cui all'articolo 237-octies, comma 8, e all'articolo 237- octies, comma 10 del suddetto decreto, con riferimento agli impianti di coincenerimento, attesta fatti non corrispondenti al vero",
+      "il professionista che detiene con scarsa cura il certificato sostitutivo di cui all'articolo 237-octies, comma 8, e all'articolo 237-octies, comma 10 del suddetto decreto, con riferimento agli impianti di coincenerimento",
+      "il professionista che non scrive in stampatello sul certificato sostitutivo di cui all'articolo 237-octies, comma 8, e all'articolo 237-octies, comma 10 del suddetto decreto, con riferimento agli impianti di coincenerimento",
+      "il professionista che, nel certificato sostitutivo di cui all'articolo 237-octies, comma 8, e all'articolo 237- octies, comma 10 del suddetto decreto, con riferimento agli impianti di coincenerimento, attesta fatti corrispondenti al vero"
     ],
-    "answer": "il professionista che, nel certificato sostitutivo di cui all'articolo 237"
+    "answer": "il professionista che, nel certificato sostitutivo di cui all'articolo 237-octies, comma 8, e all'articolo 237- octies, comma 10 del suddetto decreto, con riferimento agli impianti di coincenerimento, attesta fatti non corrispondenti al vero"
   },
   {
     "number": "G_1_00265",
@@ -2852,12 +2852,12 @@
     "number": "G_1_00380",
     "question": "Ai sensi dell’art. 185, comma 4, del d.lgs. n. 152 del 2006, il suolo escavato non contaminato e altro materiale allo stato naturale, utilizzati in siti diversi da quelli in cui sono stati escavati:",
     "options": [
-      "devono essere valutati ai sensi, nell'ordine, degli articoli 183, comma 1, lettera a) (rifiuto), 184",
+      "devono essere valutati ai sensi, nell'ordine, degli articoli 183, comma 1, lettera a) (rifiuto), 184-bis (sottoprodotto) e 184-ter(cessazione della qualifica di rifiuto)",
       "costituiscono sempre un rifiuto ai sensi dell’art. 183, comma 1, lettera a)",
-      "costituiscono sempre un sottoprodotto ai sensi dell’art. 184",
-      "cessano sempre di essere qualificabili come rifiuto ai sensi dell’art. 184"
+      "costituiscono sempre un sottoprodotto ai sensi dell’art. 184-bis",
+      "cessano sempre di essere qualificabili come rifiuto ai sensi dell’art. 184-ter "
     ],
-    "answer": "devono essere valutati ai sensi, nell'ordine, degli articoli 183, comma 1, lettera a) (rifiuto), 184"
+    "answer": "devono essere valutati ai sensi, nell'ordine, degli articoli 183, comma 1, lettera a) (rifiuto), 184-bis (sottoprodotto) e 184-ter(cessazione della qualifica di rifiuto)"
   },
   {
     "number": "G_1_00381",
@@ -3635,7 +3635,7 @@
     "options": [
       "decorsi 90 giorni dalla comunicazione di inizio dell’attività alla Provincia territorialmente competente",
       "decorsi 180 giorni dalla comunicazione di inizio dell’attività alla Provincia territorialmente competente",
-      "decorsi 90 giorni dalla comunicazione di inizio dell’attività alla Provincia territorialmente competente nel caso in cui siano pervenuti i pareri favorevoli degli enti preposti alla tutela ambientale paesaggistico",
+      "decorsi 90 giorni dalla comunicazione di inizio dell’attività alla Provincia territorialmente competente nel caso in cui siano pervenuti i pareri favorevoli degli enti preposti alla tutela ambientale paesaggistico-territoriale",
       "previo provvedimento espresso della Provincia territorialmente competente"
     ],
     "answer": "decorsi 90 giorni dalla comunicazione di inizio dell’attività alla Provincia territorialmente competente"
@@ -3721,12 +3721,12 @@
     "number": "G_1_04204",
     "question": "Una delle seguenti affermazioni è errata:",
     "options": [
-      "l’iscrizione alla categoria 2",
-      "l’iscrizione alla categoria 2",
-      "l'iscrizione alla categoria 2",
-      "il rinnovo dell’iscrizione alla categoria 2"
+      "l’iscrizione alla categoria 2-bis prevede la prestazione delle garanzie finanziarie",
+      "l’iscrizione alla categoria 2-bis avviene attraverso la presentazione di una comunicazione alla sezione regionale o provinciale dell’Albo territorialmente competente",
+      "l'iscrizione alla categoria 2-bis è subordinata alla corresponsione di un diritto annuale di iscrizione pari a 50 euro",
+      "il rinnovo dell’iscrizione alla categoria 2-bis deve essere effettuato presentando un'autocertificazione, resa alla sezione regionale o provinciale, ai sensi del D.p.r. 445/2000, che attesti la permanenza dei requisiti previsti"
     ],
-    "answer": "l’iscrizione alla categoria 2"
+    "answer": "l’iscrizione alla categoria 2-bis prevede la prestazione delle garanzie finanziarie"
   },
   {
     "number": "G_1_04209",
@@ -3865,7 +3865,7 @@
     "question": "Non rientra tra le competenze del Ministro dell’ambiente, ai sensi dell’art 58 del d.lgs.n.152 del 2006:",
     "options": [
       "provvedere all'organizzazione e al funzionamento della navigazione interna, ferme restando le residue competenze spettanti al Ministero delle infrastrutture e dei trasporti",
-      "formulare proposte, sentita la Conferenza stato",
+      "formulare proposte, sentita la Conferenza stato-regioni, ai fini dell'adozione, ai sensi dell'articolo 57, degli indirizzi e dei criteri per lo svolgimento del servizio di polizia idraulica, di navigazione interna e per la realizzazione, gestione e manutenzione delle opere e degli impianti e la conservazione dei beni",
       "predisporre la relazione sull'uso del suolo e sulle condizioni dell'assetto idrogeologico, da allegare alla relazione sullo stato dell'ambiente di cui all'articolo 1, comma 6, della legge 8 luglio 1986, n. 349, nonché la relazione sullo stato di attuazione dei programmi triennali di intervento per la difesa del suolo, di cui all'articolo 69, da allegare alla relazione previsionale e programmatica",
       "operare, ai sensi dell'articolo 2, commi 5 e 6, della legge 8 luglio 1986, n. 349, per assicurare il coordinamento, ad ogni livello di pianificazione, delle funzioni di difesa del suolo con gli interventi per la tutela e l'utilizzazione delle acque e per la tutela dell'ambiente"
     ],
@@ -3909,7 +3909,7 @@
     "question": "I soggetti che intendono realizzare e gestire nuovi impianti di smaltimento o recupero di rifiuti, a quale categoria dell’Albo sono tenuti ad iscriversi?",
     "options": [
       "a nessuna categoria",
-      "alla categoria 2",
+      "alla categoria 2-bis",
       "alla categoria 1",
       "alla categoria 8"
     ],
@@ -4108,7 +4108,7 @@
     "options": [
       "i rifiuti domestici indifferenziati e da raccolta differenziata, ivi compresi: carta e cartone, vetro, metalli, plastica, rifiuti organici, legno, tessili, imballaggi, rifiuti di apparecchiature elettriche ed elettroniche, rifiuti di pile e accumulatori e rifiuti ingombranti, ivi compresi materassi e mobili",
       "i rifiuti derivanti dall'attività di recupero e smaltimento di rifiuti, i fanghi prodotti dalla potabilizzazione e da altri trattamenti delle acque e dalla depurazione delle acque reflue, nonché i rifiuti da abbattimento di fumi, dalle fosse settiche e dalle reti fognarie",
-      "i rifiuti prodotti nell'ambito delle attività agricole, agro",
+      "i rifiuti prodotti nell'ambito delle attività agricole, agro-industriali e della silvicoltura, ai sensi e per gli effetti dell'art. 2135 del codice civile, e della pesca",
       "i veicoli fuori uso"
     ],
     "answer": "i rifiuti domestici indifferenziati e da raccolta differenziata, ivi compresi: carta e cartone, vetro, metalli, plastica, rifiuti organici, legno, tessili, imballaggi, rifiuti di apparecchiature elettriche ed elettroniche, rifiuti di pile e accumulatori e rifiuti ingombranti, ivi compresi materassi e mobili"
@@ -4119,7 +4119,7 @@
     "options": [
       "i rifiuti di qualunque natura o provenienza, giacenti sulle strade ed aree pubbliche o sulle strade ed aree private comunque soggette ad uso pubblico o sulle spiagge marittime e lacuali e sulle rive dei corsi d'acqua",
       "i veicoli fuori uso",
-      "i rifiuti prodotti nell'ambito delle attività agricole, agro",
+      "i rifiuti prodotti nell'ambito delle attività agricole, agro-industriali e della silvicoltura, ai sensi e per gli effetti dell'art. 2135 del codice civile, e della pesca",
       "i rifiuti derivanti dalle attività di demolizione, costruzione, nonché i rifiuti che derivano dalle attività di scavo, ad esclusione di quelli qualificabili come sottoprodotto"
     ],
     "answer": "i rifiuti di qualunque natura o provenienza, giacenti sulle strade ed aree pubbliche o sulle strade ed aree private comunque soggette ad uso pubblico o sulle spiagge marittime e lacuali e sulle rive dei corsi d'acqua"
@@ -4164,7 +4164,7 @@
       "l'adozione di criteri generali per la redazione di piani di settore per la riduzione, il riciclaggio, il recupero e l'ottimizzazione dei flussi di rifiuti",
       "la determinazione delle modalità del conferimento, della raccolta differenziata e del trasporto dei rifiuti urbani al fine di garantire una distinta gestione delle diverse frazioni di rifiuti e promuovere il recupero degli stessi",
       "la determinazione delle specifiche modalità di esecuzione della pesata dei rifiuti urbani prima di inviarli al recupero e allo smaltimento",
-      "la previsione delle misure per assicurare la tutela igienico"
+      "la previsione delle misure per assicurare la tutela igienico-sanitaria in tutte le fasi della gestione dei rifiuti urbani"
     ],
     "answer": "l'adozione di criteri generali per la redazione di piani di settore per la riduzione, il riciclaggio, il recupero e l'ottimizzazione dei flussi di rifiuti"
   },
@@ -4216,12 +4216,12 @@
     "number": "G_1_04353",
     "question": "I rifiuti derivanti da attività sanitarie sono:",
     "options": [
-      "rifiuti speciali a condizione che non ricadano nella fattispecie di cui all'art. 183 comma 1 lettera b",
+      "rifiuti speciali a condizione che non ricadano nella fattispecie di cui all'art. 183 comma 1 lettera b-ter del D.Lgs. n.152/06",
       "sempre rifiuti urbani",
       "sempre rifiuti speciali pericolosi",
       "nessuna risposta è corretta"
     ],
-    "answer": "rifiuti speciali a condizione che non ricadano nella fattispecie di cui all'art. 183 comma 1 lettera b"
+    "answer": "rifiuti speciali a condizione che non ricadano nella fattispecie di cui all'art. 183 comma 1 lettera b-ter del D.Lgs. n.152/06"
   },
   {
     "number": "G_1_04354",
@@ -4272,7 +4272,7 @@
     "question": "Non sono rifiuti speciali:",
     "options": [
       "i rifiuti provenienti da esumazioni ed estumulazioni",
-      "i rifiuti derivanti da attività sanitarie se diversi da quelli all'art. 183, comma 1, lettera b",
+      "i rifiuti derivanti da attività sanitarie se diversi da quelli all'art. 183, comma 1, lettera b-ter",
       "i veicoli fuori uso",
       "i fanghi prodotti dalla potabilizzazione e da altri trattamenti delle acquee dalla depurazione delle acquee"
     ],
@@ -4392,12 +4392,12 @@
     "number": "G_1_04429",
     "question": "Ai sensi della normativa sulla gestione dei rifiuti costituisce un \"deposito temporaneo prima della raccolta\":",
     "options": [
-      "il raggruppamento dei rifiuti ai fini del trasporto degli stessi in un impianto di recupero e/o smaltimento, effettuato prima della raccolta ai sensi dell'art. 185",
+      "il raggruppamento dei rifiuti ai fini del trasporto degli stessi in un impianto di recupero e/o smaltimento, effettuato prima della raccolta ai sensi dell'art. 185-bis del D.Lgs. 152/2006",
       "le attività di smaltimento consistenti nelle operazioni di deposito preliminare di rifiuti, nonché le attività di recupero consistenti nelle operazioni di messa in riserva di rifiuti come definite dalla normativa in materia",
       "le attività di smaltimento consistenti nelle operazioni di deposito preliminare di rifiuti di cui al punto D15 dell'allegato B alla parte quarta del D.Lgs. 152/2006",
       "qualsiasi operazione di recupero attraverso cui i rifiuti sono trattati per ottenere prodotti, materiali o sostanze da utilizzare per la loro funzione originaria o per altri fini"
     ],
-    "answer": "il raggruppamento dei rifiuti ai fini del trasporto degli stessi in un impianto di recupero e/o smaltimento, effettuato prima della raccolta ai sensi dell'art. 185"
+    "answer": "il raggruppamento dei rifiuti ai fini del trasporto degli stessi in un impianto di recupero e/o smaltimento, effettuato prima della raccolta ai sensi dell'art. 185-bis del D.Lgs. 152/2006"
   },
   {
     "number": "G_1_04430",
@@ -4436,12 +4436,12 @@
     "number": "G_1_04433",
     "question": "Ai sensi del D.Lgs. 152/2006 sono rifiuti urbani:",
     "options": [
-      "i rifiuti indifferenziati e da raccolta differenziata provenienti da altre fonti che sono simili per natura e composizione ai rifiuti domestici indicati nell'allegato L",
-      "i rifiuti da attività agricole e agro",
+      "i rifiuti indifferenziati e da raccolta differenziata provenienti da altre fonti che sono simili per natura e composizione ai rifiuti domestici indicati nell'allegato L-quater del D.Lgs. 152/2006 prodotti dalle attività riportate nell'allegato L-quinquies dello stesso decreto",
+      "i rifiuti da attività agricole e agro-industriali, ai sensi e per gli effetti dell'art. 2135 del Codice civile",
       "i rifiuti derivanti dalle attività di demolizione, costruzione, nonché i rifiuti che derivano dalle attività di scavo, fatta salva la disciplina sui sottoprodotti",
       "i fanghi prodotti dalla depurazione delle acque reflue e da abbattimento di fumi"
     ],
-    "answer": "i rifiuti indifferenziati e da raccolta differenziata provenienti da altre fonti che sono simili per natura e composizione ai rifiuti domestici indicati nell'allegato L"
+    "answer": "i rifiuti indifferenziati e da raccolta differenziata provenienti da altre fonti che sono simili per natura e composizione ai rifiuti domestici indicati nell'allegato L-quater del D.Lgs. 152/2006 prodotti dalle attività riportate nell'allegato L-quinquies dello stesso decreto"
   },
   {
     "number": "G_1_04434",
@@ -4480,12 +4480,12 @@
     "number": "G_1_04437",
     "question": "Ai sensi del D.Lgs. 152/2006, la raccolta differenziata dei rifiuti organici:",
     "options": [
-      "avviene con contenitori a svuotamento riutilizzabili o con sacchetti compostabili certificati a norma UNI EN 13432",
+      "avviene con contenitori a svuotamento riutilizzabili o con sacchetti compostabili certificati a norma UNI EN 13432-2002",
       "può essere realizzata con qualunque tipo di contenitore o sacchetto",
       "non è prevista nell'ordinamento italiano",
       "deve essere effettuata solo attraverso contenitori a svuotamento riutilizzabili poiché nell'ordinamento italiano non è previsto l'utilizzo di sacchetti compostabili certificati"
     ],
-    "answer": "avviene con contenitori a svuotamento riutilizzabili o con sacchetti compostabili certificati a norma UNI EN 13432"
+    "answer": "avviene con contenitori a svuotamento riutilizzabili o con sacchetti compostabili certificati a norma UNI EN 13432-2002"
   },
   {
     "number": "G_1_04438",
@@ -4535,12 +4535,12 @@
     "number": "G_1_04442",
     "question": "Individuare tra le seguenti l'affermazione corretta",
     "options": [
-      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188",
-      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188",
-      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188",
+      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188-bis del D.Lgs. 152/2006 si compone delle procedure e degli strumenti di tracciabilità dei rifiuti integrati nel Registro elettronico nazionale per la tracciabilità dei rifiuti",
+      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188-quater del D.Lgs. 152/2006 si compone della Contabilità Ambientale Rifiuti (C.A.R.) e dei Flussi operativi su strada (F.O.S)",
+      "il Sistema di tracciabilità dei rifiuti di cui all'art. 188-ter del D.Lgs. 152/2006 si compone delle procedure relative alla Valutazione del Grado di Pericolosità della Gestione (V.G.P.G.) coordinate dal Nucleo Operativo Ecologico dei Carabinieri (N.O.E.)",
       "il Sistema di tracciabilità dei rifiuti di cui all'art. 188 del D.Lgs. 152/2006 si compone della Sezione centrale di Controllo Regolarità Ambientale e delle Sezioni regionali di Controllo Regolarità Ambientale Locale articolate presso le Regioni nonché presso le Province di Trento e di Bolzano"
     ],
-    "answer": "il Sistema di tracciabilità dei rifiuti di cui all'art. 188"
+    "answer": "il Sistema di tracciabilità dei rifiuti di cui all'art. 188-bis del D.Lgs. 152/2006 si compone delle procedure e degli strumenti di tracciabilità dei rifiuti integrati nel Registro elettronico nazionale per la tracciabilità dei rifiuti"
   },
   {
     "number": "G_1_04443",
@@ -4777,12 +4777,12 @@
     "number": "G_1_00442",
     "question": "Ai sensi della normativa sulla tutela del suolo e delle acque, il Piano di bacino distrettuale:",
     "options": [
-      "è lo strumento conoscitivo, normativo e tecnico",
+      "è lo strumento conoscitivo, normativo e tecnico-operativo mediante il quale sono pianificate e programmate le azioni e le norme d'uso finalizzate alla conservazione, alla difesa e alla valorizzazione del suolo ed alla corretta utilizzazione della acque, sulla base delle caratteristiche fisiche ed ambientali del territorio interessato",
       "non ha valore di piano territoriale di settore",
       "è redatto dalla Regione in base agli indirizzi, metodi e criteri fissati dalla legge",
       "è redatto dal Ministero Dell'Ambiente e della Tutela del Territorio e del Mare in base agli indirizzi, metodi e criteri fissati dalla legge"
     ],
-    "answer": "è lo strumento conoscitivo, normativo e tecnico"
+    "answer": "è lo strumento conoscitivo, normativo e tecnico-operativo mediante il quale sono pianificate e programmate le azioni e le norme d'uso finalizzate alla conservazione, alla difesa e alla valorizzazione del suolo ed alla corretta utilizzazione della acque, sulla base delle caratteristiche fisiche ed ambientali del territorio interessato"
   },
   {
     "number": "G_1_00445",
@@ -5022,7 +5022,7 @@
       "l'autorità competente verifica se le emissioni diffuse di ciascun impianto e di ciascuna attività sono tecnicamente convogliabili sulla base delle migliori tecniche disponibili e sulla base delle pertinenti prescrizioni, ne dispone la captazione ed il convogliamento",
       "l'autorità competente deve sempre convogliare gli stabilimenti",
       "l'autorità competente verifica se le emissioni diffuse di ciascun stabilimento sono tecnicamente rimuovibili sulla base delle migliori tecniche disponibili e sulla base delle pertinenti prescrizioni, ne dispone prima la captazione, poi la rimozione",
-      "se più stabilimenti con caratteristiche tecniche e costruttive simili, aventi emissioni con caratteristiche chimico"
+      "se più stabilimenti con caratteristiche tecniche e costruttive simili, aventi emissioni con caratteristiche chimico-fisiche omogenee e localizzati nello stesso impianto, sono destinati a specifiche attività tra loro identiche, l'autorità competente, può considerare gli stessi come un unico stabilimento disponendo la rimozione di uno degli stabilimenti"
     ],
     "answer": "l'autorità competente verifica se le emissioni diffuse di ciascun impianto e di ciascuna attività sono tecnicamente convogliabili sulla base delle migliori tecniche disponibili e sulla base delle pertinenti prescrizioni, ne dispone la captazione ed il convogliamento"
   },
@@ -7021,12 +7021,12 @@
     "number": "G_3_00687",
     "question": "Ai sensi del d.m.3 giugno 2014, n. 120 l'iscrizione all'Albo nazionale gestori ambientali è richiesta per la seguente attività: distributori e installatori di apparecchiature elettriche ed elettroniche (AEE), trasportatori di rifiuti di apparecchiature elettriche ed elettroniche in nome dei distributori, installatori e gestori dei centri di assistenza tecnica di tali apparecchiature di cui al decreto del Ministro dell'ambiente e della tutela del territorio e del mare di concerto con i Ministri dello sviluppo economico e della salute, 8 marzo 2010, n. 65:",
     "options": [
-      "vero, si tratta della categoria 3",
+      "vero, si tratta della categoria 3-bis",
       "falso, sono esclusi i distributori e installatori di apparecchiature elettriche ed elettroniche (AEE)",
       "falso, tale categoria comprende solo i distributori e installatori di apparecchiature elettriche ed elettroniche (AEE) e non gli altri soggetti ricordati",
       "vero, mentre l’iscrizione non è richiesta per l’attività di raccolta e trasporto di rifiuti urbani"
     ],
-    "answer": "vero, si tratta della categoria 3"
+    "answer": "vero, si tratta della categoria 3-bis"
   },
   {
     "number": "G_3_00688",
@@ -7648,12 +7648,12 @@
     "number": "G_3_00761",
     "question": "Ai sensi del decreto ministeriale 3 giugno 2014, n. 120, i produttori iniziali di rifiuti non pericolosi che effettuano operazioni di raccolta e trasporto dei propri rifiuti, nonché i produttori iniziali di rifiuti pericolosi che effettuano operazioni di raccolta e trasporto dei propri rifiuti pericolosi in quantità non eccedenti trenta chilogrammi o trenta litri al giorno di cui all'articolo 212, comma 8, del decreto legislativo 3 aprile 2006, n. 152:",
     "options": [
-      "sono tenuti ad iscriversi all’Albo nazionale gestori ambientali come categoria 2",
+      "sono tenuti ad iscriversi all’Albo nazionale gestori ambientali come categoria 2-bis",
       "non sono mai iscritti all’Albo nazionale gestori ambientali",
       "sono tenuti ad iscriversi all’Albo nazionale gestori ambientali solo se di nazionalità non italiana",
       "non sono tenuti ad iscriversi all’Albo nazionale gestori ambientali a meno che non abbiano avuto precedenti penali"
     ],
-    "answer": "sono tenuti ad iscriversi all’Albo nazionale gestori ambientali come categoria 2"
+    "answer": "sono tenuti ad iscriversi all’Albo nazionale gestori ambientali come categoria 2-bis"
   },
   {
     "number": "G_3_00762",
@@ -7672,8 +7672,8 @@
     "options": [
       "vero",
       "falso, tale attività non costituisce una categoria di cui all’art. 8 del decreto, non essendo soggetta ad iscrizione",
-      "falso, tale attività non è prevista come categoria 2",
-      "falso, tale attività non è prevista come categoria 2"
+      "falso, tale attività non è prevista come categoria 2-bis perché già implicitamente compresa nella categoria 4 “raccolta e trasporto di rifiuti speciali non pericolosi”",
+      "falso, tale attività non è prevista come categoria 2-bis perché già implicitamente compresa nella categoria 6, “imprese che effettuano il solo esercizio dei trasporti transfrontalieri di rifiuti di cui all'articolo 194, comma 3, del decreto legislativo 3 aprile 2006, n. 152”"
     ],
     "answer": "vero"
   },
@@ -8814,12 +8814,12 @@
     "number": "G_3_00895",
     "question": "Ai sensi dell’art. 212 del d.lgs. n. 152 del 2006, il decreto del Ministro dell'ambiente e della tutela del territorio e del mare, che definisce, tra l’altro, le attribuzioni e le modalità organizzative dell'Albo nazionale gestori ambientali, si informa ai seguenti principi:",
     "options": [
-      "riformulazione del sistema disciplinare",
+      "riformulazione del sistema disciplinare-sanzionatorio dell'Albo e delle cause di cancellazione dell'iscrizione",
       "soppressione delle cause di cancellazione dell'iscrizione",
-      "soppressione del sistema disciplinare",
+      "soppressione del sistema disciplinare-sanzionatorio dell'Albo",
       "impossibilità di riformulazione delle cause di cancellazione dall’Albo, oggetto di riserva di legge assoluta"
     ],
-    "answer": "riformulazione del sistema disciplinare"
+    "answer": "riformulazione del sistema disciplinare-sanzionatorio dell'Albo e delle cause di cancellazione dell'iscrizione"
   },
   {
     "number": "G_3_00896",
@@ -9169,7 +9169,7 @@
       "1",
       "4",
       "5",
-      "2"
+      "2-bis"
     ],
     "answer": "1"
   },
@@ -10112,12 +10112,12 @@
     "number": "G_5_00994",
     "question": "L’organismo competente a rilasciare il marchio di qualità ecologica sulla base della verifica dei requisiti europei:",
     "options": [
-      "in Italia è il Comitato Ecolabel",
+      "in Italia è il Comitato Ecolabel-Ecoaudit, sezione Ecolabel",
       "deve essere composto in modo tale da non assicurare l’indipendenza e l’imparzialità dello stesso",
       "provvede affinché il processo di verifica sia effettuato in modo non neutro, affindandolo ad un soggetto legato all'operatore sottoposto a verifica",
       "in Italia è il Ministero dell’Economia e delle Finanze"
     ],
-    "answer": "in Italia è il Comitato Ecolabel"
+    "answer": "in Italia è il Comitato Ecolabel-Ecoaudit, sezione Ecolabel"
   },
   {
     "number": "G_5_00995",
