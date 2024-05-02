@@ -2966,15 +2966,15 @@ G_1_04059: Costituisce il "combustibile solido secondario (CSS)":
 -   Sbagliata: il combustibile solido destinato ad attività di produzione di carattere secondario.
 
 G_1_04063: Per quanto riguarda lo smaltimento dei rifiuti urbani non pericolosi:
--   Esatta: e` possibile smaltirli in Regioni diverse da quelle dove gli stessi sono prodotti se si tratta di rifiuti urbani che
+-   Esatta: è possibile smaltirli in Regioni diverse da quelle dove gli stessi sono prodotti se si tratta di rifiuti urbani che
     il Presidente della Regione ritiene necessario avviare a smaltimento, nel rispetto della normativa europea, fuori del
-    territorio della Regione dove sono prodotti per fronteggiare situazioni di emergenza causate da calamita` naturali
+    territorio della Regione dove sono prodotti per fronteggiare situazioni di emergenza causate da calamità naturali
     per le quali e´ dichiarato lo stato di emergenza di protezione civile ai sensi del d. lgs. 2 gennaio 2018 n. 1;
--   Sbagliata: e` sempre vietato smaltirli in Regioni diverse da quelle dove gli stessi sono prodotti anche in presenza di
-    eventuali accordi regionali o internazionali e qualora gli aspetti territoriali e l'opportunita` tecnico economica di
+-   Sbagliata: è sempre vietato smaltirli in Regioni diverse da quelle dove gli stessi sono prodotti anche in presenza di
+    eventuali accordi regionali o internazionali e qualora gli aspetti territoriali e l'opportunità tecnico economica di
     raggiungere livelli ottimali di utenza servita lo richiedano;
--   Sbagliata: e` sempre possibile smaltirli in Regioni diverse da quelle dove gli stessi sono prodotti;
--   Sbagliata: e` obbligatorio smaltirli in Regioni diverse da quelle dove gli stessi sono prodotti se si tratta di rifiuti
+-   Sbagliata: è sempre possibile smaltirli in Regioni diverse da quelle dove gli stessi sono prodotti;
+-   Sbagliata: è obbligatorio smaltirli in Regioni diverse da quelle dove gli stessi sono prodotti se si tratta di rifiuti
     urbani.
 
 G_1_04064: Le attività di autosmaltimento dei rifiuti non pericolosi, come definite dall’art.
@@ -2989,28 +2989,28 @@ G_1_04064: Le attività di autosmaltimento dei rifiuti non pericolosi, come defi
        Modulo di Partecipazione:   MODULO OBBLIGATORIO PER TUTTE LE CATEGORIE
                   Data Stampa:     15/12/2021                                                               Pagina 49 di 156
 G_1_04065: Il giudice che con la sentenza di condanna o con quella emessa ai sensi
-dell'articolo 444 del codice di procedura penale, accerti il compimento di attivita` organizzate
+dell'articolo 444 del codice di procedura penale, accerti il compimento di attività organizzate
 per il traffico illecito di rifiuti ai sensi dell’art. 452 quaterdecies, co. 4, codice penale:
--   Esatta: ordina il ripristino dello stato dell'ambiente e puo` subordinare la concessione della sospensione
+-   Esatta: ordina il ripristino dello stato dell'ambiente e può subordinare la concessione della sospensione
     condizionale della pena all'eliminazione del danno o del pericolo per l'ambiente;
--   Sbagliata: non e` tenuto ad ordinare il ripristino dello stato dell'ambiente;
+-   Sbagliata: non è tenuto ad ordinare il ripristino dello stato dell'ambiente;
 -   Sbagliata: concede sempre la sospensione condizionale della pena a prescindere dalla eliminazione del danno o del
     pericolo per l'ambiente;
--   Sbagliata: ordina il ripristino dello stato dell'ambiente ma non puo` mai disporre la concessione della sospensione
+-   Sbagliata: ordina il ripristino dello stato dell'ambiente ma non può mai disporre la concessione della sospensione
     condizionale della pena.
 
 G_1_04066: Ai sensi dell’art. 452 quaterdecies, co. 4, codice penale, nel caso di accertamento
-della commissione di “attivita` organizzate per il traffico illecito di rifiuti”:
--   Esatta: e` sempre ordinata la confisca delle cose che servirono a commettere il reato o che costituiscono il prodotto
+della commissione di “attività organizzate per il traffico illecito di rifiuti”:
+-   Esatta: è sempre ordinata la confisca delle cose che servirono a commettere il reato o che costituiscono il prodotto
     o il profitto del reato, salvo che appartengano a persone estranee al reato e, quando essa non sia possibile, il giudice
     individua beni di valore equivalente di cui il condannato abbia anche indirettamente o per interposta persona la
-    disponibilita` e ne ordina la confisca;
--   Sbagliata: e` sempre ordinata la confisca delle cose che servirono a commettere il reato o che costituiscono il
+    disponibilità e ne ordina la confisca;
+-   Sbagliata: è sempre ordinata la confisca delle cose che servirono a commettere il reato o che costituiscono il
     prodotto o il profitto del reato anche se appartengano a persone estranee al reato;
--   Sbagliata: puo` essere ordinata solo la confisca di beni di valore equivalente alle cose che servirono a commettere il
+-   Sbagliata: può essere ordinata solo la confisca di beni di valore equivalente alle cose che servirono a commettere il
     reato o che costituiscono il prodotto o il profitto del reato e non la confisca delle cose stesse, sempre che il
-    condannato abbia la disponibilita` di tali beni anche indirettamente o per interposta persona.
--   Sbagliata: non puo` mai essere disposta ne´ la confisca delle cose che servirono a commettere il reato o che
+    condannato abbia la disponibilità di tali beni anche indirettamente o per interposta persona.
+-   Sbagliata: non può mai essere disposta ne´ la confisca delle cose che servirono a commettere il reato o che
     costituiscono il prodotto o il profitto del reato ne´ quella per equivalente;
 
 G_1_04067: Ai sensi dell’art. 261-bis del d.lgs. n. 152 del 2006, rubricato “sanzioni”, salvo che
@@ -5572,9 +5572,9 @@ G_2_04074: In tema di traffico illecito di rifiuti, ai sensi dell'art. 452 quate
 codice penale, con la sentenza di condanna o ai sensi dell'articolo 444 cpp:
 -   Esatta: il Giudice ordina il ripristino dello stato dell'ambiente, subordinando la concessione della sospensione
     condizionale della pena all'eliminazione del danno o del pericolo per l'ambiente;
--   Sbagliata: il Giudice puo` ordinare il ripristino dello stato dell'ambiente, ma non puo` concedere la sospensione
+-   Sbagliata: il Giudice può ordinare il ripristino dello stato dell'ambiente, ma non può concedere la sospensione
     condizionale della pena all'eliminazione del danno o del pericolo per l'ambiente;
--   Sbagliata: il Giudice puo` ordinare il ripristino dello stato dell'ambiente, riconoscendo l'estinzione della pena con
+-   Sbagliata: il Giudice può ordinare il ripristino dello stato dell'ambiente, riconoscendo l'estinzione della pena con
     l'eliminazione del danno o del pericolo per l'ambiente;
 -   Sbagliata: il Giudice concede la sospensione condizionale, anche in assenza dell'eliminazione del danno.
 
@@ -8183,8 +8183,8 @@ individuale non è cittadino italiano:
     Ambasciata di appartenenza.
 
 G_3_04088: In caso di assenza della iscrizione all’Albo nazionale gestori ambientali di cui
-all’212 del d.lgs. n. 152 del 2006, il soggetto responsabile puo` essere punito ai sensi dell’art.
-256 del d.lgs. n. 152 del 2006, “attivita` di gestione di rifiuti non autorizzata”:
+all’212 del d.lgs. n. 152 del 2006, il soggetto responsabile può essere punito ai sensi dell’art.
+256 del d.lgs. n. 152 del 2006, “attività di gestione di rifiuti non autorizzata”:
 -   Esatta: con la pena dell'arresto o con l'ammenda, se si tratta di rifiuti non pericolosi; sia con la pena dell’arresto che
     con l’ammenda, se si tratta di rifiuti pericolosi;
 -   Sbagliata: con una sanzione amministrativa pari la doppio del profitto conseguito, per qualsiasi tipologia di rifiuto;
@@ -8207,7 +8207,7 @@ marzo 2010, n. 65”?
     elettroniche (AEE).
 
 G_3_04084: Ai sensi dell’art. 10, comma 2 del d.m. 120 del 2014, il titolare di un’impresa
-individuale puo` iscriversi all’Albo nazionale gestori ambientali, purché non abbia riportato
+individuale può iscriversi all’Albo nazionale gestori ambientali, purché non abbia riportato
        Modulo di Partecipazione:   MODULO OBBLIGATORIO PER TUTTE LE CATEGORIE
                   Data Stampa:     15/12/2021                                                              Pagina 134 di 156
 condanna passata in giudicato, anche ai sensi dell'articolo 444 del codice di procedura penale.
