@@ -5,17 +5,23 @@ from utils.helper import local_css
 from utils.model import ESAMI, Prova
 
 st.set_page_config(
-    page_title="Esame RT", page_icon="👨🏻‍💼", layout="centered", menu_items=None
+    page_title="Esame RT", page_icon="📖", layout="centered", menu_items=None
 )
 
 
-@st.experimental_fragment(run_every="1s")
+@st.fragment(run_every="1s")
 def timer(prova):
-    time_remaining = prova.end_time - datetime.now()
-    st.code(
-        f"{time_remaining.seconds//60}:{time_remaining.seconds%60:02d}",
-        language="text",
+    now = datetime.now()
+    if prova.end_time <= now:
+        return st.subheader(f"⏰ Tempo rimanente: :red[SCADUTO!]")
+    time_left = prova.end_time - now
+    st.subheader(
+        f"⏰ Tempo rimanente: :orange[{time_left.seconds//60}m {time_left.seconds%60}s]",
     )
+
+
+def esame_label(esame):
+    return f"{esame.nome} • {esame.obiettivo} punti • {len(esame.domande)} domande"
 
 
 def main():
@@ -28,24 +34,38 @@ def main():
 
     # module choice
     if not prova:
-        st.title("Simulazione esame RT 👨🏻‍💼")
+        st.title("Simulazione Esame RT 👨🏻‍💼")
         with st.form("choice-module"):
             st.subheader("Scegli il modulo")
-            f_esame = st.selectbox("Tipo di Esame", ESAMI, label_visibility="collapsed")
+            f_esame = st.selectbox(
+                "Tipo di Esame",
+                ESAMI,
+                format_func=esame_label,
+                label_visibility="collapsed",
+            )
+            is_aggiornamento = st.checkbox(
+                "Stai facendo l'**aggiornamento**?",
+                help="L'obiettivo punti dell'aggiornamento è 4 punti in meno",
+            )
             if st.form_submit_button("Inizia", use_container_width=True):
+                if is_aggiornamento:
+                    f_esame.set_aggiornamento()
                 st.session_state.prova = Prova(f_esame)
                 st.rerun()
         return
 
     st.header(f"Simulazione: {prova.esame.nome} 📋")
+    st.info(
+        f"L'obiettivo è **{prova.esame.obiettivo}** punti in un totale di"
+        f" **{len(prova.esame.domande)}** domande"
+    )
 
     # is end?
     if st.session_state.get("end"):
         # tempo
         t_elapsed = st.session_state.end_time - (prova.end_time - timedelta(hours=1))
-        st.code(
-            f"Tempo impiegato: {t_elapsed.seconds//60}:{t_elapsed.seconds%60:02d}",
-            language="text",
+        st.subheader(
+            f"⏰ Tempo impiegato: :blue[{t_elapsed.seconds//60}m {t_elapsed.seconds%60}s]"
         )
         # questions
         domanda_show_idx = None
@@ -53,18 +73,23 @@ def main():
         with st.expander("Domande 🕵🏻‍♂️", expanded=True):
             cols = st.columns(cols_n)
             for i, domanda in enumerate(prova.domande, 1):
-                text = str(i) + (" ✅" if prova.risposte.get(domanda) else " ⛔️")
+                emojis = {True: "✅", False: "⛔️", None: "↪️"}
+                text = f"{i} {emojis.get(prova.risposte.get(domanda))}"
                 if cols[(i - 1) % cols_n].button(text, use_container_width=True):
                     domanda_show_idx = i - 1
             if domanda_show_idx is not None:
                 domanda = prova.domanda(domanda_show_idx)
-                st.subheader(f"Domanda {domanda_show_idx+1} `{domanda.numero}`")
+                st.header(f":gray[Domanda {domanda_show_idx+1} `{domanda.numero}`]")
                 st.divider()
                 st.subheader(f"{domanda.domanda}")
                 for i, opzione in enumerate(domanda.opzioni):
-                    emoji = "👉🏻" if risposte.get(domanda.numero) == i else ""
-                    emoji += "✅" if opzione == domanda.risposta else "⛔️"
-                    st.write(f"{emoji} | {opzione}")
+                    color_bg, emoji = None, "⛔️" if opzione != domanda.risposta else "✅"
+                    if risposte.get(domanda.numero) == i:
+                        bgs = emojis = {True: "green", False: "red", None: "gray"}
+                        color_bg = bgs.get(prova.risposte.get(domanda.numero))
+                    opt = f"{emoji} | {opzione}"
+                    st.write(f":{color_bg}-background[{opt}]" if color_bg else opt)
+
         # punteggio
         punteggio_finale = prova.calcola_punteggio()
         if punteggio_finale >= prova.esame.obiettivo:
@@ -77,6 +102,7 @@ def main():
             st.rerun()
         return
 
+    # timer
     timer(prova)
 
     # questions list
@@ -92,7 +118,7 @@ def main():
     # question
     question = prova.domanda(index)
     with st.form("question"):
-        st.title(f"Domanda {index+1} `{question.numero}`")
+        st.header(f":gray[Domanda {index+1} `{question.numero}`]")
         st.divider()
         st.subheader(f"{question.domanda}")
         answer = st.radio(

@@ -28,9 +28,14 @@ class Esame:
         self.ans_correct: int = 1
         self.ans_wrong: int = -0.5
         self.ans_empty: int = 0
+        self.aggiornamento = False
 
     def __repr__(self):
         return self.nome
+
+    def set_aggiornamento(self):
+        self.obiettivo -= 4
+        self.aggiornamento = True
 
     def get(self, question_number):
         return self.domande.get(question_number)
@@ -54,11 +59,6 @@ ESAMI = [
     Esame("Modulo Cat. 8", "8", 34),
     Esame("Modulo Cat. 9", "9", 34),
     Esame("Modulo Cat. 10", "10", 34),
-    Esame("Aggiornamento | Modulo BASE", "base", 28),
-    Esame("Aggiornamento | Modulo Cat. 1-4-5", "145", 30),
-    Esame("Aggiornamento | Modulo Cat. 8", "8", 30),
-    Esame("Aggiornamento | Modulo Cat. 9", "9", 30),
-    Esame("Aggiornamento | Modulo Cat. 10", "10", 30),
 ]
 
 # ---- Prova
