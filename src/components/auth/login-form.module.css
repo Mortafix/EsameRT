@@ -1,0 +1,37 @@
+.form {
+  display: grid;
+  gap: 1rem;
+}
+
+.inputWrap {
+  position: relative;
+}
+
+.inputWrap svg {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  color: var(--moss);
+}
+
+.inputWrap input {
+  min-height: 3.45rem;
+  padding-left: 3rem;
+  font-weight: 720;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.submit {
+  width: 100%;
+  margin-top: 0.35rem;
+}
+
+.help {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+# dependencies
+/node_modules
+
+# next
+/.next/
+/.next-*/
+/out/
+
+# tests
+/coverage/
+/playwright-report/
+/test-results/
+
+# local runtime
+.env
+.env.local
+.env.*.local
+*.log
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+
+# editor / os
+.DS_Store
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# TypeScript
+*.tsbuildinfo

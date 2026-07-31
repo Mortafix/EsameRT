@@ -1,0 +1,142 @@
+.root {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 10rem;
+}
+
+.label {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 760;
+}
+
+.trigger {
+  display: flex;
+  width: 100%;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.72rem 0.85rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 0.85rem;
+  cursor: pointer;
+  color: var(--ink);
+  background: var(--white);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-align: left;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.trigger:hover,
+.trigger[data-state="open"] {
+  border-color: var(--moss);
+}
+
+.trigger:focus-visible {
+  outline: 3px solid rgba(221, 116, 91, 0.42);
+  outline-offset: 2px;
+}
+
+.trigger:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.chevron {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  color: var(--muted);
+  transition: transform 150ms ease;
+}
+
+.trigger[data-state="open"] .chevron {
+  transform: rotate(180deg);
+}
+
+.content {
+  z-index: 100;
+  width: var(--radix-select-trigger-width);
+  max-height: min(22rem, var(--radix-select-content-available-height));
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: var(--white);
+  box-shadow: var(--shadow-lg);
+  animation: selectIn 130ms ease;
+}
+
+.viewport {
+  padding: 0.35rem;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  min-height: 2.65rem;
+  align-items: center;
+  padding: 0.6rem 2.2rem 0.6rem 0.75rem;
+  border-radius: 0.65rem;
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 0.75rem;
+  font-weight: 650;
+  user-select: none;
+}
+
+.item[data-highlighted] {
+  outline: none;
+  color: var(--ink-deep);
+  background: rgba(203, 239, 114, 0.42);
+}
+
+.item[data-disabled] {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.indicator {
+  position: absolute;
+  right: 0.7rem;
+  display: grid;
+  place-items: center;
+  color: var(--moss);
+}
+
+.root[data-variant="compact"] .trigger {
+  min-height: 2.65rem;
+  padding-block: 0.56rem;
+  border-color: rgba(16, 66, 60, 0.2);
+  border-radius: 0.72rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.root[data-variant="floating"] {
+  position: relative;
+  min-width: 14rem;
+}
+
+.root[data-variant="floating"] .label {
+  position: absolute;
+  z-index: 1;
+  top: 0.42rem;
+  left: 0.9rem;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.root[data-variant="floating"] .trigger {
+  min-height: 3.5rem;
+  padding: 1.15rem 0.9rem 0.35rem;
+}
+
+@keyframes selectIn {
+  from {
+    opacity: 0;
+    transform: translateY(-0.2rem);
+  }
+}

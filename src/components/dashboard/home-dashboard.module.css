@@ -1,0 +1,456 @@
+.hero {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-block: 0.35rem clamp(1.2rem, 2.5vw, 2rem);
+}
+
+.hero > div:first-child {
+  min-width: 0;
+  flex: 1;
+}
+
+.hero h1 {
+  margin-bottom: 0;
+  color: var(--ink-deep);
+  font-size: clamp(2.25rem, 4.8vw, 4.5rem);
+  font-weight: 560;
+  letter-spacing: -0.057em;
+  line-height: 0.98;
+}
+
+.hero h1 em {
+  color: var(--moss);
+  font-weight: 410;
+}
+
+.heroActions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 0.65rem;
+}
+
+.resumeCard {
+  position: relative;
+  display: grid;
+  min-height: 9.5rem;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1.2rem;
+  overflow: hidden;
+  padding: clamp(1.2rem, 3vw, 1.8rem);
+  border-color: rgba(203, 239, 114, 0.38);
+  color: var(--white);
+  background:
+    radial-gradient(circle at 80% 0, rgba(203, 239, 114, 0.11), transparent 20rem),
+    var(--ink-deep);
+  box-shadow: var(--shadow-md);
+}
+
+.resumeIcon {
+  display: grid;
+  width: 4.3rem;
+  height: 4.3rem;
+  place-items: center;
+  border: 1px solid rgba(203, 239, 114, 0.28);
+  border-radius: 1.3rem;
+  color: var(--lime);
+  background: rgba(203, 239, 114, 0.08);
+}
+
+.resumeCopy > div {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.resumeUpdated {
+  color: rgba(255, 253, 248, 0.46);
+  font-size: 0.67rem;
+}
+
+.resumeCopy h2 {
+  margin: 0.6rem 0 0.2rem;
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+  font-weight: 520;
+}
+
+.resumeCopy p {
+  margin-bottom: 0;
+  color: rgba(255, 253, 248, 0.62);
+  font-size: 0.78rem;
+}
+
+.resumeProgress {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 0.25rem;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.resumeProgress span {
+  display: block;
+  height: 100%;
+  background: var(--lime);
+}
+
+.resumeActions {
+  display: grid;
+  justify-items: stretch;
+  gap: 0.35rem;
+}
+
+.resumeActions a,
+.resumeActions button {
+  width: 100%;
+}
+
+.deleteAttempt {
+  color: rgba(255, 253, 248, 0.65);
+}
+
+.deleteAttempt:hover {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.emptyResume {
+  display: flex;
+  min-height: 5rem;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.2rem;
+  border-style: dashed;
+  color: var(--muted);
+}
+
+.emptyResume svg {
+  color: var(--clay);
+}
+
+.emptyResume a {
+  margin-left: auto;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 780;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+  margin-top: 0.75rem;
+}
+
+.metricCard {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-content: start;
+  gap: 0.4rem 0.55rem;
+  padding: 0.85rem 1rem 0.55rem;
+}
+
+.metricCard > svg {
+  color: var(--moss);
+}
+
+.metricCard > span {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 720;
+}
+
+.metricCard > strong {
+  grid-column: 1 / -1;
+  margin-top: 0.1rem;
+  color: var(--ink-deep);
+  font-size: clamp(1.75rem, 3vw, 2.4rem);
+  font-weight: 560;
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+
+.metricCard[data-tone="lime"] {
+  background: rgba(203, 239, 114, 0.34);
+}
+
+.metricCard[data-tone="clay"] {
+  background: rgba(244, 201, 187, 0.32);
+}
+
+.lowerGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(18rem, 0.5fr);
+  gap: 0.9rem;
+  margin-top: 0.9rem;
+}
+
+.recentCard,
+.coachCard {
+  padding: clamp(1.2rem, 3vw, 1.7rem);
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sectionHeader h2 {
+  margin-bottom: 0;
+  font-size: clamp(1.6rem, 3vw, 2.15rem);
+  font-weight: 520;
+}
+
+.sectionHeader > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--moss);
+  font-size: 0.73rem;
+  font-weight: 760;
+}
+
+.recentList {
+  display: grid;
+}
+
+.recentItem {
+  display: flex;
+  min-height: 4.25rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.recentModule {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.recentModule > svg {
+  color: var(--clay);
+}
+
+.recentModule strong,
+.recentModule small {
+  display: block;
+}
+
+.recentModule strong {
+  font-size: 0.8rem;
+}
+
+.recentModule small {
+  margin-top: 0.12rem;
+  color: var(--muted);
+  font-size: 0.65rem;
+}
+
+.scorePass,
+.scoreFail {
+  min-width: 3rem;
+  font-family: "Fraunces Variable", serif;
+  font-size: 1.3rem;
+  font-weight: 620;
+  text-align: right;
+}
+
+.scorePass {
+  color: var(--success);
+}
+
+.scoreFail {
+  color: var(--danger);
+}
+
+.noRecent {
+  padding: 2rem 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.coachCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 100% 100%, rgba(203, 239, 114, 0.15), transparent 14rem),
+    var(--moss);
+}
+
+.coachCard h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  font-weight: 480;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.coachCard p {
+  margin-bottom: 2rem;
+  color: rgba(255, 253, 248, 0.68);
+  font-size: 0.78rem;
+}
+
+.dialogOverlay {
+  position: fixed;
+  z-index: 70;
+  inset: 0;
+  background: rgba(13, 41, 36, 0.68);
+  backdrop-filter: blur(7px);
+}
+
+.dialog {
+  position: fixed;
+  z-index: 71;
+  top: 50%;
+  left: 50%;
+  width: min(calc(100% - 2rem), 30rem);
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  box-shadow: var(--shadow-lg);
+}
+
+.dialogClose {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: grid;
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 0;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background: var(--paper);
+}
+
+.deleteIcon {
+  display: grid;
+  width: 3.5rem;
+  height: 3.5rem;
+  place-items: center;
+  border-radius: 1rem;
+  color: var(--danger);
+  background: #fff0ec;
+}
+
+.dialog h2 {
+  margin: 1.2rem 0 0.5rem;
+  font-size: 2.2rem;
+  font-weight: 520;
+  letter-spacing: -0.04em;
+}
+
+.dialog p {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.dialogError {
+  margin-top: 0.9rem;
+  padding: 0.7rem 0.85rem;
+  border-radius: 0.7rem;
+  color: var(--danger) !important;
+  background: #fff0ec;
+}
+
+.dialogActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1050px) {
+  .hero {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lowerGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .coachCard {
+    min-height: 18rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero {
+    padding-top: 0.5rem;
+  }
+
+  .heroActions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .heroActions a,
+  .heroActions button {
+    width: 100%;
+  }
+
+  .resumeCard {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .resumeCard > a {
+    grid-column: 1 / -1;
+  }
+
+  .resumeCard > a button {
+    width: 100%;
+  }
+
+  .emptyResume {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .emptyResume a {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .metricCard {
+    min-height: 9rem;
+  }
+
+  .metricCard > strong {
+    font-size: 2rem;
+  }
+
+  .sectionHeader {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 430px) {
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+}

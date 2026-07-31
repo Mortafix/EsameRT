@@ -1,0 +1,211 @@
+.page {
+  display: grid;
+  min-height: 100svh;
+  grid-template-columns: minmax(0, 1.2fr) minmax(26rem, 0.8fr);
+}
+
+.brandPanel {
+  position: relative;
+  display: flex;
+  min-height: 100svh;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: clamp(1.5rem, 4vw, 4rem);
+  color: var(--white);
+  background:
+    radial-gradient(circle at 84% 16%, rgba(203, 239, 114, 0.18), transparent 18rem),
+    radial-gradient(circle at 10% 92%, rgba(221, 116, 91, 0.15), transparent 23rem),
+    var(--ink-deep);
+}
+
+.brandPanel::after {
+  position: absolute;
+  width: 46rem;
+  height: 46rem;
+  right: -20rem;
+  bottom: -22rem;
+  border: 1px solid rgba(203, 239, 114, 0.22);
+  border-radius: 45% 55% 57% 43% / 51% 39% 61% 49%;
+  box-shadow:
+    0 0 0 4rem rgba(203, 239, 114, 0.025),
+    0 0 0 8rem rgba(203, 239, 114, 0.02);
+  content: "";
+}
+
+.brandTop {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.logoMark {
+  display: grid;
+  width: 3rem;
+  height: 3rem;
+  place-items: center;
+  border: 1px solid rgba(203, 239, 114, 0.5);
+  border-radius: 1rem 1rem 1rem 0.3rem;
+  color: var(--ink-deep);
+  background: var(--lime);
+  font-family: "Fraunces Variable", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 780;
+}
+
+.brandName,
+.brandDescriptor {
+  display: block;
+}
+
+.brandName {
+  font-size: 1.05rem;
+  font-weight: 850;
+  letter-spacing: -0.02em;
+}
+
+.brandDescriptor {
+  color: rgba(255, 253, 248, 0.55);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.heroCopy {
+  z-index: 1;
+  max-width: 46rem;
+  padding-block: 4rem;
+}
+
+.heroKicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 1.2rem;
+  color: var(--lime);
+  font-size: 0.78rem;
+  font-weight: 760;
+  letter-spacing: 0.04em;
+}
+
+.heroCopy h1 {
+  max-width: 11ch;
+  margin-bottom: 1.5rem;
+  font-size: clamp(3.25rem, 7vw, 7rem);
+  font-weight: 540;
+  letter-spacing: -0.055em;
+  line-height: 0.93;
+}
+
+.heroCopy h1 em {
+  color: var(--lime);
+  font-weight: 420;
+}
+
+.heroCopy p {
+  max-width: 34rem;
+  margin-bottom: 0;
+  color: rgba(255, 253, 248, 0.68);
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
+}
+
+.featureGrid {
+  z-index: 1;
+  display: grid;
+  max-width: 54rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.featureGrid > div {
+  display: flex;
+  min-height: 4.5rem;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.9rem;
+  border: 1px solid rgba(255, 253, 248, 0.12);
+  border-radius: 1rem;
+  color: rgba(255, 253, 248, 0.78);
+  background: rgba(255, 253, 248, 0.04);
+  font-size: 0.77rem;
+  font-weight: 650;
+}
+
+.featureGrid svg {
+  flex: 0 0 auto;
+  color: var(--lime);
+}
+
+.formPanel {
+  display: grid;
+  min-height: 100svh;
+  place-items: center;
+  padding: clamp(1.5rem, 5vw, 4.5rem);
+}
+
+.formWrap {
+  width: min(100%, 28rem);
+}
+
+.formWrap h2 {
+  margin-bottom: 0.7rem;
+  color: var(--ink-deep);
+  font-size: clamp(2.1rem, 4vw, 3.3rem);
+  font-weight: 560;
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+
+.formIntro {
+  margin-bottom: 2rem;
+  color: var(--muted);
+}
+
+.disclaimer {
+  margin: 2rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.7rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 900px) {
+  .page {
+    grid-template-columns: 1fr;
+  }
+
+  .brandPanel {
+    min-height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .heroCopy {
+    padding-block: 5rem 4rem;
+  }
+
+  .heroCopy h1 {
+    font-size: clamp(3.4rem, 13vw, 6rem);
+  }
+
+  .formPanel {
+    min-height: auto;
+    padding-block: 4rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .featureGrid > div {
+    min-height: 3.4rem;
+  }
+
+  .heroCopy {
+    padding-block: 4rem 3rem;
+  }
+}

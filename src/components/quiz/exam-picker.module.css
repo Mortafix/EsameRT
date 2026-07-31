@@ -1,0 +1,353 @@
+.page {
+  padding-bottom: 4rem;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: clamp(0.6rem, 1.5vw, 1rem);
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 740;
+}
+
+.header {
+  margin-bottom: clamp(1.2rem, 2.5vw, 2rem);
+}
+
+.header h1 {
+  margin-bottom: 0;
+  color: var(--ink-deep);
+  font-size: clamp(2.35rem, 5vw, 5rem);
+  font-weight: 550;
+  letter-spacing: -0.06em;
+  line-height: 0.94;
+}
+
+.header h1 em {
+  color: var(--moss);
+  font-weight: 410;
+}
+
+.section {
+  margin-bottom: clamp(2rem, 4vw, 3.2rem);
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.sectionTitle > span {
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  color: var(--clay);
+  font-family: "Fraunces Variable", serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.sectionTitle h2 {
+  margin-bottom: 0.15rem;
+  color: var(--ink-deep);
+  font-size: 1.05rem;
+}
+
+.sectionTitle p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.typeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+}
+
+.typeCard,
+.moduleCard {
+  position: relative;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  color: var(--ink);
+  background: rgba(255, 253, 248, 0.78);
+  text-align: left;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    background 160ms ease;
+}
+
+.typeCard:hover,
+.moduleCard:hover,
+.selected {
+  transform: translateY(-2px);
+  border-color: var(--moss);
+  background: var(--white);
+  box-shadow: var(--shadow-md);
+}
+
+.typeCard {
+  min-height: 10.5rem;
+  padding: clamp(1rem, 2vw, 1.35rem);
+  border-radius: var(--radius-md);
+}
+
+.typeCard > strong {
+  display: block;
+  margin: 1.5rem 0 0.3rem;
+  color: var(--ink-deep);
+  font-size: 1.65rem;
+  font-weight: 530;
+}
+
+.typeCard p,
+.moduleCard p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.radio {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  background: var(--white);
+}
+
+.selected .radio {
+  border: 0.35rem solid var(--ink);
+  background: var(--lime);
+}
+
+.moduleGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.7rem;
+}
+
+.moduleCard {
+  display: flex;
+  min-height: 11.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.15rem;
+  border-radius: var(--radius-md);
+}
+
+.moduleIcon {
+  display: grid;
+  width: 3rem;
+  height: 3rem;
+  place-items: center;
+  margin-bottom: 0.85rem;
+  border-radius: 1rem;
+  color: var(--moss);
+  background: rgba(185, 221, 213, 0.42);
+}
+
+.selected .moduleIcon {
+  color: var(--ink-deep);
+  background: var(--lime);
+}
+
+.moduleShort {
+  margin-top: 0;
+  color: var(--clay);
+  font-size: 0.65rem;
+  font-weight: 820;
+  letter-spacing: 0.1em;
+}
+
+.moduleCard strong {
+  margin: 0.3rem 0 0.45rem;
+  color: var(--ink-deep);
+  font-size: 0.92rem;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: minmax(14rem, 0.65fr) minmax(0, 1.35fr) auto;
+  align-items: center;
+  gap: 2rem;
+  padding: clamp(1.3rem, 4vw, 2.2rem);
+  color: var(--white);
+  background:
+    radial-gradient(circle at 80% 0, rgba(203, 239, 114, 0.12), transparent 22rem),
+    var(--ink-deep);
+}
+
+.summary h2 {
+  margin-bottom: 0.2rem;
+  font-size: 2rem;
+  font-weight: 510;
+}
+
+.summary > div > p {
+  margin: 0;
+  color: rgba(255, 253, 248, 0.55);
+  font-size: 0.72rem;
+}
+
+.summary dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.7rem;
+  margin: 0;
+}
+
+.summary dl > div {
+  padding-left: 0.8rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.summary dt {
+  color: rgba(255, 253, 248, 0.45);
+  font-size: 0.61rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.summary dd {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  font-weight: 760;
+}
+
+.error {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: #ffd4ca;
+  font-size: 0.75rem;
+}
+
+.dialogOverlay {
+  position: fixed;
+  z-index: 70;
+  inset: 0;
+  background: rgba(13, 41, 36, 0.68);
+  backdrop-filter: blur(7px);
+}
+
+.dialog {
+  position: fixed;
+  z-index: 71;
+  top: 50%;
+  left: 50%;
+  width: min(calc(100% - 2rem), 32rem);
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  box-shadow: var(--shadow-lg);
+}
+
+.dialogClose {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: grid;
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 0;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background: var(--paper);
+}
+
+.dialogIcon {
+  display: grid;
+  width: 3.5rem;
+  height: 3.5rem;
+  place-items: center;
+  border-radius: 1rem;
+  color: var(--danger);
+  background: #fff0ec;
+}
+
+.dialog h2 {
+  margin: 1.2rem 2rem 0.5rem 0;
+  color: var(--ink-deep);
+  font-size: 2.1rem;
+  font-weight: 520;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.dialog p {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.dialogError {
+  padding: 0.7rem 0.85rem;
+  border-radius: 0.7rem;
+  color: var(--danger) !important;
+  background: #fff0ec;
+}
+
+.dialogActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1100px) {
+  .moduleGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .summary {
+    grid-template-columns: 1fr;
+  }
+
+  .summary > button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .typeGrid,
+  .moduleGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .typeCard {
+    min-height: 12rem;
+  }
+
+  .moduleCard {
+    min-height: 12rem;
+  }
+
+  .moduleIcon {
+    margin-bottom: 1rem;
+  }
+
+  .moduleShort {
+    margin-top: 0;
+  }
+
+  .summary dl {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

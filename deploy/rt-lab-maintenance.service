@@ -1,0 +1,29 @@
+[Unit]
+Description=RT Lab expired-attempt maintenance
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=rtlab
+Group=rtlab
+WorkingDirectory=/opt/rt-lab/current
+EnvironmentFile=/etc/rt-lab/rt-lab.env
+ExecStart=/usr/bin/npm run maintenance
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=rt-lab-maintenance
+
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectControlGroups=true
+ProtectKernelModules=true
+ProtectKernelTunables=true
+ProtectKernelLogs=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+UMask=0077

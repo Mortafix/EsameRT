@@ -1,0 +1,12 @@
+[Unit]
+Description=Finalize expired RT Lab attempts every minute
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=1min
+AccuracySec=10s
+Persistent=true
+Unit=rt-lab-maintenance.service
+
+[Install]
+WantedBy=timers.target

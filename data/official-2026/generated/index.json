@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "bankVersion": "2026-01-02",
+  "locale": "it-IT",
+  "publishedAt": "2026-01-02T00:00:00.000Z",
+  "verifiedAt": "2026-07-30",
+  "totalQuestions": 5057,
+  "banks": [
+    {
+      "bankId": "official-it-initial-general",
+      "file": "official-it-initial-general.json",
+      "examType": "initial",
+      "module": "general",
+      "revision": 1,
+      "questionCount": 731,
+      "sourceSha256": "8bb2c57a5b918dcef388e26b7db20c1810e4af53c2f041e2b6b71b1d4dc1f893",
+      "exportSha256": "ec9193b9dc47806069f6caa6a2369e6c0f59b321fdd1904b72579b320606b13b",
+      "contentSetHash": "3060fa82b835a76d6f231d8d32861950aaa140bbd9341ab35c0f4e3d9a779a1b"
+    },
+    {
+      "bankId": "official-it-initial-cat145",
+      "file": "official-it-initial-cat145.json",
+      "examType": "initial",
+      "module": "cat145",
+      "revision": 1,
+      "questionCount": 638,
+      "sourceSha256": "d925de656c1f71fe3a9d2376b174222d6d0804cb98fe6a702fe8c11a2bc9aeef",
+      "exportSha256": "4ae93ece2b4e09ca13090e32ae514306499c853145fb8134f57f5fdfed0a8910",
+      "contentSetHash": "1797fde9f593ea90cd52f680af6aaef80af20a57a1f35df2123dfafc4853d615"
+    },
+    {
+      "bankId": "official-it-initial-cat8",
+      "file": "official-it-initial-cat8.json",
+      "examType": "initial",
+      "module": "cat8",
+      "revision": 1,
+      "questionCount": 579,
+      "sourceSha256": "84836ecd62cfcb944c62544f9c91fe26019823caf94cf043668a33fb44d7ee46",
+      "exportSha256": "d788a0b72f8a273f4f59ecd3545c8302bb078ffecae4651caa1333373f6ca9cb",
+      "contentSetHash": "2865384cd1c0efc8209cef2b275692e727d38a077673e5cff636bef029b83a00"
+    },
+    {
+      "bankId": "official-it-initial-cat9",
+      "file": "official-it-initial-cat9.json",
+      "examType": "initial",
+      "module": "cat9",
+      "revision": 1,
+      "questionCount": 617,
+      "sourceSha256": "32f0237a8263605a211235212c2c37afedbc2525ab1f1efba96d4ba82862b6b3",
+      "exportSha256": "e63641b2970944768e542712252178ba5cd157c4085a5c44c91e7b7088d0d8c3",
+      "contentSetHash": "49e868c2f93f2ae0c377ad751baf7a72c84f1be453f0d4d68a08997156bd7bb6"
+    },
+    {
+      "bankId": "official-it-initial-cat10",
+      "file": "official-it-initial-cat10.json",
+      "examType": "initial",
+      "module": "cat10",
+      "revision": 1,
+      "questionCount": 622,
+      "sourceSha256": "3632928fab524341e19ae1338fef4bef98db0b4ff1a61be6bcc90fb29d101057",
+      "exportSha256": "b224bb179f8bc8be8e0ec64656173d58f4a3284db6cf286ee1ff2883579949af",
+      "contentSetHash": "269b1ca61d5709cd24eaa7ddd2d12abccb3ad0a04b49c3f7a24a1d2d6bed2393"
+    },
+    {
+      "bankId": "official-it-update-cat145",
+      "file": "official-it-update-cat145.json",
+      "examType": "update",
+      "module": "cat145",
+      "revision": 1,
+      "questionCount": 471,
+      "sourceSha256": "abf731def3d7bb6599ac859efa1533299f9e1a7551f5b3f0bca2cb7fe2b047ed",
+      "exportSha256": "b96c41de073f5e2af015ccb71e93f314a470fc9e93d5b8e3019d484c0f111af4",
+      "contentSetHash": "1b8e6bb1d447b7c1883143981c87f63cf0af8a1e54973e41179bcb7c215eb383"
+    },
+    {
+      "bankId": "official-it-update-cat8",
+      "file": "official-it-update-cat8.json",
+      "examType": "update",
+      "module": "cat8",
+      "revision": 1,
+      "questionCount": 490,
+      "sourceSha256": "e5f919bf8ef448e220de901c0e9036952870195d6b680794d6a56cbf1a5f7aa4",
+      "exportSha256": "f61e6460b088abcd601d1d644adc7b0ad3aad239f872d15773ec303b3d3d235b",
+      "expectedExportOmittedMinistryIds": [
+        "8_4_06179",
+        "8_4_06180",
+        "8_4_06181",
+        "8_4_06182",
+        "8_4_06183"
+      ],
+      "contentSetHash": "dbe8b9384d86eb79881f338562cb3b66c7410e298813b96458c5aaab80587477"
+    },
+    {
+      "bankId": "official-it-update-cat9",
+      "file": "official-it-update-cat9.json",
+      "examType": "update",
+      "module": "cat9",
+      "revision": 1,
+      "questionCount": 505,
+      "sourceSha256": "426319cac8cdecea791709e44d62dc8625fcb10b105fb566d2d9336781ad6906",
+      "exportSha256": "be98ccc5880cce33cabb4b2eba5602049e1e8aaeae81d9b84b0a9c7dcb5be134",
+      "contentSetHash": "7e83859954df9dbf1d79667311967fe650986d593bdd4851415070ee61e6d2b7"
+    },
+    {
+      "bankId": "official-it-update-cat10",
+      "file": "official-it-update-cat10.json",
+      "examType": "update",
+      "module": "cat10",
+      "revision": 1,
+      "questionCount": 404,
+      "sourceSha256": "07e5e341a64ca6e2e715af6eedf409e24c4061f6cadf6ccfe2261f50435203a8",
+      "exportSha256": "8271dbef862166be8be9e6378bfd81b17cb4c7a0d028c5f5dc9a28c49d0d7927",
+      "contentSetHash": "4c79943a0ab18c9f0b4398c5da1c612c33be51360363dfaecea447e48498b0fc"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[Unit]
+Description=RT Lab Next.js application
+Documentation=https://rt.moris.dev
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=rtlab
+Group=rtlab
+WorkingDirectory=/opt/rt-lab/current
+EnvironmentFile=/etc/rt-lab/rt-lab.env
+ExecStart=/usr/bin/node /opt/rt-lab/current/.next/standalone/server.js
+Restart=on-failure
+RestartSec=5s
+TimeoutStopSec=20s
+KillSignal=SIGTERM
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=rt-lab
+
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectControlGroups=true
+ProtectKernelModules=true
+ProtectKernelTunables=true
+ProtectKernelLogs=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

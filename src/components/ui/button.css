@@ -1,0 +1,116 @@
+.rt-button {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 750;
+  line-height: 1;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.rt-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.rt-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.rt-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.52;
+}
+
+.rt-button--sm {
+  min-height: 2.25rem;
+  padding: 0.58rem 0.9rem;
+  font-size: 0.82rem;
+}
+
+.rt-button--md {
+  min-height: 2.75rem;
+  padding: 0.78rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.rt-button--lg {
+  min-height: 3.25rem;
+  padding: 0.95rem 1.45rem;
+  font-size: 0.95rem;
+}
+
+.rt-button--icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+}
+
+.rt-button--primary {
+  color: var(--ink-deep);
+  background: var(--lime);
+  box-shadow: 0 7px 20px rgba(169, 212, 71, 0.22);
+}
+
+.rt-button--primary:hover:not(:disabled) {
+  background: #d8f58f;
+  box-shadow: 0 10px 26px rgba(169, 212, 71, 0.3);
+}
+
+.rt-button--secondary {
+  border-color: var(--line-strong);
+  color: var(--ink);
+  background: var(--white);
+}
+
+.rt-button--secondary:hover:not(:disabled) {
+  border-color: var(--moss);
+  background: #faf8f1;
+}
+
+.rt-button--ghost {
+  color: var(--ink);
+  background: transparent;
+}
+
+.rt-button--ghost:hover:not(:disabled) {
+  background: rgba(23, 60, 53, 0.07);
+}
+
+.rt-button--dark {
+  color: var(--white);
+  background: var(--ink);
+}
+
+.rt-button--dark:hover:not(:disabled) {
+  background: var(--ink-deep);
+}
+
+.rt-button--danger {
+  border-color: rgba(173, 73, 60, 0.22);
+  color: var(--danger);
+  background: #fff4f1;
+}
+
+.rt-button__spinner {
+  width: 1em;
+  height: 1em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: button-spin 700ms linear infinite;
+}
+
+@keyframes button-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
