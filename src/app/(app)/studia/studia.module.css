@@ -1,0 +1,369 @@
+.page {
+  padding-block: 0.35rem 4rem;
+}
+
+.pageHeader {
+  padding-block: 0.3rem clamp(1.2rem, 2.5vw, 2rem);
+}
+
+.pageHeader h1 {
+  margin: 0;
+  color: var(--ink-deep);
+  font-size: clamp(2.25rem, 4.2vw, 4rem);
+  font-weight: 560;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+.pageHeader h1 em {
+  color: var(--moss);
+  font-weight: 410;
+}
+
+.guide {
+  display: grid;
+  min-height: 25rem;
+  grid-template-columns: minmax(0, 1.15fr) minmax(16rem, 0.68fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
+  overflow: hidden;
+  padding: clamp(1.35rem, 3.5vw, 2.8rem);
+  border: 1px solid rgba(203, 239, 114, 0.25);
+  border-radius: var(--radius-lg);
+  color: var(--white);
+  background:
+    radial-gradient(circle at 82% 8%, rgba(203, 239, 114, 0.18), transparent 22rem),
+    var(--ink-deep);
+  box-shadow: var(--shadow-lg);
+}
+
+.guideCopy {
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guideKicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+  color: var(--lime);
+  font-size: 0.72rem;
+  font-weight: 820;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.guide h2 {
+  max-width: 12ch;
+  margin: 0 0 0.75rem;
+  font-size: clamp(2.15rem, 4.5vw, 4.2rem);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  line-height: 0.96;
+}
+
+.guideCopy > p {
+  max-width: 38rem;
+  margin-bottom: 1.25rem;
+  color: rgba(255, 253, 248, 0.66);
+  font-size: 0.9rem;
+}
+
+.guideMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.2rem;
+  margin-bottom: 1.35rem;
+  color: rgba(255, 253, 248, 0.78);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.guideMeta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.guideMeta svg {
+  color: var(--lime);
+}
+
+.actions,
+.cardActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.primaryAction,
+.darkSecondaryAction,
+.cardActions a {
+  display: inline-flex;
+  min-height: 2.8rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.7rem 0.95rem;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 800;
+  transition: transform 150ms ease, background 150ms ease;
+}
+
+.primaryAction {
+  color: var(--ink-deep);
+  background: var(--lime);
+}
+
+.darkSecondaryAction {
+  border: 1px solid rgba(255, 253, 248, 0.2);
+  color: var(--white);
+  background: rgba(255, 253, 248, 0.07);
+}
+
+.primaryAction:hover,
+.darkSecondaryAction:hover,
+.cardActions a:hover {
+  transform: translateY(-1px);
+}
+
+.guideStack {
+  position: relative;
+  width: min(100%, 18rem);
+  aspect-ratio: 0.707;
+  align-self: center;
+  justify-self: center;
+}
+
+.guidePage,
+.guideCover {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 253, 248, 0.24);
+  border-radius: 0.9rem;
+  background: var(--white);
+  transform-origin: bottom left;
+}
+
+.guidePage img,
+.guideCover img {
+  object-fit: cover;
+  object-position: top;
+}
+
+.guidePageBack {
+  z-index: 0;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.13);
+  transform: translate(0.7rem, 0.35rem) rotate(5deg) scale(0.95);
+}
+
+.guidePageMiddle {
+  z-index: 1;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.18);
+  transform: translate(0.35rem, 0.18rem) rotate(2.5deg) scale(0.975);
+}
+
+.guideCover {
+  z-index: 2;
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.28);
+  transform: rotate(-0.75deg);
+  transition: transform 180ms ease;
+}
+
+.guideStack:hover .guideCover {
+  transform: translateY(-3px) rotate(0deg);
+}
+
+.cover img {
+  object-fit: cover;
+  object-position: top;
+}
+
+.library {
+  margin-top: clamp(2rem, 5vw, 4rem);
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sectionKicker {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--muted);
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.sectionHeader h2 {
+  margin: 0;
+  color: var(--ink-deep);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 530;
+  letter-spacing: -0.045em;
+}
+
+.libraryCount {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(255, 253, 248, 0.62);
+  font-size: 0.7rem;
+  font-weight: 760;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.materialCard {
+  display: flex;
+  min-width: 0;
+  overflow: hidden;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: rgba(255, 253, 248, 0.9);
+  box-shadow: var(--shadow-sm);
+}
+
+.cover {
+  position: relative;
+  display: block;
+  min-height: 7rem;
+  overflow: hidden;
+  background: var(--paper-deep);
+}
+
+.materialBody {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.materialHeading {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.45rem;
+}
+
+.materialHeading > span {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 0.61rem;
+  font-weight: 780;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.materialHeading h3 {
+  margin: 0;
+  color: var(--ink-deep);
+  font-size: 1.65rem;
+  font-weight: 540;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.materialBody p {
+  margin-bottom: 1rem;
+  color: var(--muted);
+  font-size: 0.77rem;
+}
+
+.cardActions {
+  width: 100%;
+  margin-top: auto;
+}
+
+.cardActions a {
+  min-height: 2.55rem;
+  flex: 1;
+  padding: 0.6rem 0.72rem;
+  border: 1px solid var(--line);
+  color: var(--ink-deep);
+  background: var(--paper);
+}
+
+.cardActions a:first-child {
+  border-color: transparent;
+  background: var(--lime);
+}
+
+.upcomingCard {
+  border-style: dashed;
+  background: rgba(233, 226, 211, 0.48);
+}
+
+.upcomingVisual {
+  display: grid;
+  min-height: 10rem;
+  place-items: center;
+  align-content: center;
+  gap: 0.55rem;
+  color: var(--muted);
+  background:
+    linear-gradient(135deg, rgba(255, 253, 248, 0.42), transparent),
+    var(--paper-deep);
+}
+
+.upcomingVisual span {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .guide {
+    grid-template-columns: 1fr;
+  }
+
+  .guideStack {
+    width: min(75vw, 18rem);
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .guide {
+    padding: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sectionHeader {
+    align-items: flex-start;
+  }
+
+  .cover {
+    min-height: 8rem;
+  }
+}

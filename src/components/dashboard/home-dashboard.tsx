@@ -5,6 +5,7 @@ import Link from "next/link";
 import {
   ArrowRight,
   BarChart3,
+  BookOpenText,
   Clock3,
   History,
   PauseCircle,
@@ -259,7 +260,6 @@ export function HomeDashboard() {
               ? "—"
               : `${Math.round((summary.passRate ?? 0) * 100)}%`
           }
-          tone="lime"
         />
         <MetricCard
           icon={BarChart3}
@@ -272,7 +272,6 @@ export function HomeDashboard() {
           value={
             loading ? "—" : formatDuration(summary.totalActiveSeconds ?? 0)
           }
-          tone="clay"
         />
       </section>
 
@@ -341,6 +340,23 @@ export function HomeDashboard() {
         </Card>
       </section>
 
+      <Link href="/studia" className={styles.studyBanner}>
+        <span className={styles.studyBannerIcon} aria-hidden>
+          <BookOpenText size={27} />
+        </span>
+        <span className={styles.studyBannerCopy}>
+          <small>Dispense teoriche</small>
+          <strong className="font-editorial">Prima studia, poi verifica.</strong>
+          <span>
+            Consulta la guida e tutte le dispense per modulo, oppure scaricale
+            sul tuo computer.
+          </span>
+        </span>
+        <span className={styles.studyBannerAction}>
+          Vai alle dispense <ArrowRight size={17} aria-hidden />
+        </span>
+      </Link>
+
       <Dialog.Root open={deleteOpen} onOpenChange={setDeleteOpen}>
         <Dialog.Portal>
           <Dialog.Overlay className={styles.dialogOverlay} />
@@ -386,15 +402,13 @@ function MetricCard({
   icon: Icon,
   label,
   value,
-  tone,
 }: {
   icon: typeof Target;
   label: string;
   value: string;
-  tone?: "lime" | "clay";
 }) {
   return (
-    <Card className={styles.metricCard} data-tone={tone}>
+    <Card className={styles.metricCard}>
       <Icon size={19} aria-hidden />
       <span>{label}</span>
       <strong className="font-editorial">{value}</strong>

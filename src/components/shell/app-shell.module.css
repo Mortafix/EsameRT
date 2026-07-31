@@ -269,7 +269,7 @@
     bottom: 0.5rem;
     left: 0.5rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 0.35rem;
     border: 1px solid var(--line);
     border-radius: 1.25rem;

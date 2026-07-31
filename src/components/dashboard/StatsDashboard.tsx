@@ -4,7 +4,6 @@ import type { EChartsOption } from "echarts";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import {
-  DashboardHeader,
   DashboardLoading,
   EmptyState,
   ErrorState,
@@ -446,28 +445,23 @@ export function StatsDashboard() {
   );
 
   return (
-    <div className={styles.pageShell}>
-      <DashboardHeader
-        eyebrow="La tua traiettoria"
-        title="Statistiche"
-        meta={
-          stats?.generatedAt ? (
-            <span>Aggiornato {formatDate(stats.generatedAt, true)}</span>
-          ) : (
-            <span>Dati calcolati dallo storico dei quiz completati</span>
-          )
-        }
-        actions={
-          <button
-            type="button"
-            className={styles.secondaryButton}
-            onClick={() => void loadStats(undefined, true)}
-            disabled={refreshing}
-          >
-            {refreshing ? "Aggiorno…" : "Aggiorna"}
-          </button>
-        }
-      />
+    <div className={`${styles.pageShell} ${styles.personalStatsPage}`}>
+      <header className={styles.personalHeader}>
+        <div>
+          <span className="eyebrow">Statistiche personali</span>
+          <h1 className={`font-editorial ${styles.personalTitle}`}>
+            I numeri del tuo <em>percorso.</em>
+          </h1>
+        </div>
+        <button
+          type="button"
+          className={styles.secondaryButton}
+          onClick={() => void loadStats(undefined, true)}
+          disabled={refreshing}
+        >
+          {refreshing ? "Aggiorno…" : "Aggiorna"}
+        </button>
+      </header>
 
       <section className={styles.filterBar} aria-label="Filtri statistiche">
         <CustomSelect

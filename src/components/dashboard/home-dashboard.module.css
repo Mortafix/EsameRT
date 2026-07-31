@@ -14,9 +14,9 @@
 .hero h1 {
   margin-bottom: 0;
   color: var(--ink-deep);
-  font-size: clamp(2.25rem, 4.8vw, 4.5rem);
+  font-size: clamp(2.25rem, 4.2vw, 4rem);
   font-weight: 560;
-  letter-spacing: -0.057em;
+  letter-spacing: -0.055em;
   line-height: 0.98;
 }
 
@@ -146,11 +146,31 @@
 }
 
 .metricCard {
+  position: relative;
   display: grid;
+  overflow: hidden;
   grid-template-columns: auto 1fr;
   align-content: start;
   gap: 0.4rem 0.55rem;
   padding: 0.85rem 1rem 0.55rem;
+  background: var(--white);
+}
+
+.metricCard::after {
+  position: absolute;
+  right: -2.5rem;
+  bottom: -3.1rem;
+  width: 7rem;
+  height: 7rem;
+  border: 1.2rem solid rgba(23, 60, 53, 0.035);
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+}
+
+.metricCard > * {
+  position: relative;
+  z-index: 1;
 }
 
 .metricCard > svg {
@@ -171,14 +191,6 @@
   font-weight: 560;
   letter-spacing: -0.045em;
   line-height: 1;
-}
-
-.metricCard[data-tone="lime"] {
-  background: rgba(203, 239, 114, 0.34);
-}
-
-.metricCard[data-tone="clay"] {
-  background: rgba(244, 201, 187, 0.32);
 }
 
 .lowerGrid {
@@ -301,6 +313,99 @@
   margin-bottom: 2rem;
   color: rgba(255, 253, 248, 0.68);
   font-size: 0.78rem;
+}
+
+.studyBanner {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  overflow: hidden;
+  margin-top: 0.9rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(203, 239, 114, 0.2);
+  border-radius: var(--radius-md);
+  color: var(--white);
+  background: var(--ink-deep);
+  box-shadow: var(--shadow-md);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.studyBanner:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.studyBanner::after {
+  position: absolute;
+  right: -4.5rem;
+  bottom: -6.5rem;
+  width: 14rem;
+  height: 14rem;
+  border: 2rem solid rgba(203, 239, 114, 0.055);
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+}
+
+.studyBannerIcon {
+  z-index: 1;
+  display: grid;
+  width: 3.4rem;
+  height: 3.4rem;
+  place-items: center;
+  border-radius: 1rem;
+  color: var(--lime);
+  background: rgba(203, 239, 114, 0.1);
+}
+
+.studyBannerCopy,
+.studyBannerCopy small,
+.studyBannerCopy strong,
+.studyBannerCopy > span {
+  display: block;
+}
+
+.studyBannerCopy {
+  z-index: 1;
+}
+
+.studyBannerCopy small {
+  margin-bottom: 0.15rem;
+  color: var(--lime);
+  font-size: 0.62rem;
+  font-weight: 820;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.studyBannerCopy strong {
+  font-size: clamp(1.35rem, 2.5vw, 1.85rem);
+  font-weight: 540;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+.studyBannerCopy > span {
+  margin-top: 0.25rem;
+  color: rgba(255, 253, 248, 0.62);
+  font-size: 0.72rem;
+}
+
+.studyBannerAction {
+  z-index: 1;
+  display: inline-flex;
+  min-height: 2.65rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: 999px;
+  color: var(--ink-deep);
+  background: var(--lime);
+  font-size: 0.72rem;
+  font-weight: 800;
 }
 
 .dialogOverlay {
@@ -446,6 +551,14 @@
   .sectionHeader {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .studyBanner {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .studyBannerAction {
+    grid-column: 1 / -1;
   }
 }
 

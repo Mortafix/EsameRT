@@ -6,6 +6,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import {
   BarChart3,
+  BookOpenText,
   ChevronDown,
   History,
   LayoutDashboard,
@@ -31,6 +32,7 @@ type SessionUser = {
 
 const navigation = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/studia", label: "Studia", icon: BookOpenText },
   { href: "/storico", label: "Storico", icon: History },
   { href: "/statistiche", label: "Statistiche", icon: BarChart3 },
 ];

@@ -606,7 +606,6 @@ export function AdminDashboard() {
               label="Accessi ultimi 7 giorni"
               value={formatNumber(stats.summary.logins)}
               detail={`${formatNumber(stats.summary.activeSessions)} sessioni attive`}
-              tone="accent"
             />
             <KpiCard
               label="Quiz completati"
@@ -617,13 +616,11 @@ export function AdminDashboard() {
               label="Tasso completamento"
               value={formatPercent(stats.summary.completionRate, 1)}
               detail={`${formatNumber(stats.summary.expired)} scaduti nel periodo`}
-              tone="positive"
             />
             <KpiCard
               label="Tasso superamento"
               value={formatPercent(stats.summary.passRate, 1)}
               detail={`Punteggio medio ${formatNumber(stats.summary.averageScore, 1)} / 40`}
-              tone="positive"
             />
             <KpiCard
               label="Tempo medio"
@@ -924,7 +921,9 @@ export function AdminDashboard() {
             </label>
           ) : null}
           <CustomSelect
-            className={styles.field}
+            className={`${styles.field} ${
+              dialog.mode === "create" ? styles.fieldFull : ""
+            }`}
             label="Ruolo"
             value={form.role}
             onValueChange={(role) =>
