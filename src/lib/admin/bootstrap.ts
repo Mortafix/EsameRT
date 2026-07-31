@@ -38,7 +38,6 @@ export async function bootstrapFirstAdmin(nameInput: string, codeInput: string) 
       error instanceof Error ? error.message : "Codice non valido.",
     );
   }
-  const displayCode = codeInput.normalize("NFKC").trim();
   const now = new Date();
   const user: UserDocument = {
     _id: new ObjectId(),
@@ -49,8 +48,8 @@ export async function bootstrapFirstAdmin(nameInput: string, codeInput: string) 
     isActive: true,
     codeDigest: digestCode(normalizedCode),
     codeHash: await hashCode(normalizedCode),
-    codeCiphertext: encryptCode(displayCode),
-    codeHint: codeHint(displayCode),
+    codeCiphertext: encryptCode(normalizedCode),
+    codeHint: codeHint(normalizedCode),
     revision: 1,
     createdAt: now,
     updatedAt: now,

@@ -12,7 +12,17 @@ import { getCodeEncryptionKey, getConfig } from "@/lib/config";
 const CODE_PATTERN = /^(?=.*\p{L})(?=.*\p{N})[\p{L}\p{N}._~!@#$%^&*+=?-]{10,64}$/u;
 
 export function normalizeCode(code: string): string {
-  return code.normalize("NFKC").trim().toLocaleLowerCase("it-IT");
+  return code.normalize("NFKC").trim().toLocaleUpperCase("it-IT");
+}
+
+export function codeVerificationCandidates(code: string): string[] {
+  const normalized = code.normalize("NFKC").trim();
+  return [
+    ...new Set([
+      normalized.toLocaleUpperCase("it-IT"),
+      normalized.toLocaleLowerCase("it-IT"),
+    ]),
+  ];
 }
 
 export function validateCode(code: string): string {
@@ -52,6 +62,16 @@ export async function verifyCodeHash(
   } catch {
     return false;
   }
+}
+
+export async function verifyCodeHashCaseInsensitive(
+  codeHash: string,
+  code: string,
+): Promise<boolean> {
+  for (const candidate of codeVerificationCandidates(code)) {
+    if (await verifyCodeHash(codeHash, candidate)) return true;
+  }
+  return false;
 }
 
 export function encryptCode(normalizedCode: string): string {

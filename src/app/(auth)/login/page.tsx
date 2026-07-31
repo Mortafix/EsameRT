@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Suspense } from "react";
+import loginLogo from "../../../../public/apple-touch-icon.png";
 import { LoginForm } from "@/components/auth/login-form";
 import styles from "./login.module.css";
 import { BookOpenCheck, Leaf, ShieldCheck, TimerReset } from "lucide-react";
@@ -14,7 +16,13 @@ export default function LoginPage() {
       <section className={styles.brandPanel} aria-labelledby="login-title">
         <div className={styles.brandTop}>
           <div className={styles.logoMark} aria-hidden>
-            RT
+            <Image
+              src={loginLogo}
+              alt=""
+              width={48}
+              height={48}
+              priority
+            />
           </div>
           <div>
             <span className={styles.brandName}>RT Lab</span>
@@ -30,7 +38,7 @@ export default function LoginPage() {
           <h1 id="login-title" className="font-editorial">
             Preparati con
             <br />
-            <em>più consapevolezza.</em>
+            <em>consapevolezza.</em>
           </h1>
           <p>
             Simulazioni fedeli, progressi leggibili e un ripasso che parte dai

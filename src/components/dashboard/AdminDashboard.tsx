@@ -912,7 +912,7 @@ export function AdminDashboard() {
                 onChange={(event) =>
                   setForm((current) => ({
                     ...current,
-                    code: event.target.value,
+                    code: event.target.value.toLocaleUpperCase("it-IT"),
                   }))
                 }
                 autoComplete="new-password"
@@ -1033,7 +1033,10 @@ export function AdminDashboard() {
               maxLength={64}
               value={form.code}
               onChange={(event) =>
-                setForm((current) => ({ ...current, code: event.target.value }))
+                setForm((current) => ({
+                  ...current,
+                  code: event.target.value.toLocaleUpperCase("it-IT"),
+                }))
               }
               autoComplete="new-password"
             />
@@ -1141,7 +1144,9 @@ export function AdminDashboard() {
                 required
                 type="password"
                 value={adminCode}
-                onChange={(event) => setAdminCode(event.target.value)}
+                onChange={(event) =>
+                  setAdminCode(event.target.value.toLocaleUpperCase("it-IT"))
+                }
                 autoComplete="current-password"
               />
             </label>

@@ -3,12 +3,13 @@ import { ObjectId } from "mongodb";
 import { ApiError } from "@/lib/api";
 import {
   codeHint,
+  codeVerificationCandidates,
   decryptCode,
   digestCode,
   encryptCode,
   hashCode,
   validateCode,
-  verifyCodeHash,
+  verifyCodeHashCaseInsensitive,
 } from "@/lib/auth/codes";
 import type { AuthContext } from "@/lib/auth/sessions";
 import { collections } from "@/lib/db/collections";
@@ -25,7 +26,7 @@ function publicUser(user: UserDocument) {
     notes: user.notes,
     role: user.role,
     isActive: user.isActive,
-    codeHint: user.codeHint,
+    codeHint: user.codeHint.toLocaleUpperCase("it-IT"),
     revision: user.revision,
     createdAt: user.createdAt,
     updatedAt: user.updatedAt,
@@ -80,11 +81,14 @@ export async function createUser(
   } catch (error) {
     codeValidationError(error);
   }
-  const displayCode = input.code.normalize("NFKC").trim();
+  const duplicateDigests = codeVerificationCandidates(input.code).map(digestCode);
+  if (await users.findOne({ codeDigest: { $in: duplicateDigests } })) {
+    throw new ApiError(409, "CODE_ALREADY_USED", "Questo codice è già in uso.");
+  }
   const now = new Date();
   const [codeHash, codeCiphertext] = await Promise.all([
     hashCode(normalizedCode),
-    Promise.resolve(encryptCode(displayCode)),
+    Promise.resolve(encryptCode(normalizedCode)),
   ]);
   const user: UserDocument = {
     _id: new ObjectId(),
@@ -96,7 +100,7 @@ export async function createUser(
     codeDigest: digestCode(normalizedCode),
     codeHash,
     codeCiphertext,
-    codeHint: codeHint(displayCode),
+    codeHint: codeHint(normalizedCode),
     revision: 1,
     createdAt: now,
     updatedAt: now,
@@ -353,10 +357,18 @@ export async function changeUserCode(
   } catch (error) {
     codeValidationError(error);
   }
-  const displayCode = code.normalize("NFKC").trim();
+  const duplicateDigests = codeVerificationCandidates(code).map(digestCode);
+  if (
+    await users.findOne({
+      _id: { $ne: targetId },
+      codeDigest: { $in: duplicateDigests },
+    })
+  ) {
+    throw new ApiError(409, "CODE_ALREADY_USED", "Questo codice è già in uso.");
+  }
   const [codeHashValue, codeCiphertext] = await Promise.all([
     hashCode(normalized),
-    Promise.resolve(encryptCode(displayCode)),
+    Promise.resolve(encryptCode(normalized)),
   ]);
   const now = new Date();
   let updated: UserDocument | null;
@@ -368,7 +380,7 @@ export async function changeUserCode(
           codeDigest: digestCode(normalized),
           codeHash: codeHashValue,
           codeCiphertext,
-          codeHint: codeHint(displayCode),
+          codeHint: codeHint(normalized),
           revision: revision + 1,
           updatedAt: now,
         },
@@ -414,7 +426,10 @@ export async function revealUserCode(
   } catch {
     throw new ApiError(401, "REAUTH_FAILED", "Codice amministratore non valido.");
   }
-  const verified = await verifyCodeHash(context.userDocument.codeHash, normalized);
+  const verified = await verifyCodeHashCaseInsensitive(
+    context.userDocument.codeHash,
+    normalized,
+  );
   if (!verified) {
     throw new ApiError(401, "REAUTH_FAILED", "Codice amministratore non valido.");
   }
@@ -435,7 +450,10 @@ export async function revealUserCode(
       createdAt: now,
     }),
   ]);
-  return { id: target._id.toHexString(), code: decryptCode(target.codeCiphertext) };
+  return {
+    id: target._id.toHexString(),
+    code: decryptCode(target.codeCiphertext).toLocaleUpperCase("it-IT"),
+  };
 }
 
 export async function revokeUserSessions(

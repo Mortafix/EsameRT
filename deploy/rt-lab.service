@@ -6,11 +6,10 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-User=rtlab
-Group=rtlab
-WorkingDirectory=/opt/rt-lab/current
-EnvironmentFile=/etc/rt-lab/rt-lab.env
-ExecStart=/usr/bin/node /opt/rt-lab/current/.next/standalone/server.js
+User=mortafix
+WorkingDirectory=/home/mortafix/coding/rt/current
+EnvironmentFile=/home/mortafix/coding/rt/.env.current
+ExecStart=/usr/bin/node /home/mortafix/coding/rt/current/.next/standalone/server.js
 Restart=on-failure
 RestartSec=5s
 TimeoutStopSec=20s
@@ -22,8 +21,8 @@ SyslogIdentifier=rt-lab
 NoNewPrivileges=true
 PrivateTmp=true
 PrivateDevices=true
-ProtectSystem=strict
-ProtectHome=true
+ProtectSystem=full
+ProtectHome=false
 ProtectControlGroups=true
 ProtectKernelModules=true
 ProtectKernelTunables=true

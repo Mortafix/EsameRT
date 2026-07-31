@@ -4,6 +4,7 @@ import { z } from "zod";
 
 import { ApiError, parseBody, requireSameOrigin, route } from "@/lib/api";
 import {
+  codeVerificationCandidates,
   digestCode,
   normalizeCode,
   validateCode,
@@ -63,8 +64,16 @@ export const POST = route(async (request: NextRequest) => {
     throw new ApiError(401, "INVALID_CODE", "Codice non valido.");
   }
 
-  const user = await users.findOne({ codeDigest: digestCode(normalized) });
-  const verified = user ? await verifyCodeHash(user.codeHash, normalized) : false;
+  let user = null;
+  let verified = false;
+  for (const candidate of codeVerificationCandidates(normalized)) {
+    const candidateUser = await users.findOne({ codeDigest: digestCode(candidate) });
+    if (candidateUser && (await verifyCodeHash(candidateUser.codeHash, candidate))) {
+      user = candidateUser;
+      verified = true;
+      break;
+    }
+  }
   if (!user || !verified || !user.isActive) {
     await loginEvents.insertOne({
       _id: new ObjectId(),

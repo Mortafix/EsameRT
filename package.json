@@ -16,10 +16,10 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "db:init": "node --env-file-if-exists=.env.local --import tsx scripts/init-db.ts",
-    "admin:bootstrap": "node --env-file-if-exists=.env.local --import tsx scripts/bootstrap-admin.ts",
-    "questions:import": "node --env-file-if-exists=.env.local --import tsx scripts/import-official-questions.ts",
-    "maintenance": "node --env-file-if-exists=.env.local --import tsx scripts/maintenance.ts"
+    "db:init": "node --env-file-if-exists=../.env.current --env-file-if-exists=.env.local --import tsx scripts/init-db.ts",
+    "admin:bootstrap": "node --env-file-if-exists=../.env.current --env-file-if-exists=.env.local --import tsx scripts/bootstrap-admin.ts",
+    "questions:import": "node --env-file-if-exists=../.env.current --env-file-if-exists=.env.local --import tsx scripts/import-official-questions.ts",
+    "maintenance": "node --env-file-if-exists=../.env.current --env-file-if-exists=.env.local --import tsx scripts/maintenance.ts"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.2.8",

@@ -127,7 +127,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
           <NewSimulationLink className={styles.newQuiz}>
             <Plus size={16} aria-hidden />
-            Nuovo
+            Inizia prova
           </NewSimulationLink>
 
           <div className={styles.profile}>

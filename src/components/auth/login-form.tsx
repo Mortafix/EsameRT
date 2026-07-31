@@ -51,7 +51,9 @@ export function LoginForm() {
           <KeyRound size={18} aria-hidden />
           <Input
             value={code}
-            onChange={(event) => setCode(event.target.value)}
+            onChange={(event) =>
+              setCode(event.target.value.toLocaleUpperCase("it-IT"))
+            }
             placeholder="es. MARCO-RT2026"
             autoComplete="one-time-code"
             autoCapitalize="characters"

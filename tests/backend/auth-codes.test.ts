@@ -3,6 +3,7 @@ import { randomBytes } from "node:crypto";
 import { beforeAll, describe, expect, it } from "vitest";
 
 import {
+  codeVerificationCandidates,
   decryptCode,
   digestCode,
   encryptCode,
@@ -10,6 +11,7 @@ import {
   normalizeCode,
   validateCode,
   verifyCodeHash,
+  verifyCodeHashCaseInsensitive,
 } from "@/lib/auth/codes";
 import { resetConfigForTests } from "@/lib/config";
 
@@ -26,8 +28,12 @@ beforeAll(() => {
 
 describe("codici di accesso", () => {
   it("normalizza in modo case-insensitive e valida i requisiti", () => {
-    expect(normalizeCode("  Accesso1234  ")).toBe("accesso1234");
-    expect(validateCode("Accesso1234")).toBe("accesso1234");
+    expect(normalizeCode("  Accesso1234  ")).toBe("ACCESSO1234");
+    expect(validateCode("Accesso1234")).toBe("ACCESSO1234");
+    expect(codeVerificationCandidates("Accesso1234")).toEqual([
+      "ACCESSO1234",
+      "accesso1234",
+    ]);
     expect(() => validateCode("solol lettere")).toThrow();
   });
 
@@ -40,6 +46,7 @@ describe("codici di accesso", () => {
     const code = "accesso1234";
     const digest = await hashCode(code);
     expect(await verifyCodeHash(digest, code)).toBe(true);
+    expect(await verifyCodeHashCaseInsensitive(digest, "AcCeSsO1234")).toBe(true);
     expect(await verifyCodeHash(digest, "accesso1235")).toBe(false);
     expect(decryptCode(encryptCode(code))).toBe(code);
   });
