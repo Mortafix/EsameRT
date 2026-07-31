@@ -99,15 +99,18 @@ export async function startAttempt(
     });
     if (previous) return payload(await refreshIfExpired(previous, now), now);
   }
-  const open = await attempts.findOne({ userId, openMarker: true });
+  let open = await attempts.findOne({ userId, openMarker: true });
   if (open) {
-    if (operationAlreadyApplied(open, operationId)) return payload(open, now);
-    throw new ApiError(
-      409,
-      "OPEN_ATTEMPT_EXISTS",
-      "Hai già un quiz aperto. Termina o elimina quello esistente.",
-      { attemptId: open._id.toHexString(), status: open.status },
-    );
+    open = await refreshIfExpired(open, now);
+    if (open.openMarker) {
+      if (operationAlreadyApplied(open, operationId)) return payload(open, now);
+      throw new ApiError(
+        409,
+        "OPEN_ATTEMPT_EXISTS",
+        "Hai già un quiz aperto. Termina o elimina quello esistente.",
+        { attemptId: open._id.toHexString(), status: open.status },
+      );
+    }
   }
 
   const policy = await loadPolicy(examType, module);

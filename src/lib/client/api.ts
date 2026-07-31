@@ -2,9 +2,11 @@ export class ApiError extends Error {
   constructor(
     message: string,
     public readonly status: number,
+    public readonly code?: string,
     public readonly details?: unknown,
   ) {
     super(message);
+    this.name = "ApiError";
   }
 }
 
@@ -35,11 +37,23 @@ export async function api<T>(
         : typeof apiError === "string"
           ? apiError
           : "Si è verificato un errore. Riprova.";
+    const code =
+      apiError &&
+      typeof apiError === "object" &&
+      "code" in apiError &&
+      typeof apiError.code === "string"
+        ? apiError.code
+        : undefined;
+    const details =
+      apiError && typeof apiError === "object" && "details" in apiError
+        ? apiError.details
+        : undefined;
 
     throw new ApiError(
       message,
       response.status,
-      apiError,
+      code,
+      details,
     );
   }
 

@@ -34,6 +34,10 @@ describe("codici di accesso", () => {
       "ACCESSO1234",
       "accesso1234",
     ]);
+    expect(validateCode("sololettere")).toBe("SOLOLETTERE");
+    expect(validateCode("Abcd")).toBe("ABCD");
+    expect(() => validateCode("Abc")).toThrow();
+    expect(() => validateCode("1234")).toThrow();
     expect(() => validateCode("solol lettere")).toThrow();
   });
 

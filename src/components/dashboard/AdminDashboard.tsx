@@ -327,11 +327,11 @@ export function AdminDashboard() {
     }
     if (
       dialog.mode === "create" &&
-      (!/^(?=.*[A-Za-z])(?=.*\d).{10,64}$/.test(form.code) ||
+      (!/^(?=.*\p{L})[\p{L}\p{N}._~!@#$%^&*+=?-]{4,64}$/u.test(form.code) ||
         form.code !== form.code.trim())
     ) {
       setMutationError(
-        "Il codice deve avere 10–64 caratteri, almeno una lettera e un numero, senza spazi esterni.",
+        "Il codice deve avere 4–64 caratteri, almeno una lettera e nessuno spazio.",
       );
       return;
     }
@@ -460,11 +460,11 @@ export function AdminDashboard() {
     event.preventDefault();
     if (dialog.mode !== "code") return;
     if (
-      !/^(?=.*[A-Za-z])(?=.*\d).{10,64}$/.test(form.code) ||
+      !/^(?=.*\p{L})[\p{L}\p{N}._~!@#$%^&*+=?-]{4,64}$/u.test(form.code) ||
       form.code !== form.code.trim()
     ) {
       setMutationError(
-        "Il codice deve avere 10–64 caratteri, almeno una lettera e un numero, senza spazi esterni.",
+        "Il codice deve avere 4–64 caratteri, almeno una lettera e nessuno spazio.",
       );
       return;
     }
@@ -903,7 +903,7 @@ export function AdminDashboard() {
               <input
                 required
                 type="password"
-                minLength={10}
+                minLength={4}
                 maxLength={64}
                 value={form.code}
                 onChange={(event) =>
@@ -913,11 +913,7 @@ export function AdminDashboard() {
                   }))
                 }
                 autoComplete="new-password"
-                aria-describedby="code-requirements"
               />
-              <small id="code-requirements">
-                10–64 caratteri, almeno una lettera e un numero.
-              </small>
             </label>
           ) : null}
           <CustomSelect
@@ -1028,7 +1024,7 @@ export function AdminDashboard() {
             <input
               required
               type="password"
-              minLength={10}
+              minLength={4}
               maxLength={64}
               value={form.code}
               onChange={(event) =>
@@ -1039,9 +1035,6 @@ export function AdminDashboard() {
               }
               autoComplete="new-password"
             />
-            <small>
-              10–64 caratteri, almeno una lettera e un numero.
-            </small>
           </label>
           {mutationError ? (
             <p className={styles.formError} role="alert">

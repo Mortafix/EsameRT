@@ -9,7 +9,7 @@ import { hash, verify } from "@node-rs/argon2";
 
 import { getCodeEncryptionKey, getConfig } from "@/lib/config";
 
-const CODE_PATTERN = /^(?=.*\p{L})(?=.*\p{N})[\p{L}\p{N}._~!@#$%^&*+=?-]{10,64}$/u;
+const CODE_PATTERN = /^(?=.*\p{L})[\p{L}\p{N}._~!@#$%^&*+=?-]{4,64}$/u;
 
 export function normalizeCode(code: string): string {
   return code.normalize("NFKC").trim().toLocaleUpperCase("it-IT");
@@ -29,7 +29,7 @@ export function validateCode(code: string): string {
   const normalized = normalizeCode(code);
   if (!CODE_PATTERN.test(normalized)) {
     throw new Error(
-      "Il codice deve avere 10–64 caratteri, almeno una lettera e un numero, senza spazi.",
+      "Il codice deve avere 4–64 caratteri, almeno una lettera e nessuno spazio.",
     );
   }
   return normalized;

@@ -58,7 +58,7 @@ export function LoginForm() {
             autoComplete="one-time-code"
             autoCapitalize="characters"
             spellCheck={false}
-            minLength={10}
+            minLength={4}
             maxLength={64}
             required
             aria-invalid={Boolean(error)}
@@ -70,7 +70,7 @@ export function LoginForm() {
         type="submit"
         size="lg"
         loading={loading}
-        disabled={code.trim().length < 10}
+        disabled={code.trim().length < 4}
         className={styles.submit}
       >
         Entra in RT Lab

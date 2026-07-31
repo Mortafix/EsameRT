@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import {
@@ -81,6 +81,7 @@ export function ExamPicker() {
     status: "active" | "paused";
   } | null>(null);
   const [conflictOpen, setConflictOpen] = useState(false);
+  const creatingAttemptRef = useRef(false);
 
   useEffect(() => {
     api<{
@@ -110,6 +111,8 @@ export function ExamPicker() {
   }
 
   async function createAttempt() {
+    if (creatingAttemptRef.current) return;
+    creatingAttemptRef.current = true;
     setError("");
     setLoading(true);
     try {
@@ -125,7 +128,10 @@ export function ExamPicker() {
       if (!id) throw new Error("Tentativo non creato");
       router.push(`/quiz/${id}`);
     } catch (caught) {
-      if (caught instanceof ApiError && caught.status === 409) {
+      if (
+        caught instanceof ApiError &&
+        caught.code === "OPEN_ATTEMPT_EXISTS"
+      ) {
         const existing = await api<{
           attempt?: { id: string; status: "active" | "paused" } | null;
         }>("/api/attempts").catch(() => ({ attempt: null }));
@@ -133,7 +139,7 @@ export function ExamPicker() {
           setOpenAttempt(existing.attempt);
           setConflictOpen(true);
         } else {
-          setError("Hai già una prova aperta.");
+          setError(caught.message);
         }
       } else {
         setError(
@@ -143,6 +149,7 @@ export function ExamPicker() {
         );
       }
     } finally {
+      creatingAttemptRef.current = false;
       setLoading(false);
     }
   }
